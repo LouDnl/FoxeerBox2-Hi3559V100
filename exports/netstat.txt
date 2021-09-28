@@ -1,0 +1,12 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address                                       Foreign Address                                     State       PID/Program name    
+tcp        0      0 0.0.0.0:554                                         0.0.0.0:*                                           LISTEN      45/main_app
+tcp        0      0 0.0.0.0:80                                          0.0.0.0:*                                           LISTEN      45/main_app
+tcp        0      0 0.0.0.0:23                                          0.0.0.0:*                                           LISTEN      348/busybox-new
+tcp        0      0 0.0.0.0:443                                         0.0.0.0:*                                           LISTEN      45/main_app
+tcp        0      0 192.168.0.1:4444                                    192.168.0.20:41882                                  ESTABLISHED 264/busybox-new
+tcp        5      0 192.168.0.1:23                                      192.168.0.20:55070                                  CLOSE_WAIT  173/sh
+tcp        0      0 192.168.0.1:23                                      192.168.0.20:55232                                  ESTABLISHED 241/sh
+udp        0      0 0.0.0.0:67                                          0.0.0.0:*                                                       -
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node PID/Program name    Path

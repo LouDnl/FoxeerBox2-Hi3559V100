@@ -1,0 +1,86 @@
+OPTIONS rtsp://192.168.0.1:554/livestream/12 RTSP/1.0
+CSeq: 1
+User-Agent: Lavf57.83.100
+
+RTSP/1.0 200 OK
+CSeq: 1
+Cache-Control: no-cache
+Server: Hisilicon RTSP Streaming Media Server/1.0.0
+Date: Mon, Sep 20 2021 13:45:36 GMT
+Public: OPTIONS, DESCRIBE, SETUP, PLAY, TEARDOWN, SET_PARAMETER, GET_PARAMETER
+
+DESCRIBE rtsp://192.168.0.1:554/livestream/12 RTSP/1.0
+Accept: application/sdp
+CSeq: 2
+User-Agent: Lavf57.83.100
+
+RTSP/1.0 200 OK
+CSeq: 2
+Content-Type: application/sdp
+Cache-Control: no-cache
+Server: Hisilicon RTSP Streaming Media Server/1.0.0
+Content-Length: 581
+Date: Mon, Sep 20 2021 13:45:36 GMT
+
+v=0
+o=StreamingServer 3331435948 1116907222000 IN IP4 192.168.0.1
+s=livestream/12
+c=IN IP4 0.0.0.0
+t=0 0
+a=control:*
+a=range:npt=0-
+m=video 0 RTP/AVP 96
+a=framerate:30
+a=transform:1,0,0;0,1,0;0,0,1
+a=control:trackID=0
+a=rtpmap:96 H264/90000
+a=fmtp:96 packetization-mode=1;profile-level-id=4D001F;sprop-parameter-sets=Z00AH5Y1QIAJNNwEBAQI,aO48gA==
+a=x-dimensions:1024,576
+m=audio 0 RTP/AVP 105
+a=control:trackID=1
+a=rtpmap:105 MPEG4-GENERIC/90000/1
+a=fmtp:105 streamtype=5;profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3;config=1188
+SETUP rtsp://192.168.0.1:554/livestream/12/trackID=0 RTSP/1.0
+Transport: RTP/AVP/UDP;unicast;client_port=26162-26163
+CSeq: 3
+User-Agent: Lavf57.83.100
+
+RTSP/1.0 200 OK
+CSeq: 3
+Session: 262652556486642
+Server: Hisilicon RTSP Streaming Media Server/1.0.0
+Date: Mon, Sep 20 2021 13:45:36 GMT
+Transport: RTP/AVP;unicast;client_port=26162-26163;server_port=5004-5005;ssrc=82cc3ef3;mode="PLAY"
+
+SETUP rtsp://192.168.0.1:554/livestream/12/trackID=1 RTSP/1.0
+Transport: RTP/AVP/UDP;unicast;client_port=26164-26165
+CSeq: 4
+User-Agent: Lavf57.83.100
+Session: 262652556486642
+
+RTSP/1.0 200 OK
+CSeq: 4
+Session: 262652556486642
+Server: Hisilicon RTSP Streaming Media Server/1.0.0
+Date: Mon, Sep 20 2021 13:45:36 GMT
+Transport: RTP/AVP;unicast;client_port=26164-26165;server_port=5006-5007;ssrc=77fc40a4;mode="PLAY"
+
+PLAY rtsp://192.168.0.1:554/livestream/12 RTSP/1.0
+Range: npt=0.000-
+CSeq: 5
+User-Agent: Lavf57.83.100
+Session: 262652556486642
+
+RTSP/1.0 200 OK
+Server: Hisilicon RTSP Streaming Media Server/1.0.0
+CSeq: 5
+Session: 262652556486642
+Date: Date: Mon, Sep 20 2021 13:45:36 GMT
+Range: npt=0.000-
+RTP-Info: url=rtsp://192.168.0.1:554/livestream/12/trackID=0;seq=0;rtptime=0,url=rtsp://192.168.0.1:554/livestream/12/trackID=1;seq=0;rtptime=0
+
+PAUSE rtsp://192.168.0.1:554/livestream/12 RTSP/1.0
+CSeq: 6
+User-Agent: Lavf57.83.100
+Session: 262652556486642
+

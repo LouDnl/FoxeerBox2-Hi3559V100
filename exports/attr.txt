@@ -1,0 +1,25 @@
+GET /cgi-bin/hi3510/getdeviceattr.cgi HTTP/1.1
+Host: 192.168.0.1
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.4.1
+
+HTTP/1.1 200 OK
+Server: thttpd/2.26 14aug2014
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 20 Sep 2021 13:45:25 GMT
+Last-Modified: Mon, 20 Sep 2021 13:45:25 GMT
+Accept-Ranges: bytes
+Connection: close
+Cache-Control: no-cache,no-store
+
+var name="himc-dv-3559-imx377-linux";
+var serialnum="";
+var type="377";
+var networkstatus="0";
+var softversion="2.1.1.1.20190624";
+var hardversion="";
+var startdate="";
+var runtimes="0";
+var model="0";
+var timeout="0";

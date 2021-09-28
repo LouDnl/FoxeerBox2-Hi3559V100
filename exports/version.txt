@@ -1,0 +1,1 @@
+Linux version 3.18.20 (root@cs) (gcc version 4.9.4 20150629 (prerelease) (Hisilicon_v600_20170615) ) #53 Fri Jun 14 09:44:46 CST 2019

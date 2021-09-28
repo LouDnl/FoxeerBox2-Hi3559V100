@@ -1,0 +1,49 @@
+PID   USER     TIME   COMMAND
+    1 0          0:00 init
+    2 0          0:00 [kthreadd]
+    3 0          0:00 [ksoftirqd/0]
+    4 0          0:00 [kworker/0:0]
+    5 0          0:00 [kworker/0:0H]
+    7 0          0:00 [khelper]
+    8 0          0:00 [kdevtmpfs]
+    9 0          0:00 [writeback]
+   10 0          0:00 [crypto]
+   11 0          0:00 [bioset]
+   12 0          0:00 [kblockd]
+   13 0          0:00 [spi2]
+   17 0          0:00 [rpciod]
+   18 0          0:00 [kworker/0:1]
+   19 0          0:00 [kswapd0]
+   20 0          0:00 [fsnotify_mark]
+   21 0          0:00 [nfsiod]
+   29 0          0:00 [cfinteractive]
+   30 0          0:00 [ipv6_addrconf]
+   31 0          0:00 [deferwq]
+   36 0          0:16 [Hi_ipcm-recv]
+   45 0          1:16 ./main_app
+   48 0          0:00 -sh
+   49 0          0:00 [jffs2_gcd_mtd8]
+   69 0          0:00 [kworker/u2:2]
+  173 0          0:00 /bin/sh
+  185 0          0:00 [mmcqd/0]
+  190 0          0:00 /bin/sh -l
+  191 0          0:00 /bin/sh -li
+  206 0          0:00 tail /proc/kmsg
+  219 0          0:00 [kworker/u2:1]
+  241 0          0:00 /bin/sh
+  251 0          0:00 /bin/sh -li
+  256 0          0:00 cat /dev/kmsg
+  264 0          0:00 busybox-new nc -nlvp 4444
+  300 0          0:00 [dwc_otg]
+  325 0          0:00 [cfg80211]
+  326 0          0:00 [ksdioirqd/mmc1]
+  327 0          0:00 sh -c sh /etc/Wireless/ap.sh
+  328 0          0:00 sh /etc/Wireless/ap.sh
+  329 0          0:00 hostapd -e /etc/Wireless/entropy.bin /app/private/hostapd.conf
+  332 0          0:00 [RTW_XMIT_THREAD]
+  333 0          0:00 [RTW_CMD_THREAD]
+  334 0          0:00 [RTWHALXT]
+  345 0          0:00 /bin/netstat -altuwxpeW
+  346 0          0:00 /bin/ps
+  348 0          0:00 /bin/busybox-new nc -nlvp 23 -e /bin/sh
+  349 0          0:00 sleep 5

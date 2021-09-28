@@ -1,0 +1,374 @@
+/lib/ld-linux.so.3
+libpthread.so.0
+_ITM_deregisterTMCloneTable
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+lseek
+open
+close
+read
+write
+pthread_create
+pthread_join
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_mutex_init
+pthread_condattr_init
+pthread_condattr_setclock
+pthread_cond_init
+pthread_mutex_destroy
+pthread_cond_destroy
+pthread_cond_timedwait
+pthread_cond_broadcast
+libc.so.6
+readdir
+closedir
+puts
+unlink
+putchar
+select
+mkdir
+rewinddir
+abort
+chmod
+printf
+mmap
+strlen
+prctl
+rmdir
+memcpy
+malloc
+opendir
+ioctl
+munmap
+rename
+statfs
+clock_gettime
+utime
+__xstat
+sync
+__libc_start_main
+free
+__gmon_start__
+GLIBC_2.17
+GLIBC_2.4
+sfs_s_mmap
+sfs_s_munmap
+sfs_server_handle_message
+sfs_server_dispatch_msg
+sfs_s_open
+sfs_s_close
+sfs_s_read
+sfs_s_write
+sfs_s_lseek
+sfs_s_stat
+sfs_s_ioctl
+sfs_s_sync
+sfs_s_dup
+sfs_s_opendir
+sfs_s_closedir
+sfs_s_readdir
+sfs_s_rewinddir
+sfs_s_statfs
+sfs_s_unlink
+sfs_s_mkdir
+sfs_s_rmdir
+sfs_s_rename
+sfs_s_utime
+sfs_s_chattr
+HI_ShareFs_Server_Init
+HI_ShareFs_Server_Wait_Exit
+Hi_sharefs_server
+sharefs server thread Run...
+sharefs server thread End.
+%s: 
+/dev/mem not opened!
+size can't be zero
+should align by page
+mmap error
+invalid message
+ipcm message create failed
+open file %s fail!,flag:0x%x, mode:%d,ret:%d
+ipcm send msg fail.ret:%d
+phys:0x%8x-%d, mmap phys addr to virt error.
+read error.ret:%d,len:%d
+write error.len:%d,ret:%d
+fd: %d lseek error!
+failed,ret:%d
+open dir %s failed!
+close dir 0x%x failed!
+statfs %s failed!
+unlink file %s failed!
+create directory %s failed!
+remove directory %s failed!
+rename path %s to %s failed!
+: Not supported module
+/dev/mem
+open /dev/mem error
+create ipcm p_msg err %d.
+create thread for receive failed.ret:%d
+ipcm_msg_create_message_by_packet
+ipcm_msg_create_message
+ipcm_msg_create_resp_message
+malloc for message failed.
+malloc for message body failed.
+read ipcm packet check error.
+ipcm_msg_create_proc
+ipcm_msg_destroy_proc
+ipcm_msg_connected
+ipcm_msg_send_once
+ipcm_msg_send_sync
+ipcm_msg_run
+ipcm_msg_recevie_handle
+ipcm_msg_add_item
+/dev/ipcm has been opened!
+target must be %d or %d!
+port must be [0,%d)!
+/dev/ipcm
+open /dev/ipcm failed!
+init ipcm attr failed!
+try to connect [%d:%d] failed!
+/dev/ipcm not opened!
+malloc for send buf fail. size:%d
+ipcm send msg failed. size:%d,ret:%d!
+wait for response timeout!
+select error, thread exit!
+malloc for msg buf fail!
+malloc for item failed.msg id:%d,cmd:%d
+GCC: (Hisilicon_v600_20170615) 4.9.4 20150629 (prerelease)
+aeabi
+ARM926EJ-S
+../sysdeps/arm/start.S
+/home/sying/toolchain_ljhui/gcc4_9/build-toolchain/gcc-glibc/glibc-linaro-2.20-2014.11/csu
+GNU AS 2.25.0
+../sysdeps/arm/crti.S
+/home/sying/toolchain_ljhui/gcc4_9/build-toolchain/gcc-glibc/glibc-linaro-2.20-2014.11/csu
+GNU AS 2.25.0
+../sysdeps/arm/crtn.S
+/home/sying/toolchain_ljhui/gcc4_9/build-toolchain/gcc-glibc/glibc-linaro-2.20-2014.11/csu
+GNU AS 2.25.0
+../sysdeps/arm
+start.S
+/1/11
+.11/22
+q.4/
+init.c
+../sysdeps/arm
+crti.S
+/0////
+/home/sying/toolchain_ljhui/gcc4_9/build-toolchain/gcc-glibc/install/arm-hisiv600-linux/lib/gcc/arm-hisiv600-linux-gnueabi/4.9.4/include
+elf-init.c
+stddef.h
+../sysdeps/arm
+crtn.S
+long long int
+long long unsigned int
+GNU C 4.9.4 20150629 (prerelease) -march=armv5te -mcpu=arm926ej-s -mtls-dialect=gnu -g -O2 -std=gnu99 -fgnu89-inline -fmerge-all-constants -frounding-math
+unsigned char
+short unsigned int
+_IO_stdin_used
+/home/sying/toolchain_ljhui/gcc4_9/build-toolchain/gcc-glibc/glibc-linaro-2.20-2014.11/csu
+short int
+sizetype
+envp
+size_t
+GNU C 4.9.4 20150629 (prerelease) -march=armv5te -mcpu=arm926ej-s -mtls-dialect=gnu -g -O2 -std=gnu99 -fgnu89-inline -fmerge-all-constants -frounding-math -fPIC
+argc
+__libc_csu_init
+elf-init.c
+__init_array_start
+size
+__init_array_end
+__libc_csu_fini
+argv
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.ABI-tag
+.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.ARM.exidx
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.dynamic
+.got
+.data
+.bss
+.comment
+.ARM.attributes
+.debug_aranges
+.debug_info
+.debug_abbrev
+.debug_line
+.debug_frame
+.debug_str
+.debug_loc
+.debug_ranges
+/home/sying/toolchain_ljhui/gcc4_9/build-toolchain/gcc-glibc/glibc_build/csu/abi-note.o
+/home/sying/toolchain_ljhui/gcc4_9/build-toolchain/gcc-glibc/glibc_build/csu/start.o
+init.c
+/opt/hisi-linux/x86-arm/arm-hisiv600-linux/bin/../target/usr/lib/crti.o
+call_weak_fn
+/opt/hisi-linux/x86-arm/arm-hisiv600-linux/bin/../target/usr/lib/crtn.o
+crtstuff.c
+__JCR_LIST__
+deregister_tm_clones
+register_tm_clones
+__do_global_dtors_aux
+completed.8983
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+server_main.c
+sharefs_server.c
+sfs_s_reveive_thread
+sfs_s_mmap
+sfs_s_munmap
+sfs_server_handle_message
+__func__.7022
+__func__.7027
+__func__.7228
+__func__.7197
+__func__.7037
+__func__.7044
+__func__.7180
+__func__.7192
+__func__.7169
+__func__.7052
+__func__.7061
+__func__.7067
+__func__.7074
+__func__.7082
+__func__.7089
+__func__.7097
+__func__.7104
+__func__.7112
+__func__.7119
+__func__.7127
+__func__.7134
+__func__.7143
+__func__.7152
+__func__.7160
+__func__.7236
+__func__.7241
+g_mmap_fd
+server_pid
+ipcm_msg.c
+__func__.7060
+__func__.7068
+g_msg_id_count_lock
+msg_id_count
+ipcm_ops.c
+__func__.7079
+__func__.7087
+__func__.7094
+__func__.7142
+__func__.7099
+ipcm_fd
+item_list_header
+ipcm_connected
+ipcm_msg_fn
+mutex
+condition
+elf-init.c
+__FRAME_END__
+__JCR_END__
+__init_array_end
+_DYNAMIC
+__init_array_start
+_GLOBAL_OFFSET_TABLE_
+pthread_mutex_unlock@@GLIBC_2.4
+__libc_csu_fini
+ipcm_msg_create_proc
+pthread_cond_broadcast@@GLIBC_2.4
+rewinddir@@GLIBC_2.4
+_ITM_deregisterTMCloneTable
+data_start
+printf@@GLIBC_2.4
+ipcm_msg_create_resp_message
+__bss_start__
+read@@GLIBC_2.4
+pthread_mutex_destroy@@GLIBC_2.4
+free@@GLIBC_2.4
+pthread_mutex_lock@@GLIBC_2.4
+statfs@@GLIBC_2.4
+clock_gettime@@GLIBC_2.17
+memcpy@@GLIBC_2.4
+_bss_end__
+_edata
+pthread_mutex_init@@GLIBC_2.4
+rmdir@@GLIBC_2.4
+lseek@@GLIBC_2.4
+HI_ShareFs_Server_DeInit
+select@@GLIBC_2.4
+_fini
+__bss_end__
+ipcm_msg_connected
+ipcm_msg_send_once
+pthread_condattr_init@@GLIBC_2.4
+pthread_cond_init@@GLIBC_2.4
+unlink@@GLIBC_2.4
+ipcm_msg_run
+pthread_condattr_setclock@@GLIBC_2.4
+dup@@GLIBC_2.4
+pthread_cond_destroy@@GLIBC_2.4
+ipcm_msg_destroyed
+__xstat@@GLIBC_2.4
+ioctl@@GLIBC_2.4
+pthread_create@@GLIBC_2.4
+opendir@@GLIBC_2.4
+__data_start
+puts@@GLIBC_2.4
+malloc@@GLIBC_2.4
+__libc_start_main@@GLIBC_2.4
+ipcm_msg_send_sync
+__gmon_start__
+open@@GLIBC_2.4
+rename@@GLIBC_2.4
+__dso_handle
+_IO_stdin_used
+strlen@@GLIBC_2.4
+attr
+mmap@@GLIBC_2.4
+__libc_csu_init
+ipcm_msg_delete_message
+mkdir@@GLIBC_2.4
+_end
+putchar@@GLIBC_2.4
+_start
+ipcm_msg_destroy_proc
+prctl@@GLIBC_2.4
+write@@GLIBC_2.4
+__end__
+__bss_start
+main
+ipcm_msg_create_message_by_packet
+munmap@@GLIBC_2.4
+pthread_cond_timedwait@@GLIBC_2.4
+HI_ShareFs_Server_Wait_Exit
+readdir@@GLIBC_2.4
+utime@@GLIBC_2.4
+pthread_join@@GLIBC_2.4
+ipcm_msg_create_message
+_Jv_RegisterClasses
+__TMC_END__
+_ITM_registerTMCloneTable
+sync@@GLIBC_2.4
+HI_ShareFs_Server_Init
+chmod@@GLIBC_2.4
+abort@@GLIBC_2.4
+_init
+close@@GLIBC_2.4
+closedir@@GLIBC_2.4

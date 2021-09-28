@@ -1,0 +1,2103 @@
+/lib/ld-linux.so.3
+libnl.so.2
+nlmsg_hdr
+nla_len
+nla_get_u32
+nl_socket_add_membership
+_ITM_deregisterTMCloneTable
+nl_cb_alloc
+nla_nest_end
+nl_recvmsgs
+_fini
+nla_get_u16
+nl_socket_get_fd
+nla_put_nested
+nla_data
+__gmon_start__
+nl_cb_put
+nla_ok
+nla_parse
+nla_put
+nla_type
+nl_socket_alloc_cb
+nl_cb_clone
+nla_nest_start
+nlmsg_data
+nla_put_u32
+_Jv_RegisterClasses
+nla_next
+nla_get_u64
+nl_socket_free
+nl_send_auto_complete
+nlmsg_alloc
+nl_cb_err
+_ITM_registerTMCloneTable
+nlmsg_free
+nla_parse_nested
+nla_get_u8
+_init
+nl_cb_set
+libnl-genl.so.2
+genl_connect
+genlmsg_attrlen
+genlmsg_attrdata
+genlmsg_put
+genl_ctrl_resolve
+libc.so.6
+socket
+exit
+fopen
+strncmp
+inet_aton
+optind
+strrchr
+__strdup
+perror
+inet_ntoa
+ftell
+signal
+daemon
+unlink
+putchar
+select
+mkdir
+realloc
+abort
+getpid
+chmod
+gmtime
+strtol
+syslog
+fgets
+calloc
+strlen
+send
+openlog
+memset
+strstr
+rmdir
+__errno_location
+bind
+fseek
+memcmp
+getopt
+unsetenv
+vsnprintf
+ctime
+getgrnam
+stdout
+fputc
+recv
+fputs
+memcpy
+fclose
+rand
+setsockopt
+malloc
+raise
+__ctype_b_loc
+recvfrom
+optarg
+stderr
+ioctl
+alarm
+readlink
+if_nametoindex
+sendmsg
+usleep
+chown
+getcwd
+if_indextoname
+fwrite
+fread
+gettimeofday
+localtime
+strchr
+getsockname
+sendto
+mktime
+qsort
+fcntl
+memmove
+strcmp
+recvmsg
+strerror
+__libc_start_main
+vfprintf
+random
+closelog
+_edata
+__bss_start
+__bss_start__
+__bss_end__
+__end__
+GLIBC_2.4
+gfff
+gfff
+QZ^&
+gfff
+gfff
+Signal %d received - reloading configuration
+hostapd v2.0-devel
+User space daemon for IEEE 802.11 AP management,
+IEEE 802.1X/WPA/WPA2/EAP/RADIUS Authenticator
+Copyright (c) 2002-2012, Jouni Malinen <j@w1.fi> and contributors
+usage: hostapd [-hdBKtv] [-P <PID file>] [-e <entropy file>] \
+         [-g <global ctrl_iface>] <configuration file(s)>
+options:
+   -h   show this usage
+   -d   show more debug messages (-dd for even more)
+   -B   run daemon in the background
+   -e   entropy file
+   -g   global control interface path
+   -P   PID file
+   -K   include key data in debug messages
+   -t   include timestamps in some debug messages
+   -v   show hostapd version
+No hostapd driver wrapper available
+Failed to initialize driver '%s'
+%s driver initialization failed.
+Signal %d received - terminating
+MLME
+RADIUS
+DRIVER
+IAPP
+IEEE 802.11
+IEEE 802.1X
+%s: STA %02x:%02x:%02x:%02x:%02x:%02x%s%s: %s
+%s:%s%s %s
+%s%s%s
+Failed to read new configuration file - continuing with old.
+Bde:f:hKP:tvg:
+malloc failed
+Failed to register EAP methods
+Failed to initialize event loop
+hostapd
+No drivers enabled
+Configuration file: %s
+daemon
+CCMP
+WEP104
+WEP40
+NONE
+Line %d: invalid cipher '%s'.
+Line %d: no cipher values configured.
+MAC list file '%s' not found.
+Invalid MAC address '%s' at line %d in '%s'
+MAC list reallocation failed
+wds_bridge
+Line %d: invalid/unknown driver '%s'
+debug
+Line %d: DEPRECATED: 'debug' configuration variable is not used anymore
+logger_syslog_level
+logger_stdout_level
+logger_syslog
+logger_stdout
+dump_file
+ssid
+Line %d: invalid SSID '%s'
+ssid2
+macaddr_acl
+Line %d: unknown macaddr_acl %d
+accept_mac_file
+Line %d: Failed to read accept_mac_file '%s'
+deny_mac_file
+Line %d: Failed to read deny_mac_file '%s'
+wds_sta
+ap_isolate
+ap_max_inactivity
+skip_inactivity_poll
+country_code
+ieee80211d
+ieee8021x
+eapol_version
+Line %d: invalid EAPOL version (%d): '%s'.
+eapol_version=%d
+eap_message
+Line %d: Failed to allocate memory for eap_req_id_text
+wep_key_len_broadcast
+Line %d: invalid WEP key len %lu (= %lu bits)
+wep_key_len_unicast
+Line %d: invalid WEP key len %d (= %d bits)
+wep_rekey_period
+Line %d: invalid period %d
+eap_reauth_period
+eapol_key_index_workaround
+own_ip_addr
+Line %d: invalid IP address '%s'
+nas_identifier
+auth_server_addr
+auth_server_port
+auth_server_shared_secret
+Line %d: empty shared secret is not allowed.
+acct_server_addr
+acct_server_port
+acct_server_shared_secret
+radius_retry_primary_interval
+radius_acct_interim_interval
+radius_request_cui
+radius_auth_req_attr
+Line %d: invalid radius_auth_req_attr
+radius_acct_req_attr
+Line %d: invalid radius_acct_req_attr
+radius_das_port
+radius_das_client
+radius_das_time_window
+radius_das_require_event_timestamp
+auth_algs
+Line %d: no authentication algorithms allowed
+max_num_sta
+Line %d: Invalid max_num_sta=%d; allowed range 0..%d
+wpa_group_rekey
+wpa_strict_rekey
+wpa_gmk_rekey
+wpa_ptk_rekey
+wpa_passphrase
+Line %d: invalid WPA passphrase length %d (expected 8..63)
+wpa_psk
+Line %d: Invalid PSK '%s'.
+wpa_psk_file
+Line %d: allocation failed
+wpa_key_mgmt
+WPA-PSK
+WPA-EAP
+Line %d: invalid key_mgmt '%s'
+Line %d: no key_mgmt values configured.
+wpa_psk_radius
+Line %d: unknown wpa_psk_radius %d
+wpa_pairwise
+Line %d: unsupported pairwise cipher suite '%s'
+rsn_pairwise
+ctrl_interface
+ctrl_interface_group
+ctrl_interface_group=%d (from group name '%s')
+Line %d: Invalid group '%s'
+ctrl_interface_group=%d
+test_socket
+use_pae_group_addr
+hw_mode
+Line %d: unknown hw_mode '%s'
+wps_rf_bands
+Line %d: unknown wps_rf_band '%s'
+beacon_int
+Line %d: invalid beacon_int %d (expected 15..65535)
+dtim_period
+Line %d: invalid dtim_period %d
+rts_threshold
+Line %d: invalid rts_threshold %d
+fragm_threshold
+Line %d: invalid fragm_threshold %d
+send_probe_response
+Line %d: invalid send_probe_response %d (expected 0 or 1)
+supported_rates
+Line %d: invalid rate list
+basic_rates
+preamble
+ignore_broadcast_ssid
+wep_default_key
+Invalid wep_default_key index %d
+wep_key0
+wep_key1
+wep_key2
+wep_key3
+dynamic_vlan
+vlan_file
+VLAN file '%s' not readable.
+Invalid VLAN ID at line %d in '%s'
+Invalid VLAN ifname at line %d in '%s'
+Out of memory while reading VLAN interfaces from '%s'
+vlan_naming
+Line %d: invalid naming scheme %d
+ap_table_max_size
+ap_table_expiration_time
+tx_queue_
+after_beacon_
+beacon_
+DEPRECATED: '%s' not used
+Unknown tx_queue name '%s'
+aifs
+Invalid AIFS value %d
+cwmin
+Invalid cwMin value %d
+cwmax
+Invalid cwMax value %d
+burst
+Unknown tx_queue field '%s'
+wme_enabled
+wmm_enabled
+uapsd_advertisement_enabled
+wme_ac_
+wmm_ac_
+Line %d: invalid WMM ac item
+Failed to allocate memory for multi-BSS entry
+Failed to allocate memory for multi-BSS RADIUS data
+bssid
+Line %d: invalid bssid item
+ieee80211n
+ht_capab
+[LDPC]
+[HT40-]
+[HT40+]
+[SMPS-STATIC]
+[SMPS-DYNAMIC]
+[GF]
+[SHORT-GI-20]
+[SHORT-GI-40]
+[TX-STBC]
+[RX-STBC1]
+[RX-STBC12]
+[RX-STBC123]
+[DELAYED-BA]
+[MAX-AMSDU-7935]
+[DSSS_CCK-40]
+[PSMP]
+[LSIG-TXOP-PROT]
+require_ht
+max_listen_interval
+disable_pmksa_caching
+disassoc_low_ack
+tdls_prohibit
+tdls_prohibit_chan_switch
+time_advertisement
+time_zone
+Line %d: invalid time_zone
+vendor_elements
+Line %d: Invalid vendor_elements '%s'
+Line %d: unknown configuration item '%s'
+Line %d: invalid DAS client
+Line %d: invalid WEP key '%s'
+Line %d: failed to read VLAN file '%s'
+Line %d: invalid TX queue item
+Line %d: invalid bss item
+Cannot enable IEEE 802.11d without setting the country_code
+Invalid IEEE 802.1X configuration (no EAP authenticator configured).
+WPA-PSK using RADIUS enabled, but no RADIUS checking (macaddr_acl=2) enabled.
+WPA-PSK enabled, but PSK or passphrase is not configured.
+Duplicate BSSID %02x:%02x:%02x:%02x:%02x:%02x on interface '%s' and '%s'.
+HT (IEEE 802.11n) in 11b mode is not allowed, disabling HT capabilites
+HT (IEEE 802.11n) with WEP is not allowed, disabling HT capabilities
+HT (IEEE 802.11n) with WPA/WPA2 requires CCMP/GCMP to be enabled, disabling HT capabilities
+Could not open configuration file '%s' for reading.
+No driver wrappers registered!
+Line %d: invalid line '%s'
+%d errors found in configuration file '%s'
+Failed to set configuration field '%s' to value '%s'
+Configuration check failed
+hostapd_new_assoc_sta
+hostapd_setup_interface_complete
+hostapd_iface_alloc
+hostapd_add_iface
+hostapd_config_alloc
+Failed to clear default encryption keys (ifname=%s keyidx=%d)
+Could not set WEP encryption.
+Could not set dynamic VLAN WEP encryption.
+Failed to re-configure WPA PSK after reloading configuration
+Failed to configure WPA IE for the kernel driver.
+Could not set SSID for kernel driver
+Reconfigured interface %s
+Failed to remove BSS interface %s
+Flushing old station entries
+Could not connect to kernel driver
+Deauthenticate all stations
+%s: reschedule ap_handle_timer timeout for %02x:%02x:%02x:%02x:%02x:%02x (%d seconds - ap_max_inactivity)
+Interface initialization failed
+Completing interface initialization
+Mode: %s  Channel: %d  Frequency: %d MHz
+Could not set channel for kernel driver
+Failed to prepare rates table.
+Could not set RTS threshold for kernel driver
+Could not set fragmentation threshold for kernel driver
+BSS '%s' may not have BSSID set to the MAC address of the radio
+Failed to add BSS (BSSID=%02x:%02x:%02x:%02x:%02x:%02x)
+Could not read SSID from system
+Using interface %s with hwaddr %02x:%02x:%02x:%02x:%02x:%02x and ssid "%s"
+WPA-PSK setup failed.
+RADIUS client initialization failed.
+RADIUS DAS initialization failed.
+ACL initialization failed.
+IEEE 802.1X initialization failed.
+Accounting initialization failed.
+IEEE 802.11F (IAPP) initialization failed.
+VLAN initialization failed.
+Failed to set TX queue parameters for queue %d.
+%s: Failed to commit driver configuration
+%s: Setup of interface done.
+Too many bits in the BSSID mask (%u)
+BSS count %lu, BSSID mask %02x:%02x:%02x:%02x:%02x:%02x (%d bits)
+Invalid BSSID mask %02x:%02x:%02x:%02x:%02x:%02x for start address %02x:%02x:%02x:%02x:%02x:%02x.
+Start address must be the first address in the block (i.e., addr AND mask == addr).
+Failed to set country code
+Could not select hw_mode and channel. (%d)
+Interface initialization will be completed in a callback
+%s: Unable to setup interface.
+Interface %s already enabled
+Enable interface %s
+Reload interface %s
+Interface %s disabled
+Cannot add interface - it already exists
+%s: Failed to allocate memory for the interface
+%s: Failed to allocate memory for interface
+%s: Failed to allocate memory for configuration
+%s: Failed to setup control interface
+Add interface '%s'
+%s: Failed to allocate memory for hostapd
+Remove interface '%s'
+hostapd_wpa_auth_disconnect
+%s: WPA authenticator requests disconnect: STA %02x:%02x:%02x:%02x:%02x:%02x reason %d
+WPA initialization failed.
+Could not set PrivacyInvoked for interface %s
+Could not disable PrivacyInvoked for interface %s
+Could not remove generic information element from interface %s
+hostapd_action_rx
+hostapd_notif_assoc: Skip event with no address
+STA included WPS IE in (Re)AssocReq
+STA included RSN IE in (Re)AssocReq
+STA included WPA IE in (Re)AssocReq
+STA did not include WPS/RSN/WPA IE in (Re)AssocReq
+No WPA/RSN IE from STA
+Failed to initialize WPA state machine
+WPA/RSN information element rejected? (res %u)
+hostapd_notif_disassoc: Skip event with no address
+disassociated
+Disassociation notification for unknown STA %02x:%02x:%02x:%02x:%02x:%02x
+disconnected due to excessive missing ACKs
+driver had channel switch: freq=%d, ht=%d, offset=%d
+driver switched to bad channel!
+Event %s (%d) received
+Data frame from unknown STA %02x:%02x:%02x:%02x:%02x:%02x - adding a new STA
+Failed to add STA entry for %02x:%02x:%02x:%02x:%02x:%02x
+EVENT_RX_ACTION DA=%02x:%02x:%02x:%02x:%02x:%02x SA=%02x:%02x:%02x:%02x:%02x:%02x BSSID=%02x:%02x:%02x:%02x:%02x:%02x category=%u
+Received action frame contents
+RX_ACTION cat %d action plen %d
+%s: station not found
+Unknown event %d
+none
+malloc() failed for ieee802_1x_send(len=%lu)
+Could not get random numbers
+No eapKeyData available for encrypting and signing EAPOL-Key
+Could not encrypt key
+IEEE 802.1X: Sending EAPOL-Key to %02x:%02x:%02x:%02x:%02x:%02x (%s index=%d)
+Added PMKSA cache entry (IEEE 802.1X)
+IEEE 802.1X: Force disconnection after EAP-Failure
+IEEE 802.1X: New default WEP key index %d
+Could not generate random WEP key.
+failed to generate a new broadcast key
+IEEE 802.1X: New default WEP key
+failed to configure a new broadcast key
+authorizing port
+unauthorizing port
+Could not set station %02x:%02x:%02x:%02x:%02x:%02x flags for kernel driver (errno=%d).
+IEEE 802.1X: Could not find matching station for this RADIUS message
+Allowing RADIUS Access-Reject without Message-Authenticator since it does not include EAP-Message
+Incoming RADIUS packet did not have correct Message-Authenticator - dropped
+Unknown RADIUS message code
+RADIUS packet matching with station %02x:%02x:%02x:%02x:%02x:%02x
+ignored too small Acct-Interim-Interval %d
+VLAN ID %d
+authentication server did not include required VLAN ID in Access-Accept
+MS-MPPE-Send-Key
+MS-MPPE-Recv-Key
+IEEE 802.1X: Stored %lu RADIUS Class attributes for %02x:%02x:%02x:%02x:%02x:%02x
+old identity '%s' updated with User-Name from Access-Accept '%s'
+Added PMKSA cache entry
+using EAP timeout of %d seconds (from RADIUS)
+could not extract EAP-Message from RADIUS message
+too short EAP packet received from authentication server
+EAP-Request-%s (%d)
+EAP Response-%s (%d)
+EAP Success
+EAP Failure
+unknown EAP code
+decapsulated EAP packet (code=%d id=%d len=%d) from RADIUS server: %s
+IEEE 802.1X: Sending EAPOL-Key(s) to %02x:%02x:%02x:%02x:%02x:%02x
+IEEE 802.1X: Creating new group state machine for VLAN ID %lu
+IEEE 802.1X: Unknown VLAN ID %lu - cannot create group key state machine
+Could not generate random WEP key (dynamic VLAN).
+%s: Default WEP idx %d for dynamic VLAN
+Default WEP key (dynamic VLAN)
+Could not set dynamic VLAN WEP encryption key.
+Could not generate random individual WEP key.
+Individual WEP key
+Could not set individual WEP encryption.
+802.11a
+802.11g
+802.11b
+Could not add NAS-IP-Address
+Could not add NAS-Identifier
+%02X-%02X-%02X-%02X-%02X-%02X:%s
+Could not add Called-Station-Id
+Could not add NAS-Port-Type
+Could not add NAS-Port
+%02X-%02X-%02X-%02X-%02X-%02X
+Could not add Calling-Station-Id
+IEEE 802.11i Pre-Authentication
+CONNECT %d%sMbps %s
+Could not add Connect-Info
+Could not add RADIUS attribute
+STA identity '%s'
+Encapsulating EAP message into a RADIUS packet
+Could not create net RADIUS packet
+Could not add User-Name
+Could not add Framed-MTU
+Could not add EAP-Message
+Could not copy State attribute from previous Access-Challenge
+Copied RADIUS State Attribute
+Could not add CUI
+IEEE 802.1X: %lu bytes from %02x:%02x:%02x:%02x:%02x:%02x
+IEEE 802.1X data frame from not associated/Pre-authenticating STA
+   too short IEEE 802.1X packet
+   IEEE 802.1X: version=%d type=%d length=%d
+   frame too short for this IEEE 802.1X packet
+   ignoring %lu extra octets after IEEE 802.1X packet
+IEEE 802.1X: Ignore EAPOL message - 802.1X not enabled and WPS not used
+IEEE 802.1X: Ignore EAPOL message - STA is using PSK
+   too short EAP packet
+EAP: code=%d identifier=%d length=%d
+   Invalid EAP length
+   Too short frame to contain this EAP packet
+   Ignoring %lu extra bytes after EAP packet
+ (request)
+ (response)
+handle_eap_response: too short response data
+received EAP packet (code=%d id=%d len=%d) from STA: EAP Response-%s (%d)
+ (success)
+ (failure)
+ (unknown code)
+received EAPOL-Start from STA
+cached PMKSA available - ignore it since STA sent EAPOL-Start
+received EAPOL-Logoff from STA
+   EAPOL-Key
+   Dropped key data from unauthorized Supplicant
+   EAPOL-Encapsulated-ASF-Alert
+   unknown IEEE 802.1X packet type
+IEEE 802.1X: Ignore STA - 802.1X not enabled or forced for WPS
+IEEE 802.1X: Ignore STA - using PSK
+start authentication
+failed to allocate state machine
+PMK from PMKSA cache - skip IEEE 802.1X/EAP
+aborting authentication
+EAP Timeout, STA %02x:%02x:%02x:%02x:%02x:%02x
+broad
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x TX status - version=%d type=%d length=%d - ack=%d
+did not Ack EAPOL-Key frame (%scast index=%d)
+TRUE
+FALSE
+dot1xPaePortNumber=%d
+dot1xPaePortProtocolVersion=%d
+dot1xPaePortCapabilities=1
+dot1xPaePortInitialize=%d
+dot1xPaePortReauthenticate=FALSE
+dot1xAuthPaeState=%d
+dot1xAuthBackendAuthState=%d
+dot1xAuthAdminControlledDirections=%d
+dot1xAuthOperControlledDirections=%d
+dot1xAuthAuthControlledPortStatus=%d
+dot1xAuthAuthControlledPortControl=%d
+dot1xAuthQuietPeriod=%u
+dot1xAuthServerTimeout=%u
+dot1xAuthReAuthPeriod=%u
+dot1xAuthReAuthEnabled=%s
+dot1xAuthKeyTxEnabled=%s
+dot1xAuthEapolFramesRx=%u
+dot1xAuthEapolFramesTx=%u
+dot1xAuthEapolStartFramesRx=%u
+dot1xAuthEapolLogoffFramesRx=%u
+dot1xAuthEapolRespIdFramesRx=%u
+dot1xAuthEapolRespFramesRx=%u
+dot1xAuthEapolReqIdFramesTx=%u
+dot1xAuthEapolReqFramesTx=%u
+dot1xAuthInvalidEapolFramesRx=%u
+dot1xAuthEapLengthErrorFramesRx=%u
+dot1xAuthLastEapolFrameVersion=%u
+dot1xAuthLastEapolFrameSource=%02x:%02x:%02x:%02x:%02x:%02x
+dot1xAuthEntersConnecting=%u
+dot1xAuthEapLogoffsWhileConnecting=%u
+dot1xAuthEntersAuthenticating=%u
+dot1xAuthAuthSuccessesWhileAuthenticating=%u
+dot1xAuthAuthTimeoutsWhileAuthenticating=%u
+dot1xAuthAuthFailWhileAuthenticating=%u
+dot1xAuthAuthEapStartsWhileAuthenticating=%u
+dot1xAuthAuthEapLogoffWhileAuthenticating=%u
+dot1xAuthAuthReauthsWhileAuthenticated=%u
+dot1xAuthAuthEapStartsWhileAuthenticated=%u
+dot1xAuthAuthEapLogoffWhileAuthenticated=%u
+dot1xAuthBackendResponses=%u
+dot1xAuthBackendAccessChallenges=%u
+dot1xAuthBackendOtherRequestsToSupplicant=%u
+dot1xAuthBackendAuthSuccesses=%u
+dot1xAuthBackendAuthFails=%u
+dot1xAuthSessionId=%08X-%08X
+dot1xAuthSessionAuthenticMethod=%d
+dot1xAuthSessionTime=%u
+dot1xAuthSessionTerminateCause=999
+dot1xAuthSessionUserName=%s
+Failed to allocate memory for configuration data.
+Using pre-configured WPA PSK instead of passphrase
+Deriving WPA PSK based on passphrase
+Unable to alloc space for PSK
+PSK (ASCII passphrase)
+PSK (from passphrase)
+WPA PSK file '%s' not found.
+Invalid MAC address '%s' on line %d in '%s'
+WPA PSK allocation failed
+No PSK on line %d in '%s'
+Invalid PSK '%s' on line %d in '%s'
+Cached ACL entry for %02x:%02x:%02x:%02x:%02x:%02x has expired.
+ACL query for %02x:%02x:%02x:%02x:%02x:%02x has expired.
+Incoming RADIUS packet did not have correct authenticator - dropped
+Unknown RADIUS message code %d to ACL query
+Failed to add ACL cache entry
+Ignored too small Acct-Interim-Interval %d for STA %02x:%02x:%02x:%02x:%02x:%02x
+Re-sending authentication frame after successful RADIUS ACL query
+Found matching Access-Request for RADIUS message (id=%d)
+malloc for query data failed
+%02x%02x%02x%02x%02x%02x
+Could not add User-Password
+CONNECT 11Mbps 802.11b
+Failed to allocate memory for auth frame.
+Failed to send Access-Request for ACL query.
+ap_free_sta
+ap_handle_timer
+ap_sta_disassociate
+ap_sta_deauthenticate
+ap_sta_disconnect
+ap_sta_add
+Removing STA %02x:%02x:%02x:%02x:%02x:%02x from kernel driver
+Could not remove station %02x:%02x:%02x:%02x:%02x:%02x from kernel driver.
+setting session timeout to %d seconds
+could not add dynamic VLAN interface for vlan_id=%d
+could not configure encryption for dynamic VLAN interface for vlan_id=%d
+added new dynamic VLAN interface '%s'
+updated existing dynamic VLAN interface '%s'
+could not configure encryption for VLAN interface for vlan_id=%d
+binding station to interface '%s'
+Failed to update VLAN-ID for WPA
+could not bind the STA entry to vlan_id=%d
+could not find VLAN for binding station to (vlan_id=%d)
+AP-STA-CONNECTED %02x:%02x:%02x:%02x:%02x:%02x
+AP-STA-DISCONNECTED %02x:%02x:%02x:%02x:%02x:%02x
+%s: cancel ap_handle_timer for %02x:%02x:%02x:%02x:%02x:%02x
+AP: could not remove STA %02x:%02x:%02x:%02x:%02x:%02x from hash table
+Could not remove STA %02x:%02x:%02x:%02x:%02x:%02x from list.
+GAS: Remove temporary STA entry %02x:%02x:%02x:%02x:%02x:%02x
+deauthenticated due to session timeout
+Removing station %02x:%02x:%02x:%02x:%02x:%02x
+%s: %02x:%02x:%02x:%02x:%02x:%02x flags=0x%x timeout_next=%d
+deauthenticated due to local deauth request
+Check inactivity: Could not get station info from kernel driver for %02x:%02x:%02x:%02x:%02x:%02x
+Station %02x:%02x:%02x:%02x:%02x:%02x has been active %is ago
+Station %02x:%02x:%02x:%02x:%02x:%02x has been inactive too long: %d sec, max allowed: %d
+Station %02x:%02x:%02x:%02x:%02x:%02x has ACKed data poll
+%s: register ap_handle_timer timeout for %02x:%02x:%02x:%02x:%02x:%02x (%lu seconds)
+  Polling STA
+%s: register ap_handle_timer timeout for %02x:%02x:%02x:%02x:%02x:%02x (%d seconds - AP_DISASSOC_DELAY)
+disassociated due to inactivity
+%s: register ap_handle_timer timeout for %02x:%02x:%02x:%02x:%02x:%02x (%d seconds - AP_DEAUTH_DELAY)
+deauthenticated due to inactivity (timer DEAUTH/REMOVE)
+disassociation
+Timeout, sending %s info to STA %02x:%02x:%02x:%02x:%02x:%02x
+deauthentication
+%s: disassociate STA %02x:%02x:%02x:%02x:%02x:%02x
+%s: reschedule ap_handle_timer timeout for %02x:%02x:%02x:%02x:%02x:%02x (%d seconds - AP_MAX_INACTIVITY_AFTER_DISASSOC)
+%s: deauthenticate STA %02x:%02x:%02x:%02x:%02x:%02x
+%s: reschedule ap_handle_timer timeout for %02x:%02x:%02x:%02x:%02x:%02x (%d seconds - AP_MAX_INACTIVITY_AFTER_DEAUTH)
+  New STA
+no more room for new STAs (%d/%d)
+%s: register ap_handle_timer timeout for %02x:%02x:%02x:%02x:%02x:%02x (%d seconds - ap_max_inactivity)
+Ignore deauth cb for test frame
+Ignore disassoc cb for test frame
+Failed to get random data for WPA initialization.
+GMK rekeyd
+Init Counter
+Key Counter
+WPA: group state machine entering state SETKEYSDONE (VLAN-ID %d)
+wpa_sta_disconnect STA %02x:%02x:%02x:%02x:%02x:%02x
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK_GROUP entering state IDLE
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state DISCONNECTED
+Group key expansion
+WPA: group state machine entering state GTK_INIT (VLAN-ID %d)
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state AUTHENTICATION2
+WPA: Re-initialize GMK/Counter on first station
+WPA: Not enough entropy in random pool to proceed - reject first 4-way handshake
+WPA: Failed to get random data for ANonce.
+WPA: Assign ANonce
+WPA: group state machine entering state SETKEYS (VLAN-ID %d)
+wpa_group_setkeys: Unexpected GKeyDoneStations=%d when starting new GTK rekey
+wpa_group_setkeys: GKeyDoneStations=%d
+WPA: Not enough entropy in random pool for secure operations - update keys later when the first station connects
+WPA: Delay group state machine start until Beacon frames have been configured
+rekeying GTK
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state PTKCALCNEGOTIATING
+Pairwise key expansion
+invalid MIC in msg 2/4 of 4-Way Handshake
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state DISCONNECT
+Could not generate WPA IE.
+PMKSA cache initialization failed.
+WPA: Start group state machine to set initial keys
+strict rekeying - force GTK rekey since STA is leaving
+WPA: Registering pending STA state machine deinit for %02x:%02x:%02x:%02x:%02x:%02x
+WPA: Send EAPOL(version=%d secure=%d mic=%d ack=%d install=%d pairwise=%d kde_len=%lu keyidx=%d encr=%d)
+Plaintext EAPOL-Key Key Data
+PTK not valid when sending EAPOL-Key frame
+WPA: Use EAPOL-Key timeout of %u ms (retry counter %d)
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state PTKSTART
+sending 1/4 msg of 4-Way Handshake
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK_GROUP entering state REKEYNEGOTIATING
+sending 1/2 msg of Group Key Handshake
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state PTKINITNEGOTIATING
+sending 3/4 msg of 4-Way Handshake
+STA used Secure bit in WPA msg 2/4 - set Secure for 3/4 as workaround
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state INITIALIZE
+WPA: wpa_sm_step() called recursively
+WPA_PTK: sm->Disconnect
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state AUTHENTICATION
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state INITPMK
+WPA: PMK from PMKSA cache
+WPA: PMK from EAPOL state machine (len=%lu)
+WPA: Could not get PMK
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state INITPSK
+INITPMK - keyAvailable = false
+no PSK configured for the STA
+PTKSTART: Retry limit %d reached
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state PTKCALCNEGOTIATING2
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK entering state PTKINITDONE
+pairwise key handshake completed (%s)
+PTKINITNEGOTIATING: Retry limit %d reached
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK_GROUP entering state REKEYESTABLISHED
+group key handshake completed (%s)
+WPA: %02x:%02x:%02x:%02x:%02x:%02x WPA_PTK_GROUP entering state KEYERROR
+WPA: Completing pending STA state machine deinit for %02x:%02x:%02x:%02x:%02x:%02x
+Not in PTKINITDONE; skip Group Key update
+GUpdateStationKeys was already set when marking station for GTK rekeying
+EAPOL-Key timeout
+rekeying PTK
+2/4 Pairwise
+SMK M1
+SMK M3
+SMK Error
+2/2 Group
+4/4 Pairwise
+WPA: Received EAPOL-Key from %02x:%02x:%02x:%02x:%02x:%02x key_info=0x%x type=%u key_data_length=%u
+WPA: Invalid EAPOL-Key frame - key_data overflow (%d > %lu)
+Workaround: Allow EAPOL-Key with unexpected WPA type in RSN mode
+Ignore EAPOL-Key with unexpected type %d in RSN mode
+Ignore EAPOL-Key with unexpected type %d in WPA mode
+WPA: Received Key Nonce
+WPA: Received Replay Counter
+did not use HMAC-SHA1-AES with CCMP/GCMP
+received EAPOL-Key request with replayed counter
+Process SNonce update from STA based on retransmitted EAPOL-Key 1/4
+ignore retransmitted EAPOL-Key %s - SNonce did not change
+received EAPOL-Key %s with unexpected replay counter
+received replay counter
+pending replay counter
+received EAPOL-Key msg 2/4 in invalid state (%d) - dropped
+WPA: Reject 4-way handshake to collect more entropy for random number generation
+received EAPOL-Key msg 2/4 with invalid Key Data contents
+WPA IE from (Re)AssocReq did not match with msg 2/4
+WPA IE in AssocReq
+WPA IE in msg 2/4
+received EAPOL-Key msg 4/4 in invalid state (%d) - dropped
+received EAPOL-Key msg 2/2 in invalid state (%d) - dropped
+received EAPOL-Key frame (%s)
+received invalid EAPOL-Key: Key Ack set
+received invalid EAPOL-Key: Key MIC not set
+received EAPOL-Key with invalid MIC
+received EAPOL-Key request with invalid MIC
+received EAPOL-Key Error Request (STA detected Michael MIC failure (group=%d))
+ignore Michael MIC failure report since group cipher is not TKIP
+ignore Michael MIC failure report since pairwise cipher is not TKIP
+received EAPOL-Key Request for new 4-Way Handshake
+received EAPOL-Key Request for GTK rekeying
+event %d notification
+WPA state machine had not been started - initialize now
+dot11RSNAOptionImplemented=TRUE
+dot11RSNAPreauthenticationImplemented=%s
+dot11RSNAEnabled=%s
+dot11RSNAPreauthenticationEnabled=%s
+dot11RSNAConfigVersion=%u
+dot11RSNAConfigPairwiseKeysSupported=9999
+dot11RSNAConfigGroupRekeyStrict=%u
+dot11RSNAConfigGroupUpdateCount=%u
+dot11RSNAConfigPairwiseUpdateCount=%u
+dot11RSNAConfigGroupCipherSize=%u
+dot11RSNAConfigPMKLifetime=%u
+dot11RSNAConfigPMKReauthThreshold=%u
+dot11RSNAConfigNumberOfPTKSAReplayCounters=0
+dot11RSNAConfigSATimeout=%u
+dot11RSNAAuthenticationSuiteSelected=%02x-%02x-%02x-%d
+dot11RSNAPairwiseCipherSelected=%02x-%02x-%02x-%d
+dot11RSNAGroupCipherSelected=%02x-%02x-%02x-%d
+dot11RSNAPMKIDUsed=%s
+dot11RSNAAuthenticationSuiteRequested=%02x-%02x-%02x-%d
+dot11RSNAPairwiseCipherRequested=%02x-%02x-%02x-%d
+dot11RSNAGroupCipherRequested=%02x-%02x-%02x-%d
+dot11RSNATKIPCounterMeasuresInvoked=%u
+dot11RSNA4WayHandshakeFailures=%u
+dot11RSNAConfigNumberOfGTKSAReplayCounters=0
+hostapdWPAGroupState=%d
+dot11RSNAStatsSTAAddress=%02x:%02x:%02x:%02x:%02x:%02x
+dot11RSNAStatsVersion=1
+dot11RSNAStatsSelectedPairwiseCipher=%02x-%02x-%02x-%d
+dot11RSNAStatsTKIPLocalMICFailures=%u
+dot11RSNAStatsTKIPRemoteMICFailures=%u
+hostapdWPAPTKState=%d
+hostapdWPAPTKGroupState=%d
+WPA: Add group state machine for VLAN-ID %d
+WPA: Moving STA %02x:%02x:%02x:%02x:%02x:%02x to use group state machine for VLAN ID %d
+WPA: EAPOL-Key TX status for STA %02x:%02x:%02x:%02x:%02x:%02x ack=%d
+WPA: Increase initial EAPOL-Key 1/4 timeout by %u ms because of acknowledged frame
+TKIP countermeasures ended
+Michael MIC failure detected in received frame
+MLME-MICHAELMICFAILURE.indication for not associated STA (%02x:%02x:%02x:%02x:%02x:%02x) ignored
+TKIP countermeasures initiated
+MLME-MichaelMICFailure.indication(%02x:%02x:%02x:%02x:%02x:%02x)
+MLME-DELETEKEYS.request(%02x:%02x:%02x:%02x:%02x:%02x)
+unknown
+MLME-AUTHENTICATE.indication(%02x:%02x:%02x:%02x:%02x:%02x, %s)
+MLME-DEAUTHENTICATE.indication(%02x:%02x:%02x:%02x:%02x:%02x, %d)
+MLME-ASSOCIATE.indication(%02x:%02x:%02x:%02x:%02x:%02x)
+MLME-REASSOCIATE.indication(%02x:%02x:%02x:%02x:%02x:%02x)
+MLME-DISASSOCIATE.indication(%02x:%02x:%02x:%02x:%02x:%02x, %d)
+OPEN_SYSTEM
+SHARED_KEY
+Invalid group cipher (%d).
+Invalid pairwise cipher (%d).
+Invalid key management type (%d).
+Invalid WPA proto (%d) from %02x:%02x:%02x:%02x:%02x:%02x
+Failed to parse WPA/RSN IE from %02x:%02x:%02x:%02x:%02x:%02x (res=%d)
+WPA/RSN IE
+Invalid WPA group cipher (0x%x) from %02x:%02x:%02x:%02x:%02x:%02x
+Invalid WPA key mgmt (0x%x) from %02x:%02x:%02x:%02x:%02x:%02x
+Invalid %s pairwise cipher (0x%x) from %02x:%02x:%02x:%02x:%02x:%02x
+RSN IE: STA PMKID
+OKC match for PMKID
+PMKID found from PMKSA cache eap_type=%d vlan_id=%d
+WPA: EAPOL-Key Key Data underflow (ie=%d len=%d pos=%d)
+WPA: Key Data
+WPA: Unrecognized EAPOL-Key Key Data IE
+RSN: added PMKSA cache entry for %02x:%02x:%02x:%02x:%02x:%02x
+RSN: added PMKID
+RSN: expired PMKSA cache entry for %02x:%02x:%02x:%02x:%02x:%02x
+STA identity from PMKSA
+Copied %lu Class attribute(s) from PMKSA
+RSN: removed the oldest PMKSA cache entry (for %02x:%02x:%02x:%02x:%02x:%02x) to make room for new one
+Could not parse ProbeReq from %02x:%02x:%02x:%02x:%02x:%02x
+STA %02x:%02x:%02x:%02x:%02x:%02x sent probe request without SSID or supported rates element
+Probe Request from %02x:%02x:%02x:%02x:%02x:%02x for broadcast SSID ignored
+Probe Request from %02x:%02x:%02x:%02x:%02x:%02x for foreign SSID '%s' (DA %02x:%02x:%02x:%02x:%02x:%02x)
+handle_probe_req: send
+STA %02x:%02x:%02x:%02x:%02x:%02x sent probe request for %s SSID
+Failed to set beacon data
+Device is trying to offload Interworking Probe Response while not supporting this
+Failed to set beacon parameters
+ELOOP: remaining socket: sock=%d eloop_data=%p user_data=%p handler=%p
+eloop: could not process SIGINT or SIGTERM in two seconds. Looks like there
+is a bug that ends up in a busy loop that prevents clean shutdown.
+Killing program forcefully.
+ELOOP: Too long timeout (secs=%u) to ever happen - ignore it
+select
+ELOOP: remaining timeout: %d.%06d eloop_data=%p user_data=%p handler=%p
+%02X
+\x%02x
+%ld.%06u: 
+%s - hexdump(len=%lu):
+ [NULL]
+ %02x
+ [REMOVED]
+%s - hexdump_ascii(len=%lu): [REMOVED]
+%s - hexdump_ascii(len=%lu): [NULL]
+%s - hexdump_ascii(len=%lu):
+    
+wpa_msg: Failed to allocate message buffer
+%s: 
+wpa_msg_ctrl: Failed to allocate message buffer
+hostapd_logger: Failed to allocate message buffer
+hostapd_logger: STA %02x:%02x:%02x:%02x:%02x:%02x - %s
+hostapd_logger: %s
+wpabuf %p (size=%lu used=%lu) overflow len=%lu
+/dev/urandom
+Could not open /dev/urandom.
+IEEE 802.11 element parse failed (id=%d elen=%d left=%lu)
+short vendor specific information element ignored (len=%lu)
+short WMM information element ignored (len=%lu)
+unknown WMM information element ignored (subtype=%d len=%lu)
+Unknown Microsoft information element ignored (type=%d len=%lu)
+Unknown WFA information element ignored (type=%d len=%lu)
+Unknown Broadcom information element ignored (type=%d len=%lu)
+unknown vendor specific information element ignored (vendor OUI %02x:%02x:%02x len=%lu)
+IEEE 802.11 element parse ignored unknown element (id=%d elen=%d)
+Unknown WMM name '%s'
+txop_limit
+Invalid txop value %d
+Invalid acm value %d
+Unknown wmm_ac_ field '%s'
+wpa_parse_wpa_ie_rsn
+wpa_parse_wpa_ie_wpa
+WPA: PTK derivation - A1=%02x:%02x:%02x:%02x:%02x:%02x A2=%02x:%02x:%02x:%02x:%02x:%02x
+WPA: Nonce1
+WPA: Nonce2
+WPA: PMK
+WPA: PTK
+%s: ie len too short %lu
+%s: malformed ie or unknown version
+%s: ie length mismatch, %u too much
+%s: ie count botch (pairwise), count %u left %u
+%s: ie too short (for key mgmt)
+%s: ie count botch (key mgmt), count %u left %u
+%s: ie too short (for capabilities)
+%s: PMKID underflow (num_pmkid=%lu left=%d)
+%s: ie has %u trailing bytes - ignored
+PMK Name
+WEP-40
+WEP-104
+CCMP+TKIP
+WPA2+WPA/IEEE 802.1X/EAP
+WPA/IEEE 802.1X/EAP
+WPA2-PSK+WPA-PSK
+IEEE 802.1X (no WPA)
+WPA2-PSK
+WPA2/IEEE 802.1X/EAP
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x CTRL_DIR entering state IN_OR_BOTH
+Sending canned EAP packet %s (identifier %d)
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_PAE entering state FORCE_AUTH
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_PAE entering state FORCE_UNAUTH
+TxReq called, but there is no EAP request from authentication server
+EAPOL: Drop EAPOL TX to %02x:%02x:%02x:%02x:%02x:%02x while waiting for EAPOL-Start
+Sending EAP Packet (identifier %d)
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_PAE entering state DISCONNECTED
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_PAE entering state RESTART
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x BE_AUTH entering state IDLE
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x BE_AUTH entering state FAIL
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x BE_AUTH entering state SUCCESS
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x BE_AUTH entering state RESPONSE
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x BE_AUTH entering state REQUEST
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x BE_AUTH entering state TIMEOUT
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_KEY_TX entering state KEY_TRANSMIT
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x KEY_RX entering state KEY_RECEIVE
+ (pre-authentication)
+ (PMKSA cache)
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_PAE entering state INITIALIZE
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_PAE entering state CONNECTING
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_PAE entering state AUTHENTICATING
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_PAE entering state AUTHENTICATED
+authenticated - EAP type: %d (%s)%s
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_PAE entering state HELD
+authentication failed - EAP type: %d (%s)
+Supplicant used different EAP type: %d (%s)
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_PAE entering state ABORTING
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x BE_AUTH entering state INITIALIZE
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x BE_AUTH entering state IGNORE
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x REAUTH_TIMER entering state INITIALIZE
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x REAUTH_TIMER entering state REAUTHENTICATE
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x AUTH_KEY_TX entering state NO_KEY_TRANSMIT
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x KEY_RX entering state NO_KEY_RECEIVE
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x CTRL_DIR entering state FORCE_BOTH
+EAPOL: aaaEapResp set, but no aaaEapRespData available
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x - aWhile --> 0
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x - quietWhile --> 0
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x - reAuthWhen --> 0
+IEEE 802.1X: %02x:%02x:%02x:%02x:%02x:%02x - (EAP) retransWhile --> 0
+IEEE 802.1X state machine allocation failed
+[AUTH]
+[ASSOC]
+[PS]
+[TIM]
+[PERM]
+[AUTHORIZED]
+[PENDING_POLL
+[SHORT_PREAMBLE]
+[PREAUTH]
+[WMM]
+[MFP]
+[WPS]
+[MAYBE_WPS]
+[WDS]
+[NonERP]
+[WPS2]
+NULLFUNC POLL
+DEAUTH
+DISASSOC
+[RX RADIUS]
+Dump file not defined - ignoring dump request
+Dumping hostapd state to '%s'
+Could not open dump file '%s' for writing.
+hostapd state dump - %s
+num_sta=%d num_sta_non_erp=%d num_sta_no_short_slot_time=%d
+num_sta_no_short_preamble=%d
+STA=%02x:%02x:%02x:%02x:%02x:%02x
+  AID=%d flags=0x%x %s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s
+  capability=0x%x listen_interval=%d
+  supported_rates=
+%02x 
+  timeout_next=%s
+%sIEEE 802.1X:
+%sidentity=
+<%02x>
+%slast EAP type: Authentication Server: %d (%s) Supplicant: %d (%s)
+%scached_packets=%s
+Unauthorized
+Authorized
+Unknown
+REAUTHENTICATE
+NO_KEY_TRANSMIT
+KEY_TRANSMIT
+NO_KEY_RECEIVE
+FORCE_BOTH
+IN_OR_BOTH
+Both
+%sEAPOL state machine:
+%s  aWhile=%d quietWhile=%d reAuthWhen=%d
+%s  authAbort=%s authFail=%s authPortStatus=%s authStart=%s
+%s  authTimeout=%s authSuccess=%s eapFail=%s eapolEap=%s
+%s  eapSuccess=%s eapTimeout=%s initialize=%s keyAvailable=%s
+%s  keyDone=%s keyRun=%s keyTxEnabled=%s portControl=%s
+%s  portEnabled=%s portValid=%s reAuthenticate=%s
+%s  Authenticator PAE:
+%s    state=%s
+%s    eapolLogoff=%s eapolStart=%s eapRestart=%s
+%s    portMode=%s reAuthCount=%d
+%s    quietPeriod=%d reAuthMax=%d
+%s    authEntersConnecting=%d
+%s    authEapLogoffsWhileConnecting=%d
+%s    authEntersAuthenticating=%d
+%s    authAuthSuccessesWhileAuthenticating=%d
+%s    authAuthTimeoutsWhileAuthenticating=%d
+%s    authAuthFailWhileAuthenticating=%d
+%s    authAuthEapStartsWhileAuthenticating=%d
+%s    authAuthEapLogoffWhileAuthenticating=%d
+%s    authAuthReauthsWhileAuthenticated=%d
+%s    authAuthEapStartsWhileAuthenticated=%d
+%s    authAuthEapLogoffWhileAuthenticated=%d
+%s  Backend Authentication:
+%s    state=%s
+%s    eapNoReq=%s eapReq=%s eapResp=%s
+%s    serverTimeout=%d
+%s    backendResponses=%d
+%s    backendAccessChallenges=%d
+%s    backendOtherRequestsToSupplicant=%d
+%s    backendAuthSuccesses=%d
+%s    backendAuthFails=%d
+%s  Reauthentication Timer:
+%s    state=%s
+%s    reAuthPeriod=%d reAuthEnabled=%s
+%s  Authenticator Key Transmit:
+%s    state=%s
+%s  Key Receive:
+%s    state=%s
+%s    rxKey=%s
+%s  Controlled Directions:
+%s    state=%s
+%s    adminControlledDirections=%s operControlledDirections=%s
+%s    operEdge=%s
+FAIL
+TIMEOUT
+IGNORE
+DISCONNECTED
+CONNECTING
+AUTHENTICATING
+AUTHENTICATED
+ABORTING
+HELD
+FORCE_AUTH
+FORCE_UNAUTH
+RESTART
+ForceUnauthorized
+Auto
+ForceAuthorized
+Invalid ms key len %lu
+Failed to decrypt MPPE key
+Access-Request
+Access-Accept
+Access-Reject
+Accounting-Request
+Accounting-Response
+Access-Challenge
+Status-Server
+Status-Client
+Reserved
+Disconnect-Request
+Disconnect-ACK
+Disconnect-NAK
+CoA-Request
+CoA-ACK
+CoA-NAK
+?Unknown?
+RADIUS message: code=%d (%s) identifier=%d length=%d
+   Attribute %d (%s) length=%d
+      Value: '
+      Value: %s
+      Invalid IP address length %d
+      Value:
+      Value: %u
+      Invalid INT32 length %d
+RADIUS: Too long messages (%lu)
+Multiple Message-Authenticator attributes in RADIUS message
+radius_msg_add_attr: too long attribute (%lu bytes)
+RADIUS: Could not add Message-Authenticator
+RADIUS: Too long message (%lu)
+WARNING: Could not add Message-Authenticator
+RADIUS: Invalid message length
+RADIUS: Ignored %lu extra bytes after RADIUS message
+No Message-Authenticator attribute found
+Invalid Message-Authenticator!
+No matching Access-Request message found
+Response Authenticator invalid!
+leap:session-key=
+User-Name
+User-Password
+NAS-IP-Address
+NAS-Port
+Framed-MTU
+Reply-Message
+State
+Class
+Vendor-Specific
+Session-Timeout
+Idle-Timeout
+Termination-Action
+Called-Station-Id
+Calling-Station-Id
+NAS-Identifier
+Proxy-State
+Acct-Status-Type
+Acct-Delay-Time
+Acct-Input-Octets
+Acct-Output-Octets
+Acct-Session-Id
+Acct-Authentic
+Acct-Session-Time
+Acct-Input-Packets
+Acct-Output-Packets
+Acct-Terminate-Cause
+Acct-Multi-Session-Id
+Acct-Link-Count
+Acct-Input-Gigawords
+Acct-Output-Gigawords
+Event-Timestamp
+NAS-Port-Type
+Tunnel-Type
+Tunnel-Medium-Type
+Tunnel-Password
+Connect-Info
+EAP-Message
+Message-Authenticator
+Tunnel-Private-Group-Id
+Acct-Interim-Interval
+Chargeable-User-Identity
+NAS-IPv6-Address
+Error-Cause
+ [INVALID AUTHENTICATOR]
+recv[RADIUS]
+Received %d bytes from RADIUS server
+Possibly too long UDP frame for our buffer - dropping it
+Parsing incoming RADIUS frame failed
+Received RADIUS message
+No RADIUS RX handler found (type=%d code=%d id=%d)%s - dropping packet
+No matching RADIUS request found (type=%d id=%d) - dropping packet
+Received RADIUS packet matched with a pending request, round trip time %d.%02d sec
+Failed to set IP_MTU_DISCOVER: %s
+Removing pending RADIUS message, since its id (%d) is reused
+bind[radius]
+connect[radius]
+RADIUS local address: %s:%u
+Authentication
+%s server %s:%d
+Accounting
+socket[PF_INET,SOCK_DGRAM]
+Could not register read socket for accounting server
+Could not register read socket for authentication server
+send[RADIUS]
+Send failed - maybe interface status changed - try to connect again
+accounting
+Removing matching RADIUS message
+No accounting server configured
+No authentication server configured
+Sending RADIUS message to %s server
+Failed to add RADIUS packet into retransmit list
+Next RADIUS client retransmit in %ld seconds
+Removing the oldest un-ACKed RADIUS packet due to retransmit list limits.
+Resending RADIUS message (id=%d)
+Removing un-ACKed RADIUS message due to too many failed retransmit attempts
+No response from Authentication server %s:%d - failover
+No response from Accounting server %s:%d - failover
+Removing pending RADIUS authentication message for removed client
+radiusAuthServerIndex=%d
+radiusAuthServerAddress=%s
+radiusAuthClientServerPortNumber=%d
+radiusAuthClientRoundTripTime=%d
+radiusAuthClientAccessRequests=%u
+radiusAuthClientAccessRetransmissions=%u
+radiusAuthClientAccessAccepts=%u
+radiusAuthClientAccessRejects=%u
+radiusAuthClientAccessChallenges=%u
+radiusAuthClientMalformedAccessResponses=%u
+radiusAuthClientBadAuthenticators=%u
+radiusAuthClientPendingRequests=%u
+radiusAuthClientTimeouts=%u
+radiusAuthClientUnknownTypes=%u
+radiusAuthClientPacketsDropped=%u
+radiusAccServerIndex=%d
+radiusAccServerAddress=%s
+radiusAccClientServerPortNumber=%d
+radiusAccClientRoundTripTime=%d
+radiusAccClientRequests=%u
+radiusAccClientRetransmissions=%u
+radiusAccClientResponses=%u
+radiusAccClientMalformedResponses=%u
+radiusAccClientBadAuthenticators=%u
+radiusAccClientPendingRequests=%u
+radiusAccClientTimeouts=%u
+radiusAccClientUnknownTypes=%u
+radiusAccClientPacketsDropped=%u
+,7PY
+DAS: recvfrom: %s
+DAS: Received %d bytes from %s:%d
+DAS: Drop message from unknown client
+DAS: Parsing incoming RADIUS packet from %s:%d failed
+DAS: Invalid authenticator in packet from %s:%d - drop
+DAS: Unacceptable Event-Timestamp (%u; local time %u) in packet from %s:%d - drop
+DAS: Missing Event-Timestamp in packet from %s:%d - drop
+DAS: Unsupported attribute %u in Disconnect-Request from %s:%d
+DAS: Invalid Calling-Station-Id '%s' from %s:%d
+DAS: NAS mismatch from %s:%d
+DAS: Session not found for request from %s:%d
+DAS: Unexpected RADIUS code %u in packet from %s:%d
+DAS: Reply to %s:%d
+DAS: Failed to add Event-Timestamp attribute
+DAS: Failed to add Message-Authenticator attribute
+DAS: sendto(to %s:%d): %s
+bind
+Failed to open UDP socket for RADIUS DAS
+updated TX/RX stats: Acct-Input-Octets=%lu Acct-Input-Gigawords=%u Acct-Output-Octets=%lu Acct-Output-Gigawords=%u
+Could not add Acct-Session-Id
+Could not add Acct-Status-Type
+Could not add Acct-Authentic
+Could not add Class
+Could not add CUI from ACL
+Could not create RADIUS Accounting message
+Could not add Acct-Session-Time
+Could not add Acct-Input-Packets
+Could not add Acct-Output-Packets
+Could not add Acct-Input-Octets
+Could not add Acct-Input-Gigawords
+Could not add Acct-Output-Octets
+Could not add Acct-Output-Gigawords
+Could not add Event-Timestamp
+Could not add Acct-Terminate-Cause
+Incoming RADIUS packet did not have correct Authenticator - dropped
+starting accounting session %08X-%08X
+stopped accounting session %08X-%08X
+vlan_add_dynamic
+vlan_remove_dynamic
+VLAN: Could not set WEP encryption for dynamic VLAN
+VLAN: Could not add VLAN %s: %s
+VLAN: Could not remove VLAN iface: %s: %s
+VLAN: %s(vlan_id=%d ifname=%s)
+%s%d%s
+VLAN: %s(vlan_id=%d)
+recvfrom(ctrl_iface)
+PING
+PONG
+ADD 
+Adding interface %s failed
+REMOVE 
+Removing interface %s failed
+Unrecognized global ctrl_iface command ignored
+FAIL
+CTRL_IFACE monitor detached
+<%d>
+CTRL_IFACE monitor send
+CTRL_IFACE monitor[%d]: %d - %s
+%s/%s
+RX ctrl_iface
+RELOG
+STA-FIRST
+STA-NEXT 
+ATTACH
+CTRL_IFACE monitor attached
+DETACH
+LEVEL 
+CTRL_IFACE LEVEL %s
+CTRL_IFACE changed monitor level
+NEW_STA 
+CTRL_IFACE NEW_STA %s
+Add new STA %02x:%02x:%02x:%02x:%02x:%02x based on ctrl_iface notification
+DEAUTHENTICATE 
+DISASSOCIATE 
+ESS_DISASSOC 
+Failed to send BSS Transition Management Request frame
+GET_CONFIG
+bssid=%02x:%02x:%02x:%02x:%02x:%02x
+ssid=%s
+key_mgmt=
+WPA-PSK 
+WPA-EAP 
+group_cipher=CCMP
+group_cipher=GCMP
+group_cipher=TKIP
+rsn_pairwise_cipher=
+CCMP 
+GCMP 
+TKIP 
+wpa_pairwise_cipher=
+SET 
+CTRL_IFACE SET '%s'='%s'
+GET 
+CTRL_IFACE GET '%s'
+2.0-devel
+ENABLE
+Enabling of interface failed
+RELOAD
+Reloading of interface failed
+DISABLE
+Disabling of interface failed
+UNKNOWN COMMAND
+ctrl_iface already exists!
+Using existing control interface directory.
+mkdir[ctrl_interface]
+chown[ctrl_interface]
+socket(PF_UNIX)
+ctrl_iface bind(PF_UNIX) failed: %s
+ctrl_iface exists, but does not allow connections - assuming it was leftover from forced program termination
+unlink[ctrl_iface]
+Could not unlink existing ctrl_iface socket '%s'
+hostapd-ctrl-iface: bind(PF_UNIX)
+Successfully replaced leftover ctrl_iface socket '%s'
+ctrl_iface exists and seems to be in use - cannot override it
+Delete '%s' manually if it is not used anymore
+chown[ctrl_interface/ifname]
+chmod[ctrl_interface/ifname]
+Control interface directory not empty - leaving it behind
+rmdir[ctrl_interface]
+ctrl_iface not configured!
+%02x:%02x:%02x:%02x:%02x:%02x
+CTRL_IFACE DEAUTHENTICATE %s
+ test=
+CTRL_IFACE DISASSOCIATE %s
+wpa_driver_nl80211_set_operstate
+wpa_driver_nl80211_set_key
+wpa_driver_nl80211_disconnect
+wpa_driver_nl80211_disassociate
+wpa_driver_nl80211_deauthenticate
+wpa_driver_nl80211_send_mntr
+wpa_driver_nl80211_if_remove
+nl80211: RFKILL blocked
+nl80211: driver param='%s'
+nl80211: Event message available
+nl80211: Beacon event message available
+nl80211: survey data missing!
+nl80211: failed to parse nested attributes!
+sta stats missing!
+failed to parse nested attributes!
+nl80211: Survey data missing
+nl80211: Failed to parse nested attributes
+nl80211: Add own interface ifindex %d
+Failed to reallocate memory for interfaces
+Ignoring EAPOL on interface %d
+nl80211: Unsubscribe mgmt frames handle %p (%s)
+nl80211: Unexpected beacon event? (%d)
+nl80211: Deauth received from Unknown BSSID %02x:%02x:%02x:%02x:%02x:%02x -- ignoring
+nl80211: Remain-on-channel event (cancel=%d freq=%u channel_type=%u duration=%u cookie=0x%llx (%s))
+nl80211: Delete station %02x:%02x:%02x:%02x:%02x:%02x
+nl80211: if_removed already set - ignore event
+nl80211: Interface %s does not exist - ignore RTM_NEWLINK
+nl80211: if_removed already cleared - ignore event
+RTM_%sLINK, IFLA_IFNAME: Interface '%s' %s
+added
+nl80211: Failed to add the bridge interface %s: %s
+nl80211: Removing interface %s from bridge %s
+nl80211: Failed to remove interface %s from bridge %s: %s
+nl80211: Adding interface %s into bridge %s
+nl80211: Failed to add interface %s into bridge %s: %s
+recv
+nl80211: Using driver-based off-channel TX
+nl80211: Using driver-based roaming
+nl80211: Driver does not support authentication/association or connect commands
+nl80211: Use separate P2P group interface (driver advertised support)
+nl80211: Enable multi-channel concurrent (driver advertised support)
+nl80211: TDLS supported
+nl80211: TDLS external setup
+nl80211: Supports Probe Response offload in AP mode
+nl80211: %u interface(s) remain at nl80211_global_deinit
+%s: operstate %d->%d (%s)
+DORMANT
+nl80211: No regulatory information available
+nl80211: Regulatory information - country=%s
+nl80211: %u-%u @ %u MHz
+nl80211: Scan SSID
+nl80211: Scan extra IEs
+nl80211: Scan frequency %u MHz
+nl80211: Remove interface ifindex=%d
+Failed to remove interface (ifidx=%d)
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: Update ifindex for a removed interface
+nl80211: Ignore dellink event for foreign ifindex %d
+nl80211: Remove ifindex %u for bridge %s
+[UP]
+[RUNNING]
+[LOWER_UP]
+[DORMANT]
+nl80211: Ignore event for foreign ifindex %d
+RTM_NEWLINK: operstate=%d ifi_flags=0x%x (%s%s%s%s)
+nl80211: Ignore interface down event since interface %s is up
+nl80211: Interface down
+nl80211: Ignore interface down event generated by mode change
+nl80211: Ignore interface up event since interface %s is down
+nl80211: Ignore interface up event since interface %s does not exist
+nl80211: Ignore interface up event since interface %s is marked removed
+nl80211: Interface up
+nl80211: Add ifindex %u for bridge %s
+nl80211: Sched scan stop failed: ret=%d (%s)
+nl80211: Sched scan stop sent (ret=%d)
+nl80211: Operating frequency for the associated BSS from scan results: %u MHz
+nl80211: Scan result fetch failed: ret=%d (%s)
+nl80211: Get shared freq for PHY %s
+nl80211: Found a match for PHY %s - %s %02x:%02x:%02x:%02x:%02x:%02x
+nl80211: Shared freq for PHY %s: %d
+nl80211: No shared interface for PHY (%s) in associated state
+nl80211: Set mode ifindex %d iftype %d (%s)
+nl80211: Failed to set interface %d to mode %d: %d (%s)
+nl80211: No pending remain-on-channel to cancel
+nl80211: Cancel remain-on-channel with cookie 0x%llx
+nl80211: Failed to cancel remain-on-channel: %d (%s)
+nl80211: Remain-on-channel cookie 0x%llx for freq=%u MHz duration=%u
+nl80211: Failed to request remain-on-channel (freq=%d duration=%u): %d (%s)
+nl80211: wait cancel failed: ret=%d (%s)
+nl80211: Failed to set fragmentation threshold %d: %d (%s)
+nl80211: Failed to set RTS threshold %d: %d (%s)
+nl80211: Leave IBSS failed: ret=%d (%s)
+nl80211: Leave IBSS request sent successfully
+nl80211: Signal monitor threshold=%d hysteresis=%d
+nl80211: Sched scan filter SSID
+nl80211: Sched scan RSSI filter %d dBm
+nl80211: Sched scan start failed: ret=%d (%s)
+nl80211: Sched scan requested (ret=%d) - scan interval %d msec
+$0H`l
+nl80211: Set TX rates failed: ret=%d (%s)
+nl80211: NL80211_ATTR_STA_VLAN (addr=%02x:%02x:%02x:%02x:%02x:%02x ifname=%s vlan_id=%d) failed: %d (%s)
+nl80211: NL80211_CMD_%s_STATION result: %d (%s)
+nl80211: Station flush failed: ret=%d (%s)
+nl80211: Set beacon (beacon_set=%d)
+nl80211: Beacon set failed: %d (%s)
+nl80211: Flush PMKIDs
+nl80211: Delete PMKID for %02x:%02x:%02x:%02x:%02x:%02x
+nl80211: Add PMKID for %02x:%02x:%02x:%02x:%02x:%02x
+%s: ifindex=%d alg=%d addr=%p key_idx=%d set_tx=%d seq_len=%lu key_len=%lu
+%s: Unsupported encryption algorithm %d
+   addr=%02x:%02x:%02x:%02x:%02x:%02x
+   RSN IBSS RX GTK
+   broadcast key
+nl80211: set_key failed; err=%d %s)
+nl80211: set_key default failed; err=%d %s)
+nl80211: Create interface iftype %d (%s)
+Failed to create interface %s: %d (%s)
+nl80211: New interface %s created: ifindex=%d
+Try to remove and re-create %s
+nl80211: MLME command failed: reason=%u ret=%d (%s)
+%s(addr=%02x:%02x:%02x:%02x:%02x:%02x reason_code=%d)
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Received scan results (%lu BSSes)
+nl80211: set_p2p_powersave (legacy_ps=%d opp_ps=%d ctwindow=%d)
+nl80211: CMD_FRAME freq=%u wait=%u no_cck=%d no_ack=%d offchanok=%d
+nl80211: Frame command failed: ret=%d (%s) (freq=%u wait=%u)
+nl80211: Frame TX command accepted%s; cookie 0x%llx
+ (no ACK)
+nl80211: Set freq %d (ht_enabled=%d sec_channel_offset=%d)
+nl80211: Failed to set channel (freq=%d): %d (%s)
+nl80211: Register frame type=0x%x nl_handle=%p
+nl80211: Register frame match
+nl80211: Register frame command failed (type=%u): ret=%d (%s)
+nl80211: Associated on %u MHz
+nl80211: Associated with %02x:%02x:%02x:%02x:%02x:%02x
+nl80211: Remove duplicated scan result for %02x:%02x:%02x:%02x:%02x:%02x
+nl80211: No monitor socket available for %s
+nl80211: sendmsg: %s
+nl80211: Send Action frame (ifindex=%d, freq=%u MHz wait=%d ms no_cck=%d)
+nl80211: Unsupported send_ft_action action %d
+nl80211_send_null_frame: Failed to send poll frame
+nl80211: Failed to set interface up on resume event
+nl80211: RFKILL unblocked
+nl80211: Could not set interface UP after rfkill unblock
+nl80211: Failed to allocate netlink callbacks (%s)
+nl80211: Failed to connect to generic netlink (%s)
+nl80211: Mgmt reporting already on! (nl_mgmt=%p)
+nl80211: Skip disabling of Probe Request reporting nl_preq=%p while in AP mode
+nl80211: Disable Probe Request reporting nl_preq=%p
+nl80211: Probe Request reporting already on! nl_preq=%p
+preq
+nl80211: Enable Probe Request reporting nl_preq=%p
+received invalid radiotap frame
+received invalid radiotap frame (%d)
+CTRL
+nl80211: Setup AP - device_ap_sme=%d use_monitor=%d
+nl80211: Subscribe to mgmt frames with AP handle %p
+nl80211: Register spurious class3 failed: ret=%d (%s)
+wiphy beacons
+nl80211: Register beacons command failed: ret=%d (%s)
+nl80211: Subscribe to mgmt frames with AP handle %p (device SME)
+p2p-
+mon-%s
+mon.%s
+nl80211: Driver does not support monitor interface type - try to run without it
+socket[PF_PACKET,SOCK_RAW]
+SO_ATTACH_FILTER
+Failed to set socket filter for monitor interface; do filtering in user space
+monitor socket bind
+Failed to set socket priority
+Could not register monitor read socket
+nl80211: Failed to enable Probe Request frame reporting in AP mode
+nl80211: Failed to add the new interface %s to a bridge %s
+AP teardown (dev SME)
+AP teardown
+nl80211: Interface already in requested mode - ignore error
+nl80211: Try mode change after setting interface down
+nl80211: Failed to set interface down
+nl80211: Mode change succeeded while interface is down
+start AP
+mode change
+nl80211: Subscribe to mgmt frames with non-AP handle %p
+nl80211: Interface mode change to %d from %d failed
+nl80211: Failed to register Action frame processing - ignore for now
+Scan timeout - try to get results
+nl80211: P2P probe - mask SuppRates
+nl80211: Scan trigger failed: ret=%d (%s)
+Scan requested (ret=%d) - scan timeout %d seconds
+nl80211: %s(type=%d ifname=%s) ifindex=%d
+nl80211: Failed to remove bridge %s: %s
+nl80211: %s - could not find BSS %p in the list
+%s.sta%d
+nl80211: Set WDS STA addr=%02x:%02x:%02x:%02x:%02x:%02x aid=%d val=%d name=%s
+nl80211: Failed to set WDS STA interface %s up
+deinit
+ [auth]
+ [assoc]
+nl80211: Setup AP operations for P2P group (GO)
+nl80211: Join IBSS (ifindex=%d)
+nl80211: Failed to set interface into IBSS mode
+  * SSID
+  * freq=%d
+  * BSSID=%02x:%02x:%02x:%02x:%02x:%02x
+  * control port
+  * Extra IEs for Beacon/Probe Response frames
+nl80211: Join IBSS failed: ret=%d (%s)
+nl80211: Retry IBSS join after forced leave
+nl80211: Join IBSS request sent successfully
+nl80211: Connect (ifindex=%d)
+  * bssid=%02x:%02x:%02x:%02x:%02x:%02x
+  * bg scan period=%d
+  * IEs
+  * Leave out Auth Type for automatic selection
+  * Auth Type %d
+  * WPA Versions 0x%x
+nl80211: MLME connect failed: ret=%d (%s)
+nl80211: Connect request send successfully
+nl80211: Associate (ifindex=%d)
+  * pairwise=0x%x
+  * group=0x%x
+  * prev_bssid=%02x:%02x:%02x:%02x:%02x:%02x
+  * P2P group
+nl80211: MLME command failed (assoc): ret=%d (%s)
+nl80211: Failed to get scan results
+nl80211: Scan result dump
+nl80211: %d/%d %02x:%02x:%02x:%02x:%02x:%02x%s%s
+nl80211: Association request send successfully
+nl80211: No socket to send EAPOL
+nl80211: EAPOL TX: %s
+malloc() failed for i802_send_data(len=%lu)
+i802_send_eapol - packet len: %lu - failed: %d (%s)
+nl80211: Clear possible state mismatch (%02x:%02x:%02x:%02x:%02x:%02x)
+nl80211: Scan results indicates BSS status with %02x:%02x:%02x:%02x:%02x:%02x as authenticated
+nl80211: Unknown BSSID in local state (auth=%02x:%02x:%02x:%02x:%02x:%02x assoc=%02x:%02x:%02x:%02x:%02x:%02x)
+nl80211: Scan results indicate BSS status with %02x:%02x:%02x:%02x:%02x:%02x as associated
+nl80211: Local state (not associated) does not match with BSS state
+nl80211: Local state (associated with %02x:%02x:%02x:%02x:%02x:%02x) does not match with BSS state
+nl80211: Failed to alloc cb struct
+/sys/class/net/%s/phy80211/name
+Could not open file %s: %s
+Could not read file %s: %s
+nl80211: interface %s in phy %s
+nl80211: RFKILL status not available
+nl80211: wifi status sockopt failed
+nl80211: Interface %s is in bridge %s
+nl80211: Failed to set interface %s into AP mode
+socket(PF_PACKET, SOCK_DGRAM, ETH_P_PAE)
+Could not register read socket for eapol
+nl80211: Authenticate (ifindex=%d)
+  * Local state change only
+nl80211: MLME command failed (auth): ret=%d (%s)
+nl80211: Retry authentication after forced deauthentication
+nl80211: Trigger single channel scan to refresh cfg80211 BSS entry
+nl80211: Authentication retry failed
+nl80211: Authentication request send successfully
+nl80211: Scan results for missing cfg80211 BSS entry
+nl80211: Try to authenticate again
+nlctrl
+nl80211
+nl80211: Failed to allocate netlink callbacks
+nl80211: 'nl80211' generic netlink not found
+scan
+nl80211: Could not add multicast membership for scan events: %d (%s)
+mlme
+nl80211: Could not add multicast membership for mlme events: %d (%s)
+regulatory
+nl80211: Could not add multicast membership for regulatory events: %d (%s)
+socket(PF_INET,SOCK_DGRAM)
+nl80211: New station %02x:%02x:%02x:%02x:%02x:%02x
+nl80211: Assoc Req IEs
+ (match)
+ (unknown)
+nl80211: MLME event %d; timeout with %02x:%02x:%02x:%02x:%02x:%02x
+nl80211: MLME event %d without frame data
+nl80211: MLME event %d
+nl80211: MLME event frame
+nl80211: Too short association event frame
+nl80211: Too short action frame
+nl80211: Action TX status: cookie=0%llx%s (ack=%d)
+nl80211: Ignored unknown event (cmd=%d)
+nl80211: Scan trigger
+nl80211: Sched scan started
+nl80211: Sched scan stopped
+nl80211: New scan results available
+nl80211: New sched scan results available
+nl80211: Scan aborted
+nl80211: Ignore connect event (cmd=%d) when using userspace SME
+nl80211: Channel switch event
+nl80211: Ignore disconnect event when using userspace SME
+nl80211: MLME event Michael MIC failure
+nl80211: Source MAC address
+nl80211: TSC
+nl80211: Key Type %d
+nl80211: Key Id %d
+nl80211: No address in IBSS joined event
+nl80211: IBSS %02x:%02x:%02x:%02x:%02x:%02x joined
+nl80211: Ignore invalid CQM event
+nl80211: Connection quality monitor event: RSSI high
+nl80211: Connection quality monitor event: RSSI low
+nl80211: Signal: %d dBm  txrate: %d
+nl80211: Noise: %d dBm
+nl80211: Regulatory domain change
+nl80211: Regulatory beacon hint
+nl80211: Rekey offload event for BSSID %02x:%02x:%02x:%02x:%02x:%02x
+nl80211: Rekey offload - Replay Counter
+nl80211: Ignored event (cmd=%d) for foreign interface (ifindex %d)
+ADHOC
+STATION
+MONITOR
+P2P_CLIENT
+P2P_GO
+Linux nl80211/cfg80211
+netlink: recvfrom failed: %s
+netlink: %d extra bytes in the end of netlink message
+netlink: Failed to open netlink socket: %s
+netlink: Failed to bind netlink socket: %s
+netlink: Operstate: linkmode=%d, operstate=%d
+netlink: Sending operstate IFLA failed: %s (assume operstate is not supported)
+DOWN
+Could not read interface %s flags: %s
+Could not set interface %s flags (%s): %s
+Could not get interface %s hwaddr: %s
+%s: Invalid HW-addr family 0x%04x
+Could not set interface %s hwaddr: %s
+Could not add bridge %s: %s
+Could not remove bridge %s: %s
+Could not add interface %s into bridge %s: %s
+Could not remove interface %s from bridge %s: %s
+/sys/class/net/%s/brport/bridge
+rfkill: Event read failed: %s
+rfkill: Unexpected event size %d (expected %d)
+rfkill: event: idx=%u type=%d op=%u soft=%u hard=%u
+rfkill: WLAN hard blocked
+rfkill: WLAN soft blocked
+rfkill: WLAN unblocked
+/dev/rfkill
+rfkill: Cannot open RFKILL control device
+rfkill: Cannot set non-blocking mode: %s
+rfkill: initial event: idx=%u type=%d op=%u soft=%u hard=%u
+EAP: parseEapResp: invalid resp=%p len=%lu
+EAP: Ignored truncated EAP-Packet (len=%lu plen=%lu)
+EAP: Ignored truncated expanded EAP-Packet (plen=%lu)
+EAP: parseEapResp: rxResp=%d respId=%d respMethod=%u respVendor=%u respVendorMethod=%u
+EAP: EAP entering state INITIALIZE
+CTRL-EVENT-EAP-STARTED %02x:%02x:%02x:%02x:%02x:%02x
+EAP: retransmit timeout %d seconds (from EAP method hint)
+EAP: retransmit timeout %d seconds (from dynamic back off; retransCount=%d)
+EAP: EAP entering state FAILURE
+EAP: Building EAP-Failure (id=%d)
+CTRL-EVENT-EAP-FAILURE %02x:%02x:%02x:%02x:%02x:%02x
+EAP: EAP entering state AAA_REQUEST
+EAP: AAA_REQUEST - no eapRespData
+EAP: EAP entering state IDLE2
+EAP: EAP entering state PROPOSE_METHOD
+EAP: Failed to initialize EAP method %d
+CTRL-EVENT-EAP-PROPOSED-METHOD vendor=%u method=%u
+EAP: getNextMethod: vendor %d type %d
+EAP: EAP entering state METHOD_REQUEST
+EAP: method not initialized
+EAP: building EAP-Request: Identifier %d
+EAP: EAP entering state IDLE
+EAP: EAP entering state SELECT_ACTION
+EAP: getDecision: -> PASSTHROUGH
+EAP: getDecision: method succeeded -> SUCCESS
+EAP: getDecision: method failed -> FAILURE
+EAP: getDecision: user not found from database -> FAILURE
+EAP: getDecision: stop identity request loop -> FAILURE
+EAP: getDecision: another method available -> CONTINUE
+EAP: getDecision: no identity known yet -> CONTINUE
+EAP: getDecision: no more methods available -> FAILURE
+EAP: processing NAK (current EAP method index %d)
+EAP: configured methods
+EAP: list of methods supported by the peer
+EAP: new list of configured methods
+EAP: EAP-Nak received after Phase2 user info was selected - reject
+EAP: EAP entering state NAK
+EAP: EAP entering state METHOD_RESPONSE
+EAP: EAP entering state DISABLED
+EAP: more than %d authentication rounds - abort
+EAP: EAP entering state PICK_UP_METHOD
+CTRL-EVENT-EAP-PROPOSED-METHOD method=%u
+EAP: EAP entering state RETRANSMIT
+EAP: EAP entering state RECEIVED
+EAP: EAP entering state TIMEOUT_FAILURE
+EAP: EAP entering state INTEGRITY_CHECK
+EAP: RECEIVED->DISCARD: rxResp=%d respId=%d currentId=%d respMethod=%d currentMethod=%d
+EAP: EAP entering state DISCARD
+EAP: EAP entering state SEND_REQUEST
+EAP: SEND_REQUEST - no eapReqData
+EAP: Method has pending processing - wait before proceeding to METHOD_REQUEST state
+EAP: Method has completed pending processing - reprocess pending EAP message
+EAP: EAP entering state SUCCESS
+EAP: Building EAP-Success (id=%d)
+CTRL-EVENT-EAP-SUCCESS %02x:%02x:%02x:%02x:%02x:%02x
+EAP: EAP entering state INITIALIZE_PASSTHROUGH
+EAP: EAP entering state AAA_IDLE
+EAP: EAP entering state RECEIVED2
+EAP: EAP entering state RETRANSMIT2
+EAP: EAP entering state TIMEOUT_FAILURE2
+EAP: EAP entering state DISCARD2
+EAP: EAP entering state SEND_REQUEST2
+EAP: SEND_REQUEST2 - no eapReqData
+EAP: EAP entering state FAILURE2
+EAP: EAP entering state SUCCESS2
+EAP: EAP entering state AAA_RESPONSE
+EAP: getId: id=%d
+EAP: Server state machine created
+EAP: Server state machine removed
+EAP: Callback for pending request received
+EAP: Too short EAP frame
+EAP: Invalid EAP length
+EAP: Invalid expanded EAP length
+EAP: Invalid expanded frame type
+EAP: Invalid frame type
+expanded
+EAP-Identity: Invalid frame
+EAP-Identity: failed to pick up already started negotiation
+EAP-Identity: Peer identity
+EAP-Identity: Failed to allocate memory for request
+P00`
+}++V
+=j&&LZ66lA??~
+\44h
+S11b?
+e##F^
+i''N
+t,,X.
+M;;va
+}{))R>
+q//^
+`  @
+gK99r
+U33f
+D<<x
+!H88p
+c!!B0
+G==z
+f""D~**T
+V22dN::t
+l$$H
+Y77n
+o%%Jr..\$
+B>>|
+_55j
+x((Pz
+)w--Z
+,R	j
+lpHP
+QSeA~
+!tX)i
+XhHp
+NrZl
+='9-6d
+:.6$
+aiKwZ
+;fD4~
+[v)C
+cB@"
+_jbF~T
+11#?*0
+,4$8_@
+I<(A
+t\lHBW
+random_mix_pool
+Add randomness: count=%u entropy=%u
+random pool
+Get randomness: len=%u entropy=%u
+random from os_get_random
+random from internal pool
+mixed random
+random: Could not open entropy file %s for writing
+random: Could not write entropy data to %s
+random: Updated entropy file %s (own_pool_ready=%u)
+random: Cannot read from /dev/random: %s
+random: Got %u/%u bytes from /dev/random
+open(/dev/random)
+random: Cannot open /dev/random: %s
+random: Only %u/%u bytes of strong random data available from /dev/random
+random: Allow operation to proceed based on internal entropy
+random: Not enough entropy pool available for secure operations
+random: Mark internal entropy pool to be ready (count=%u/%u)
+random: Invalid entropy file %s
+random: Added entropy from %s (own_pool_ready=%u)
+random: Trying to read entropy from /dev/random
+WMM IE
+Too short WMM IE (len=%lu)
+Validating WMM IE: OUI %02x:%02x:%02x  OUI type %d  OUI sub-type %d  version %d  QoS info 0x%x
+Unsupported WMM IE Subtype/Version
+ (fixed)
+WMM: TS Info: UP=%d PSB=%d Direction=%d TID=%d
+WMM: Nominal MSDU Size: %d%s
+WMM: Mean Data Rate: %u bps
+WMM: Minimum PHY Rate: %u bps
+WMM: Surplus Bandwidth Allowance: %u.%04u
+WMM: Invalid Nominal MSDU Size (0)
+WMM: Packets-per-second estimate for TSPEC: %d
+WMM: Too small Minimum PHY Rate
+WMM: Surplus Bandwidth Allowance not greater than unity
+WMM: Estimated medium time: %u
+wmm action received is not from associated wmm station
+hostapd_wmm_action - could not parse wmm action
+hostapd_wmm_action - missing or wrong length tspec
+WMM: TSPEC overflow in ADDTS Request
+WMM: ADDTS Request (Dialog Token %d) for TSPEC from %02x:%02x:%02x:%02x:%02x:%02x
+WMM: ADDTS processing result: %d
+action response - reason %d
+wmm_send_action: send
+hostapd_wmm_action - unknown action code %d
+AP: could not remove AP %02x:%02x:%02x:%02x:%02x:%02x from hash table
+OLBC not detected anymore
+OLBC HT not detected anymore
+Removing the least recently used AP %02x:%02x:%02x:%02x:%02x:%02x from AP table
+OLBC AP detected: %02x:%02x:%02x:%02x:%02x:%02x - enable protection
+OLBC HT AP detected: %02x:%02x:%02x:%02x:%02x:%02x - enable protection
+Failed to allocate AP information entry
+handle_assoc_cb(reassoc=%d) - too short payload (len=%lu)
+handle_assoc_cb: STA %02x:%02x:%02x:%02x:%02x:%02x not found
+did not acknowledge association response
+associated (aid %d)
+Could not add STA to kernel driver
+Failed to send assoc resp: %s
+handle_assoc(reassoc=%d) - too short payload (len=%lu)
+reassociation request: STA=%02x:%02x:%02x:%02x:%02x:%02x capab_info=0x%02x listen_interval=%d current_ap=%02x:%02x:%02x:%02x:%02x:%02x
+association request: STA=%02x:%02x:%02x:%02x:%02x:%02x capab_info=0x%02x listen_interval=%d
+Station tried to associate before authentication (aid=%d flags=0x%x)
+Failed to send deauth: %s
+Too large Listen Interval (%d)
+Station sent an invalid association request
+Station tried to associate with unknown SSID '%s'
+invalid WMM element in association request
+No supported rates element in AssocReq
+Invalid supported rates element length %d+%d
+Station does not support mandatory HT PHY - reject association
+No WPA/RSN IE in association request
+Station tried to use TKIP with HT association
+  old AID %d
+  new AID %d
+No room for more AIDs
+association OK (aid %d)
+ challenge
+handle_beacon - too short payload (len=%lu)
+MGMT: BSSID=%02x:%02x:%02x:%02x:%02x:%02x not our address
+MGMT: DA=%02x:%02x:%02x:%02x:%02x:%02x not our address
+mgmt::auth
+handle_auth - too short payload (len=%lu)
+authentication: STA=%02x:%02x:%02x:%02x:%02x:%02x auth_alg=%d auth_transaction=%d status_code=%d wep=%d%s
+Unsupported authentication algorithm (%d)
+Unknown authentication transaction number (%d)
+Station %02x:%02x:%02x:%02x:%02x:%02x not allowed to authenticate.
+Authentication frame from %02x:%02x:%02x:%02x:%02x:%02x waiting for an external authentication
+Invalid VLAN ID %d received from RADIUS server
+authentication OK (open system)
+authentication (shared key, transaction %d)
+shared key authentication - invalid challenge-response
+authentication OK (shared key)
+authentication reply: STA=%02x:%02x:%02x:%02x:%02x:%02x auth_alg=%d auth_transaction=%d resp=%d (IE len=%lu)
+send_auth_reply: send
+mgmt::assoc_req
+mgmt::reassoc_req
+mgmt::disassoc
+handle_disassoc - too short payload (len=%lu)
+disassocation: STA=%02x:%02x:%02x:%02x:%02x:%02x reason_code=%d
+Station %02x:%02x:%02x:%02x:%02x:%02x trying to disassociate, but it is not associated.
+mgmt::deauth
+handle_deauth - too short payload (len=%lu)
+deauthentication: STA=%02x:%02x:%02x:%02x:%02x:%02x reason_code=%d
+Station %02x:%02x:%02x:%02x:%02x:%02x trying to deauthenticate, but it is not authenticated
+deauthenticated
+mgmt::action
+handle_action - too short payload (len=%lu)
+handle_action - unknown action category %d or invalid frame
+IEEE 802.11: Return unknown Action frame back to sender
+IEEE 802.11: Failed to send Action frame
+unknown mgmt frame subtype %d
+mgmt::auth cb
+did not acknowledge authentication response
+handle_auth_cb - too short payload (len=%lu)
+handle_auth_cb: STA %02x:%02x:%02x:%02x:%02x:%02x not found
+authenticated
+mgmt::assoc_resp cb
+mgmt::reassoc_resp cb
+mgmt::proberesp cb
+mgmt::deauth cb
+handle_deauth_cb: STA %02x:%02x:%02x:%02x:%02x:%02x not found
+STA %02x:%02x:%02x:%02x:%02x:%02x acknowledged deauth
+STA %02x:%02x:%02x:%02x:%02x:%02x did not acknowledge deauth
+mgmt::disassoc cb
+handle_disassoc_cb: STA %02x:%02x:%02x:%02x:%02x:%02x not found
+STA %02x:%02x:%02x:%02x:%02x:%02x acknowledged disassoc
+STA %02x:%02x:%02x:%02x:%02x:%02x did not acknowledge disassoc
+mgmt::action cb
+unknown mgmt cb frame subtype %d
+STA %02x:%02x:%02x:%02x:%02x:%02x %s pending activity poll
+did not ACK
+ACKed
+Ignore TX status for Data frame to STA %02x:%02x:%02x:%02x:%02x:%02x that is not currently associated
+STA %02x:%02x:%02x:%02x:%02x:%02x ACKed pending activity poll
+Enable 4-address WDS mode for STA %02x:%02x:%02x:%02x:%02x:%02x (aid %u)
+Data/PS-poll frame from not associated STA %02x:%02x:%02x:%02x:%02x:%02x
+Association Response to the STA has already been sent, but no TX status yet known - ignore Class 3 frame issue with %02x:%02x:%02x:%02x:%02x:%02x
+HT40: control channel: %d  secondary channel: %d
+HT40 secondary channel %d not allowed
+HT40 channel pair (%d, %d) not allowed
+Switch own primary and secondary channel to get secondary channel with no Beacons from other BSSes
+Switch own primary and secondary channel due to BSS overlap with %02x:%02x:%02x:%02x:%02x:%02x
+40 MHz affected channel range: [%d,%d] MHz
+Neighboring BSS: %02x:%02x:%02x:%02x:%02x:%02x freq=%d pri=%d sec=%d
+40 MHz pri/sec mismatch with BSS %02x:%02x:%02x:%02x:%02x:%02x <%d,%d> (chan=%d%c) vs. <%d,%d>
+20/40 MHz operation not permitted on channel pri=%d sec=%d based on overlapping BSSes
+Fetching hardware channel/rate support not supported.
+Allowed channel: mode=%d chan=%d freq=%d MHz max_tx_power=%d dBm
+Failed to allocate memory for rate table.
+RATE[%d] rate=%d flags=0x%x
+No rates remaining in supported/basic rate sets (%d,%d).
+Driver does not support configured HT capability [LDPC]
+Driver does not support configured HT capability [HT40*]
+Driver does not support configured HT capability [SMPS-*]
+Driver does not support configured HT capability [GF]
+Driver does not support configured HT capability [SHORT-GI-20]
+Driver does not support configured HT capability [SHORT-GI-40]
+Driver does not support configured HT capability [TX-STBC]
+Driver does not support configured HT capability [RX-STBC*]
+Driver does not support configured HT capability [DELAYED-BA]
+Driver does not support configured HT capability [MAX-AMSDU-7935]
+Driver does not support configured HT capability [DSSS_CCK-40]
+Driver does not support configured HT capability [PSMP]
+Driver does not support configured HT capability [LSIG-TXOP-PROT]
+Scan for neighboring BSSes prior to enabling 40 MHz channel
+Failed to request a scan of neighboring BSSes
+ NO-IBSS
+ PASSIVE-SCAN
+ RADAR
+Hardware does not support configured mode
+Hardware does not support configured mode (%d) (hw_mode in hostapd.conf)
+channel [%i] (%i) is disabled for use in AP mode, flags: 0x%x%s%s%s
+Configured HT40 secondary channel (%d) not found from the channel list of current mode (%d) %s
+Channel not configured (hw_mode/channel in hostapd.conf)
+Configured channel (%d) not found from the channel list of current mode (%d) %s
+Hardware does not support configured channel
+IEEE 802.11b
+IEEE 802.11g
+IEEE 802.11a
+hostapd_ht_operation_update
+update_sta_ht
+update_sta_no_ht
+%s current operation mode=0x%X
+%s new operation mode=0x%X changes=%d
+HT: STA %02x:%02x:%02x:%02x:%02x:%02x HT Capabilities Info: 0x%04x
+%s STA %02x:%02x:%02x:%02x:%02x:%02x - no greenfield, num of non-gf stations %d
+%s STA %02x:%02x:%02x:%02x:%02x:%02x - 20 MHz HT, num of 20MHz HT STAs %d
+%s STA %02x:%02x:%02x:%02x:%02x:%02x - no HT, num of non-HT stations %d
+ASSOC
+MICHAEL_MIC_FAILURE
+SCAN_RESULTS
+ASSOCINFO
+INTERFACE_STATUS
+PMKID_CANDIDATE
+STKSTART
+TDLS
+FT_RESPONSE
+IBSS_RSN_START
+ASSOC_REJECT
+AUTH_TIMED_OUT
+ASSOC_TIMED_OUT
+FT_RRB_RX
+WPS_BUTTON_PUSHED
+TX_STATUS
+RX_FROM_UNKNOWN
+RX_MGMT
+RX_ACTION
+REMAIN_ON_CHANNEL
+CANCEL_REMAIN_ON_CHANNEL
+MLME_RX
+RX_PROBE_REQ
+NEW_STA
+EAPOL_RX
+SIGNAL_CHANGE
+INTERFACE_ENABLED
+INTERFACE_DISABLED
+CHANNEL_LIST_CHANGED
+INTERFACE_UNAVAILABLE
+BEST_CHANNEL
+UNPROT_DEAUTH
+UNPROT_DISASSOC
+STATION_LOW_ACK
+P2P_DEV_FOUND
+P2P_GO_NEG_REQ_RX
+P2P_GO_NEG_COMPLETED
+P2P_PROV_DISC_REQUEST
+P2P_PROV_DISC_RESPONSE
+P2P_SD_REQUEST
+P2P_SD_RESPONSE
+IBSS_PEER_LOST
+DRIVER_GTK_REKEY
+SCHED_SCAN_STOPPED
+DRIVER_CLIENT_POLL_OK
+EAPOL_TX_STATUS
+CH_SWITCH
+GCC: (Hisilicon_v600_20180525) 4.9.4 20150629 (prerelease)
+aeabi
+ARM926EJ-S
+.shstrtab
+.interp
+.note.ABI-tag
+.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.ARM.exidx
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.dynamic
+.got
+.data
+.bss
+.comment
+.ARM.attributes

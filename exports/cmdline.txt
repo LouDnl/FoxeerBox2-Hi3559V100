@@ -1,0 +1,1 @@
+mem=128M lpj=240000 console=ttyAMA0 clk_ignore_unused quiet ro root=/dev/mtdblock7 rootfstype=squashfs mtdparts=hi_sfc:128K(mini-u-boot.bin),704K(u-boot.bin),64k(rawparam),64k(rawparam1),256k(paramdef),2560k(miniuImage),3M(media_app_zip.bin),8M(rootfs.squashfs),832k(privatefs.jffs2)

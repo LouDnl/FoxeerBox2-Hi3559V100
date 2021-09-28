@@ -1,0 +1,1455 @@
+System startup
+ujiz
+oady
+mmmm
+0000
+Gate
+DDRT
+HWRD
+Dataeye
+LPCA
+ Err:
+Byte
+DDRTR 
+ B0!
+ B0!
+ B0!
+)BSD
+`c P
+	0TO
+J)TO
+J)TO
+J)TO
+	0TO
+J)TO	0TO
+I)TO
+	0TO
+	0TOJ)TOp@-
+	0TO
+	0TO
+lcyc
+scycecyc
+headgzip
+'0@-
+USBC
+USBSL
+NWOD
+BT2\
+spi_nand_feature_op
+spi_general_qe_enable
+spi_general_write_enable
+spi_general_wait_ready
+hifmc100_spi_ids_probe
+spi_general_get_flash_register
+spi_general_entry_4addr
+spi_general_write_enable
+spi_general_wait_ready
+spi_w25q256fv_entry_4addr
+spi_micron_entry_4addr
+spi_s25fl256s_entry_4addr
+spi_nor_reset_pin_enable
+spi_gd25qxxx_qe_enable
+spi_mx25l25635e_qe_enable
+spi_w25q256fv_qe_enable
+spi_general_qe_enable
+hifmc_spi_nor_probe
+ n;^
+Qkkbal
+i]Wb
+9a&g
+MGiI
+wn>Jj
+#.zf
++o*7
+-0123456789ABCDEF
+0123456789abcdef
+hifmc100_ecc_probe
+hifmc100_dev_ready
+hifmc100_send_cmd_erase
+hifmc100_send_cmd_reset
+hifmc100_send_cmd_pageprog
+hifmc100_send_cmd_readstart
+hifmc100_send_cmd_readid
+hifmc100_ecc0_switch
+hifmc100_host_init
+B c0
+s2R"
+b$C4 
+S6r&
+>2.Q
+P%@Fpg`
+RwbVr
+ftGd$T
+Wfvv
+F4VL
+DXeH
+uJTZ7j
+ld\EL
+n6~UNt^
+B c0
+s2R"
+b$C4 
+S6r&
+>2.Q
+P%@Fpg`
+RwbVr
+ftGd$T
+Wfvv
+F4VL
+DXeH
+uJTZ7j
+ld\EL
+n6~UNt^
+U-Boot 2010.06 (Oct 23 2018 - 17:20:02)
+hi_mci_setup_data
+hi_mci_request
+hi_mci_exec_cmd
+check_ext_csd
+select_boot_part
+print_ext_csd
+nand
+nand_fill_oob
+nand_select_chip
+nand_transfer_oob
+nand_get_flash_type
+nand_scan_ident
+nand_scan_tail
+e03f<ij??ji<f30ef30e?ji<<ij?e03f
+i<?j0ef33fe0j?<i
+j?<i3fe00ef3i<?jj?<i3fe00ef3i<?j
+i<?j0ef33fe0j?<i
+f30e?ji<<ij?e03fe03f<ij??ji<f30e
+hifmc100_driver_probe
+hifmc100_spi_flash_lock
+hifmc100_dma_transfer
+hifmc100_dma_read
+hifmc100_dma_write
+hifmc100_reg_erase
+hifmc100_reg_erase_one_block
+hifmc100_read_ids
+hifmc100_host_init
+hifmc100_spi_nor_init
+hifmc100_set_spi_lock_info
+hifmc100_get_bp_lock_level
+hifmc100_set_bp_level
+hifmc100_spi_lock
+Cycle_Get_InitData
+usb_stor_get_info
+EPTGMKhw_dec_wait_finish
+mmc_save_write
+mmc_save_write_ext4
+mmc_save_init
+0123456789abcdefghijklmnopqrstuvwxyz
+baudrate
+### ERROR ### Please RESET the board ###
+MMC:   
+bare_chip_program=%0d,auto_update_flag=%0d
+ipaddr
+loadaddr
+Resetting CPU ...
+pc : [<%08lx>]	   lr : [<%08lx>]
+sp : %08lx  ip : %08lx	 fp : %08lx
+r10: %08lx  r9 : %08lx	 r8 : %08lx
+r7 : %08lx  r6 : %08lx	 r5 : %08lx  r4 : %08lx
+r3 : %08lx  r2 : %08lx	 r1 : %08lx  r0 : %08lx
+Flags: %c%c%c%c
+  IRQs %s  FIQs %s  Mode %s%s
+undefined instruction
+software interrupt
+prefetch abort
+data abort
+not used
+fast interrupt request
+USER_26
+FIQ_26
+IRQ_26
+SVC_26
+UK4_26
+UK5_26
+UK6_26
+UK7_26
+UK8_26
+UK9_26
+UK10_26
+UK11_26
+UK12_26
+UK13_26
+UK14_26
+UK15_26
+USER_32
+FIQ_32
+IRQ_32
+SVC_32
+UK4_32
+UK5_32
+UK6_32
+ABT_32
+UK8_32
+UK9_32
+UK10_32
+UND_32
+UK12_32
+UK13_32
+UK14_32
+SYS_32
+MMC Device %d not found
+set write bl len failed
+mmc write failed
+set read bl len failed, trying default 512Byte
+mmc read failed
+mmc read stop failed!
+Could not allocate buffer for MMC read!
+Man %06x Snr %08x
+%c%c%c%c%c
+%d.%d
+Card did not respond to voltage select!
+%s: %d
+HIMCI_ERROR %s:%d: 
+Data size outside the limit of DMA des, data size: 0x%08lx, limit of DMA des: 0x%08x
+Data setup is error!
+FIFO reset error!
+unhandled response type %02x
+CMD execute is error!
+MMC/SD/EMMC controller version incorrect.
+HIMCI_V200
+Check est_csd error!
+Set EXT_CSD_RST_N_FUNCTION error!
+Set EXT_CSD_WR_REL_SET error!
+Set EXT_CSD_BOOT_CONFIG!
+Set EXT_CSD_BOOT_CONFIG error!
+Set EXT_CSD_BOOT_BUS_WIDTH to 0x%X!
+set EXT_CSD_BOOT_BUS_WIDTH error!
+EXT_CSD CONFIG OK!
+EXT_CSD CONFIG Fail!
+Read boot part error!
+Select boot part error!
+No MCI found!!!
+OCR register: %08x
+CID register: %08x %08x %08x %08x
+CSD register: %08x %08x %08x %08x
+RCA register: %08x
+Check est_csd error!
+Extended CSD register:
+%03d: %02x %02x %02x %02x %02x %02x %02x %02x
+High Capacity
+Low Capacity
+EMMC/MMC/SD controller initialization.
+No EMMC/MMC/SD device found !
+Device is not exit ! 
+MMC/SD Card:
+    MID:         0x%x
+    Read Block:  %d Bytes
+    Write Block: %d Bytes
+    Chip Size:   %s Bytes (%s)
+    Name:        "%c%c%c%c%c"
+    Chip Type:   %s
+    Version:     %d.%d
+    Speed:       %sHz
+    Bus Width:   %dbit
+    Boot Addr:   %d Bytes
+SPI Nand total size: %uMB
+Timeout!
+nand_resume() called for a chip which is not in suspended state
+nand_base.c
+BUG: failure at %s:%d/%s()!
+BUG!
+nand_write: Attempt to write not page aligned data
+nand_do_write_ops: Device is write protected
+nand_erase: attempt to erase a bad block at page 0x%08x
+%s: second ID read did not match %02x,%02x against %02x,%02x
+NAND device: Manufacturer ID: 0x%02x, Chip ID: 0x%02x (%s %s)
+NAND bus width %d instead %d bit
+Block:%sB 
+Page:%sB 
+Chip:%sB*%d 
+OOB:%sB 
+ECC:%s 
+No oob scheme defined for oobsize %d
+No ECC functions supplied, Hardware ECC not possible
+%d byte HW ECC not possible on %d byte page size, fallback to SW ECC
+ECC provided by Flash Memory Controller
+Invalid NAND_ECC_MODE %d
+Invalid ecc parameters
+create_bbt(): chipnr (%d) > available chips (%d)
+Bad block table not found for chip %d
+Bad block table found at page %d, version 0x%02X
+nand_bbt: Error reading bad block table
+nand_bbt: ECC error while reading bad block table
+nand_read_bbt: Reserved block at 0x%012llx
+nand_read_bbt: Bad block at 0x%012llx
+No space left to write bad block table
+nand_bbt: Error reading block for writing the bad block table
+nand_bbt: ECC error while reading block for writing bad block table
+Bad block table written to 0x%012llx, version 0x%02X
+nand_bbt: Error while writing bad block table %d
+nand_update_bbt: Out of memory
+nand_scan_bbt: Out of memory
+nand_bbt: Can't scan flash and build the RAM-based BBT
+nand_bbt: Out of memory
+Bad block table at page %d, version 0x%02X
+Toshiba
+Samsung
+Fujitsu
+National
+Renesas
+ST/Micro
+Hynix
+Micron
+AMD/Spansion
+Macronix
+GD/ESMT
+Winbond
+MXIC
+All-flash
+Paragon
+Unknown
+NAND 16MiB 1,8V 8-bit
+NAND 16MiB 3,3V 8-bit
+NAND 16MiB 1,8V 16-bit
+NAND 16MiB 3,3V 16-bit
+NAND 32MiB 1,8V 8-bit
+NAND 32MiB 3,3V 8-bit
+NAND 32MiB 1,8V 16-bit
+NAND 32MiB 3,3V 16-bit
+NAND 64MiB 1,8V 8-bit
+NAND 64MiB 3,3V 8-bit
+NAND 64MiB 1,8V 16-bit
+NAND 64MiB 3,3V 16-bit
+NAND 128MiB 1,8V 8-bit
+NAND 128MiB 3,3V 8-bit
+NAND 128MiB 1,8V 16-bit
+NAND 128MiB 3,3V 16-bit
+NAND 256MiB 3,3V 8-bit
+NAND 256MiB 1,8V 8-bit
+NAND 256MiB 1,8V 16-bit
+NAND 256MiB 3,3V 16-bit
+NAND 512MiB 1,8V 8-bit
+NAND 512MiB 3,3V 8-bit
+NAND 512MiB 1,8V 16-bit
+NAND 512MiB 3,3V 16-bit
+NAND 1GiB 1,8V 8-bit
+NAND 1GiB 3,3V 8-bit
+NAND 1GiB 1,8V 16-bit
+NAND 1GiB 3,3V 16-bit
+NAND 2GiB 1,8V 8-bit
+NAND 2GiB 3,3V 8-bit
+NAND 2GiB 1,8V 16-bit
+NAND 2GiB 3,3V 16-bit
+unknown
+none
+4bit/512
+8bit/512
+24bit/1K
+28bit/1K
+40bit/1K
+64bit/1K
+42bit/1K
+hifmc100_os.c
+%s(%d): BUG: Error: hifmc IP version unknown!
+%s(%d): Error: Host init failed, result: %d
+Cannot found a valid SPI Nand Device
+SPI Nand flash uninitialized.
+hifmc100.c
+%s(%d): BUG: Error: Invalid chipselect: %d
+%s(%d): BUG: Driver does not support this configure pagesize: %d and oobsize: %d.
+%s(%d): Can't support block %#x and page %#x size
+%s(%d): Driver does not support this configure pageszie: %d and oobsize: %d
+%s(%d): BUG: Please increase MAX PAGESIZE and OOBSIZE.
+%s(%d): SPI Nand divide into 1/%u
+Auto
+%s(%d): Error: Wait cmd cpu finish timeout!
+Warning: Hifmc IP is busy, Please try again.
+%s(%d): Error: Erase wait ready fail! status: %#x
+%s(%d): Error: Erase write enable failed! reg: %#x
+%s(%d): Error: %s program wait ready failed! status: %#x
+%s(%d): Error: %s program write enable failed! reg: %#x
+%s(%d): Error: Wait dma int finish timeout!
+%s(%d): Error: %s read wait ready fail! reg: %#x
+%s(%d): Error: Invalid opcode: %d
+%s(%d): Error: Flash type isn't SPI Nand. reg: %#x
+%s(%d): Error: Can't malloc memory for SPI Nand driver.
+%s(%d): Error: %s Quad failed! reg: %#x
+%s(%d): Error: SPI Nand wait ready timeout, status: %#x
+SPI Nand(cs %d) ID: %#x %#x
+%s Name:"%s"
+%s(%d): Error: Write protection disable failed!
+%s(%d): Error: Chip internal ECC disable failed!
+Disable
+Enable
+MT29F1G01ABA
+MT29F2G01ABA
+F50L512M41A
+F50L1G41A
+5F1GQ4UAYIG
+5F1GQ4UBYIG
+5F2GQ4UAYIG
+5F2GQ4UBYIG
+5F4GQ4UAYIG
+5F4GQ4UBYIG
+W25N01GV
+W25N01GW
+ATO25D1GA
+MX35LF1GE4AB
+MX35LF2GE4AB
+PN26Q01AW
+PN26G01A
+PN26G02A
+AFS1GQ4UAC
+AFS2GQ4UAD
+TC58CVG0S3H
+TC58CYG0S3H
+TC58CVG1S3H
+TC58CYG1S3H
+TC58CVG2S0H
+TC58CYG2S0H
+HYF1GQ4UAACAE
+HYF2GQ4UAACAE
+HYF4GQ4UAACBE
+SPI Nor total size: %uMB
+Get spi lock information
+all blocks are locked.
+Spi is locked. lock address[0 => %#x]
+all blocks are unlocked.
+lock level: %d
+unlock all block.
+%s ERROR: Invalid optin argument!
+%s(%d): Error: %s 4-byte failed! SR3:%#x
+%s(%d): Error: Write Enable failed! status: %#x
+%s(%d): Error: SPI nor wait ready timeout, status[%#x]
+%s(%d): Error: Enter 4-byte failed! [%#x]
+%s(%d): Error: %s 4bytes failed! bank: %#x
+%s(%d): Error: %s Quad failed, reg: %#x
+%s(%d): Error: %s Quad failed! reg:%#x
+SPI Nor(cs %d) ID: %#x %#x %#x
+Chip:%sB 
+BUG! ID len out of range.
+hifmc_spi_nor_ids.c
+at25fs010
+at25fs040
+at25df041a
+at25df641
+at26f004
+at26df081a
+at26df161a
+at26df321
+mx25l4005a
+MX25L8006E
+MX25L1606E
+mx25l3205d
+MX25L6436F
+MX25V1635F
+MX25R6435F
+MX25U6435F
+MX25U12835F
+MX25L128XX
+MX25U25635F
+MX25L(256/257)XX
+mx25l1655d
+mx25l12855e
+s25sl004a
+s25sl008a
+s25sl016a
+S25FL064P
+s25sl064a
+S25FL032P
+S25FL032A
+S25FL128P-0
+S25FL128P-1
+S25FL129P0
+S25FL129P1
+S25FL256S
+sst25vf040b
+sst25vf080b
+sst25vf016b
+sst25vf032b
+sst25wf512
+sst25wf010
+sst25wf020
+sst25wf040
+m25p05
+m25p10
+m25p20
+m25p40
+m25p80
+m25p16
+M25P32
+m25p64
+M25P128
+m45pe10
+m45pe80
+m45pe16
+m25pe80
+m25pe16
+N25Q032
+N25Q064A
+MT(N)25Q128(AB)A11
+N25QL064A
+N25QL128A
+MT25QL256A
+M25PX16
+M25PX32
+m25px64
+MT25QU256A
+w25x10
+w25x20
+w25x40
+w25x80
+w25x16
+w25x32
+w25x64
+W25Q80BV
+W25Q16(B/C/J)V/S25FL016K
+W25Q32(B/F)V
+W25Q64FV
+W25Q64FW
+W25Q128FW
+W25Q128(B/F)V
+W25Q128JV
+W25Q256FV
+EN25F80
+EN25F16
+EN25Q32B
+EN25Q64
+EN25Q128
+F25L64QA
+GD25LQ128
+GD25Q128
+GD25Q64
+GD25Q16C
+GD25LQ64C
+GD25Q32
+PN25F16S
+PN25F32S
+%s(%d): read area out of range[%#x].
+%s(%d): read length is 0.
+%s(%d): Error: Dma read wait ready fail!
+%s(%d): BUG: read memory out of range.
+%s(%d): Error: Dma read wait ready fail!!
+%s(%d): write data out of range.
+%s(%d): write length is 0.
+ERROR: The DMA write area was locked.
+%s(%d): BUG: write memory out of range.
+%s(%d): Error: Erase area out of range of mtd.
+%s(%d): Error: Erase start address is not alignment.
+%s(%d): Error: Erase length is not alignment.
+ERROR: The erase area was locked.
+%s(%d): BUG: Error: Erase memory out of range.
+%s(%d): Error: Erase wait ready fail! reg:%#x
+%s(%d): Error: Flash type isn't SPI Nor. reg: %#x
+%s(%d): Error: SPI Nor host init failed, result: %d
+%s(%d): Error: The manufacture ID is change,
+ Pleaer check!!
+%s(%d): Error: The ID: %#x isn't in the BP table,
+%s(%d): Error:The ID: %#x isn't in the BP table,
+%s(%d): Current device can't not protect
+hi_fmc
+%s(%d): Error: Current lock level: %d, but set value: %d
+Not enough malloc space available!
+[EOT](ERROR)
+[EOT](OK)
+CANNOT handle > 1 setup packet in DMA mode
+usb connecting...
+usb connect ok.
+usb connect fail.
+## Starting application at 0x%08lX ...
+## Application terminated, rc = 0x%lX
+go_a17
+Perform power on and unreset  CPU_A17
+reset
+Perform RESET of the CPU
+start application at address 'addr'
+## Transferring control to RTEMS (at address %08lx) ...
+## Transferring control to NetBSD stage-2 loader (at address %08lx) ...
+kernel image will overwrite uboot! kernel boot fail!
+   XIP %s ... 
+   Loading %s ... 
+   Uncompressing %s ... 
+GUNZIP: uncompress, out-of-mem or overwrite error - must RESET board to recover
+Unimplemented compression type %d
+verify
+## Booting kernel from Legacy Image at %08lx ...
+Bad Magic Number
+Bad Header Checksum
+   Verifying Checksum ... 
+Bad Data CRC
+Wrong Image Type for %s command
+Wrong Image Format for %s command
+ERROR: can't get kernel image!
+ERROR: unknown image format type!
+Could not find kernel entry point!
+Ramdisk image is corrupt or invalid
+Unsupported Architecture 0x%x
+Trying to execute a command out of order
+cmdline subcommand not supported
+bdt subcommand not supported
+prep subcommand not supported
+WARNING: legacy format multi component image overwritten
+ERROR: new format image overwritten - must RESET the board to recover
+autostart
+filesize
+ERROR: booting os '%s' (%d) is not supported
+bootm
+boot application image from memory
+loados
+cmdline
+prep
+func: %s  line :%d pstHead->u32MagicHead: 0x%x
+!ERR: srclen(%d) is too short. CycleFlashSize(%d)
+func: %s  line :%d pstItem->u32ItemLen: 0x%x
+func: %s  line :%d [%x][%d][%x][%d] 
+func: %s  line :%d pstItem->u32MagicItemStart(0x%x) wrong!
+error !func: %s  line :%d 
+decompress ok!
+ERR:
+    decompress fail! ret: 0x%x size_uncomparessed: 0x%x
+Failed to get cycle data. dst: 0x%lx
+ERR:
+    src[0X%08lx] is not 16Byte-aligned!
+ERR:
+    src_backup[0X%08lx] is not 16Byte-aligned!
+ERR:
+    src_len[0X%08x] is not 0x10000Byte-aligned!
+ERR:
+    dst[0X%08lx] is not 16Byte-aligned!
+cread
+get valid data from cycle_data buffer. 'cycle <src> <src_backup>  <src_len> <dst>'
+Command [ddr %s] is unsupport.
+debug
+warning
+fatal
+Command [ddr log %s] is unsupport.
+Set DDR training log level [%s] suc.
+training
+Already done once, can not do again.
+WL not support run repeatedly. %s
+gate
+dataeye
+vref
+lpca
+DDR training finished.
+DDR training area: 0x%08X - 0x%08X
+ddr training function
+usage: fatinfo <interface> <dev[:part]>
+** Invalid boot device **
+** Invalid boot device, use `dev[:part]' **
+** Unable to use %s %d:%d for fatinfo **
+usage: fatload <interface> <dev[:part]> <addr> <filename> [bytes]
+** Unable to use %s %d:%d for fatload **
+** Unable to read "%s" from %s %d:%d **
+%ld bytes read
+usage: fatls <interface> <dev[:part]> [directory]
+** Unable to use %s %d:%d for fatls **
+No Fat FS detected
+fatinfo
+print information about filesystem
+fatls
+list files in a directory (default /)
+fatload
+load binary file from a dos filesystem
+bootmode
+Boot from unknown device, please check your hardware config.
+nand
+emmc
+version: %lx.%lx.%lx
+nand
+no find 
+0x%02X 
+Name:"%s"
+getinfo
+print hardware information
+alias for 'help'
+help
+print command description/usage
+## Total Size      = 0x%08x = %d Bytes
+## Switch baudrate to %d bps and press ENTER ...
+loady
+## Ready for binary (ymodem) download to 0x%08lX at %d bps...
+## Ready for binary (kermit) download to 0x%08lX at %d bps...
+## Binary (kermit) download aborted
+## Start Addr      = 0x%08lX
+## Switch baudrate to %d bps and press ESC ...
+load binary file over serial line (ymodem mode)
+loadb
+load binary file over serial line (kermit mode)
+Base Address: 0x%08lx
+Tested %d iteration(s) with %lu errors.
+Pattern %08lX  Writing...%12s
+Reading...
+Mem error @ 0x%08X: found %08lX, expected %08lX
+byte
+halfword
+word at 0x%08lx (0x%08lx) != word at 0x%08lx (0x%08lx)
+halfword at 0x%08lx (0x%04x) != halfword at 0x%08lx (0x%04x)
+byte at 0x%08lx (0x%02x) != byte at 0x%08lx (0x%02x)
+Total of %ld %s%s were the same
+%08lx:
+ %04x
+Zero length ???
+CRC32 for %08lx ... %08lx ==> %08lx
+mtest
+simple RAM read/write test
+loop
+infinite loop on address range
+base
+print or set address offset
+crc32
+checksum calculation
+memory compare
+memory copy
+memory write (fill)
+memory modify (constant address)
+memory modify (auto-incrementing address)
+memory display
+Device: %s
+Manufacturer ID: %x
+OEM: %x
+Name: %c%c%c%c%c 
+Tran Speed: %d
+Rd Block Len: %d
+%s version %d.%d
+High Capacity: %s
+Capacity: %lld
+Bus Width: %d-bit
+ERROR
+rescan
+list
+MMC read: dev # %d, block # %d, count %d ... 
+%d blocks read: %s
+MMC write: dev # %d, block # %d, count %d ... 
+%d blocks written: %s
+write.ext4sp
+MMC write ext4 sparse: dev # %d, block # %d, count %d ... 
+bootread
+MMC bootread:dev # %d, block # %d, count %d ... 
+select boot part on error
+select boot part off error
+bootwrite
+MMC bootwrite:dev # %d, block # %d, count %d ... 
+bootmoderead
+MMC sub system
+mmcinfo
+mmcinfo <dev num>-- display MMC info
+%dx 
+%s, sector size %u KiB
+No memory for page buffer
+Error (%d) reading page %08llx
+Page %08llx dump:
+	%02x %02x %02x %02x %02x %02x %02x %02x  %02x %02x %02x %02x %02x %02x %02x %02x
+OOB:
+	%02x %02x %02x %02x %02x %02x %02x %02x
+'%s' is not a number
+device %d 
+whole chip
+offset 0x%llx, size 0x%llx
+scrub
+erase
+read 
+write 
+written
+quiet
+No such device
+Device %d: %s
+... is now current device
+markbad
+dump
+biterr
+unlock
+no devices available
+Device %d bad blocks:
+  %08llx
+clean
+NAND %s: 
+ERROR: erase area is out of range!
+ERROR: erase start address is not block aligned!
+ERROR: erase length is not block aligned!
+Warning: scrub option will erase all factory set bad blocks!
+         There is no reliable way to recover them.
+         Use this command only for testing purposes if you
+         are sure of what you are doing!
+Really scrub this NAND flash? <y/N>
+scrub aborted
+.oob
+ERROR: %s
+.jffs2
+ERROR: write start address is not page aligned!
+ERROR: write length is not page aligned!
+.yaffs
+Cannot get corret ecctype. 
+buffer length is too short.
+YFSS!V10
+!!! The yaffs2 filesystem image has no tag information.
+ please update your mkyaffs2image tool, and remake yaffs2 filesystem image.
+!!! yaffs2 filesystem image pagesize(%d) is NOT consistent with hardware pagesize(%d).
+!!! yaffs2 filesystem image ecctype(%s) is NOT consistent with hardware ecctype(%s).
+!!! The yaffs2 filesystem or mkyaffs2image for cpu ver(0x%X) But your demo board cpu ver(0x%X).
+!!! The yaffs2 filesystem image has invalid tag information.
+Please remake yaffs2 filesystem image, make sure your yaffs2 filesystem image pagesize and ecctype is consistent with hardware config.
+Current hardware config, pagesize:%d, ecctype:%s
+1. Confirm your yaffs2 filesystem image version.
+2. Update your mkyaffs2image tool, remake yaffs2 filesystem image.
+.ecc0
+.yaffsuc
+not support
+Unknown nand command suffix '%s'.
+ %llu bytes %s: %s
+block 0x%08llx NOT marked as bad! ERROR %d
+block 0x%08llx successfully marked as bad
+bootdevice
+** No boot device **
+** Device %d not available
+Unknown nand load suffix '%s'
+Loading from %s, offset 0x%llx
+** Read error
+** Unknown image type
+Automatic boot of image at addr 0x%08lx ...
+0bit
+4bit
+8bit
+24bits/1K
+28bits/1K
+40bits/1K
+64bits/1K
+nboot
+boot from NAND device
+NAND sub-system
+Saving Environment to %s...
+Environment size: %d/%ld bytes
+## Error: "%s" not defined
+## Error: illegal character '=' in variable name "%s"
+stdin
+stdout
+stderr
+Can't delete "%s"
+## Baudrate %d bps not supported
+## Error: environment overflow, "%s" deleted
+minibootargs
+minibootargs is too long: %d
+ethaddr
+setenv
+set environment variables
+printenv
+print environment variables
+saveenv
+save environment variables to persistent storage
+probe
+Failed to initialize SPI flash at %u:%u
+%u KiB %s at %u:%u is now current device
+Usage: sf probe [bus:]cs [hz] [mode]
+No SPI flash selected. Please run `sf probe'
+ERROR: read/write area is out of range!
+Failed to map physical memory
+Writing at 0x%lx -- %3d%% complete.
+SPI flash %s failed
+Usage: sf %s addr offset len
+Erasing at 0x%lx -- %3d%% complete.
+Usage: sf erase offset len
+	sf lock level/all
+Usage:
+	 all: level(%d), lock all blocks.
+	level(0): unlock all blocks.
+	set spi nor chip block protection level(0 - %d).
+	As usual: lock_len = chipsize >> (%d - level)
+SPI flash sub-system
+ERR:
+    The magic numbers are not correct!
+    Please check the source data!
+ERR:
+    decompress fail!
+ugzip
+Compress gzipfile with hardware IP
+storage device not initialized. Use usb scan
+U-Boot
+error reading partinfo...try to boot raw
+PPCBoot
+** Invalid partition type "%.32s" (expect "U-Boot")
+Loading from USB device %d, partition %d: Name: %.32s  Type: %.32s
+** Bad Header Checksum **
+** Read error on %d:%d
+Automatic boot of image at addr 0x%08lX ...
+See Interface
+Audio
+Communication
+Human Interface
+Printer
+Mass Storage
+CDC Data
+Vendor specific
+Human Interface, Subclass: 
+None
+Boot 
+Keyboard
+Mouse
+reserved
+Mass Storage, 
+RBC 
+SFF-8020i (ATAPI)
+QIC-157 (Tape)
+SFF-8070
+Transp. SCSI
+Command/Bulk
+Command/Bulk/Int
+Bulk only
+String: "%s"
+%d: %s,  USB Revision %x.%x
+ - %s %s %s
+ - Class: 
+ - Class: (from Interface) %s
+ - PacketSize: %d  Configurations: %d
+ - Vendor: 0x%04x  Product 0x%04x Version %d.%d
+Self Powered 
+Bus Powered 
+Remote Wakeup 
+   Configuration: %d
+   - Interfaces: %d %s%s%dmA
+     Interface: %d
+     - Alternate Setting %d, Endpoints: %d
+     - Class 
+     - 
+     - Endpoint %d %s 
+Control
+Isochronous
+Interrupt
+ MaxPacket %d
+ Interval %dms
+12 Mb/s
+ %s (%s, %dmA)
+ %s  %s %s %s
+(Re)start USB...
+stop
+stopping USB..
+USB is stopped. Please issue 'usb start' first.
+tree
+Device Tree:
+config for device %d
+*** NO Device avaiable ***
+stor
+part
+no USB devices available
+no current device selected
+USB read: device %d block # %ld, count %ld ... 
+%ld blocks read: %s
+USB write: device %d block # %ld, count %ld ... 
+%ld blocks write: %s
+USB device %d: 
+unknown device
+    Device %d: 
+1.5 Mb/s
+480 Mb/s
+5 Gb/s
+usbboot
+boot from USB device
+USB sub-system
+print monitor version
+%s - %s
+%-*s- %s
+Unknown command '%s' - try 'help' without arguments for list of all known commands
+hisilicon # 
+In:    
+No input devices available!
+Out:   
+No output devices available!
+Err:   
+No error devices available!
+*** Warning - bad CRC, using default environment
+eMMC Flash
+SPI Flash
+NAND
+Environment SPI flash not initialized
+done
+EMMC
+Erasing Nand...
+Writing to Nand... 
+FAILED!
+*** Warning - bad CRC or NAND, using default environment
+Warning: Erase size 0x%08x smaller than one erase block 0x%08x
+         Erasing 0x%08x instead
+Erasing SPI flash, offset 0x%08x size %s ...
+done
+Writing to SPI flash, offset 0x%08x size %s ...
+bootm_low
+bootm_size
+%d Bytes = 
+Unknown OS
+Unknown Architecture
+Unknown Image
+Unknown Compression
+%sImage Name:   %.*s
+%sImage Type:   
+%s %s %s (%s)
+%sData Size:    
+%sLoad Address: %08x
+%sEntry Point:  %08x
+%sContents:
+%s   Image %d: 
+%s    Offset = 0x%08lx
+## Loading init Ramdisk from Legacy Image at %08lx ...
+No Linux %s Ramdisk Image
+Wrong Ramdisk Image Format
+## Loading init Ramdisk from multi component Legacy Image at %08lx ...
+uncompressed
+bzip2
+bzip2 compressed
+gzip compressed
+lzma
+lzma compressed
+lzo compressed
+Invalid Image
+Filesystem Image
+firmware
+Firmware
+kernel
+Kernel Image
+multi
+Multi-File Image
+ramdisk
+RAMDisk Image
+script
+Script
+standalone
+Standalone Program
+flat_dt
+Flat Device Tree
+kwbimage
+Kirkwood Boot Image
+imximage
+Freescale i.MX Boot Image
+Invalid OS
+linux
+Linux
+netbsd
+NetBSD
+rtems
+RTEMS
+u-boot
+Invalid ARCH
+alpha
+Alpha
+Intel x86
+ia64
+IA64
+m68k
+M68K
+microblaze
+MicroBlaze
+mips
+MIPS
+mips64
+MIPS 64 Bit
+nios2
+NIOS II
+powerpc
+PowerPC
+s390
+IBM S390
+SuperH
+sparc
+SPARC
+sparc64
+SPARC 64 Bit
+blackfin
+Blackfin
+avr32
+AVR32
+%.*s
+** Too many args (max. %d) **
+## Command too long!
+Unknown command '%s' - try 'help'
+bootdelay
+bootcmd
+Hit any key to stop autoboot: %2d 
+%2d 
+<INTERRUPT>
+setenv slave_cmd bootm %p %p %p
+serial
+ ERROR: NOT USB_CONFIG_DESC %x
+ERROR: Invalid USB EPC length (%d)
+USB EPC descriptor overflowed buffer!
+EPC descriptor out of order!
+unable to get descriptor, error %lX
+config descriptor too short (expected %i, got %i)
+selecting invalid interface %d
+ERROR, too many USB Devices, max=%d
+ERROR: USB_MAX_HUB (%d) reached
+      USB device not responding, giving up (status=%lX)
+      USB device not accepting new address (error=%lX)
+unable to get device descriptor (error=%d)
+USB device descriptor short read (expected %i, got %i)
+failed to set default configuration len %d, status %lX
+USB:   
+scanning bus for devices... 
+No USB Device found
+%d USB Device(s) found
+Error, couldn't init Lowlevel part
+cannot reset port %i!?
+Device NOT ready
+   Request Sense returned %02X %02X %02X
+No storage devices, perhaps not 'usb start'ed..?
+	Did not get interrupt on CBI
+cmd 0x%02X returned 0x%02X 0x%02X 0x%02X 0x%02X (NOT READY)
+cmd 0x%02X returned 0x%02X 0x%02X 0x%02X 0x%02X
+USB Storage Transport unknown / not yet implemented
+Sorry, protocol %d not yet supported.
+%s->%d,blksz:%lu
+error in inquiry
+READ_CAP ERROR
+       scanning bus for storage devices... 
+max USB Storage Device reached: %d stopping
+%d Storage Device(s) found
+Cksum
+xyzModem - %s mode, %d(SOH)/%d(STX)/%d(CAN) packets, %d retries
+Unknown error
+Block sequence error
+CRC/checksum error
+Invalid framing
+Cancelled
+End of file
+Timed out
+Sorry, zModem not available yet
+Can't access file
+[EOT](ERROR)
+[EOT](OK)
+start download process.
+%llu Bytes%s
+.%ld
+ %ciB%s
+1.2.3
+Error: inflateInit2() returned %d
+Error: inflate() returned %d
+Error: Bad gzipped data
+Error: gunzip out of data in header
+<NULL>
+(null)
+invalid distance too far back
+invalid distance code
+invalid literal/length code
+incorrect header check
+unknown compression method
+invalid window size
+unknown header flags set
+header crc mismatch
+invalid block type
+invalid stored block lengths
+too many length or distance symbols
+invalid code lengths set
+invalid bit length repeat
+invalid literal/lengths set
+invalid distances set
+incorrect data check
+incorrect length check
+need dictionary
+stream end
+file error
+stream error
+data error
+insufficient memory
+buffer error
+incompatible version
+err = 0x%x, dec_data_len = 0x%x
+hardware decompress overtime! func:%s, line:%d
+dst=0x%08x dstlen=0x%08x,src=0x%0x srclen=0x%08x
+starting a17 liteos address 0x%x
+Not enough space. Free[%d] Need[%d]
+WDQS Byte%d
+WDQ Phase Byte%d
+WDQ BDL DQ%d-DQ%d
+WDM Byte%d
+Write DQ/DQS OE Byte%d
+RDQS Byte%d
+RDQ BDL DQ%d-DQ%d
+Gate Byte%d
+Host Vref Byte%d
+DRAM Vref Byte%d
+CA Phase
+CA BDL(%d)
+[PHY%d]:
+Write window of prebit-deskew:
+--------------------------------------------------------
+%-4s
+%-4d
+DQPH
+RANGE
+ %-10s  %-6s%-4s%-4s
+%-1s
+ 0x%08x  0x%-4x%-4d%-4d
+Sum WIN: %d. Avg WIN: %d
+Min WIN: %d. DQ Index: 
+Max WIN: %d. DQ Index: 
+Read window of prebit-deskew:
+Command address window:
+ %-10s  %-6s%-4s
+ 0x%08x  %-6d%-4d
+Min WIN: %d. CA Index: 
+Max WIN: %d. CA Index: 
+[PHY0]:
+[PHY1]:
+[0x%08x = 0x%08x] %-32s
+DDR training is unsupport.
+DDR training cmd
+%s entry[0x%08X] size[%d]byte cfg[0x%08X = 0x%08X]
+DDR training fail
+machid
+Using machid 0x%x from environment
+Starting kernel ...
+Can't add shutdown function,Please increase CFG_MAX_SHUTDOWN count
+resetting ...
+Error reading data
+FAT32   
+FAT12   
+FAT16   
+Invalid FAT entry
+** Partition %d not valid on device %d **
+FAT32
+            %s%c
+ %8ld   %s%c
+%d file(s), %d dir(s)
+Error reading cluster
+No current device
+Interface:  
+SATA
+ATAPI
+  Device %d: 
+No valid FAT fs found
+Partition %d: Filesystem: %s "%s"
+reading %s
+(%d:%d) Vendor: %s Prod.: %s Rev: %s
+Model: %s Firm: %s Ser#: %s
+Vendor: %s Rev: %s Prod: %s
+device type DOC
+device type unknown
+Unhandled device type: %i
+            Type: 
+Removable 
+Hard Disk
+CD ROM
+Optical Device
+Tape
+# %02X #
+            Capacity: %ld.%ld MB = %ld.%ld GB (%ld x %ld)
+            Capacity: not available
+Partition Map for 
+UNKNOWN
+ device %d  --   Partition Type: %s
+## Unknown partition table
+ Extd
+** Can't read partition table on %d:%d **
+    1		         0	%10ld	%2x
+%5d		%10d	%10d	%2x%s
+bad MBR sector signature 0x%02x%02x
+hd%c%d
+sd%c%d
+usbd%c%d
+docd%c%d
+xx%c%d
+Partition     Start Sector     Num Sectors     Type
+parameter error: read count is 0.
+emmc pin_mux ebidq_gpio_sdio%d is not equal to 0x2, bootmoderead failed!!!
+Invalid sparse format.
+image blk size %d is not aligned to 512Byte.
+partition size %d MB not enough.
+No.%d chunk size error.
+error: sparse size %d MB is larger than partiton size %d MB.
+Raw data: No.%d blocks written: %s.
+sparse: unknow chunk type %04x.
+Writing at %d blk# -- %3d%% complete.
+error: partition size %d MB != ext4 image size %d MB
+sparse: %d MB / %d MB.
+Check Flash Memory Controller v100 ...
+ Found
+Register dump:
+0x%08X: 
+%08X 
+Warning: Erase size 0x%08llx smaller than one erase block 0x%08x
+Skipping bad block at
+0x%08llx
+%s: MTD get bad block failed: %d
+%s: MTD Erase failure: %d
+%s: MTD block_markbad at 0x%08llx failed: %d
+Block at 0x%08llx is marked bad block
+%s: MTD writeoob failure: %d
+Erasing at 0x%llx -- %3d%% complete.
+ Cleanmarker written at 0x%llx.
+Attempt to write non page aligned data, offset %#x
+Attempt to write non page aligned data, length %#x
+Page size %#x, OOB size %d
+data length:%#x, include bad block length: %#x
+Attempt to write outside the flash area
+pure data length is %d, len_incl_bad is %d
+NAND write to offset %llx failed %d
+NAND write yaffs finished
+Skip bad block 0x%08llx
+Attempt to read non page aligned data, offset %lld
+Attempt to read non aligned data, read length should be aligned with (pagesize + oobsize), length:%d pagesize:%d oobsize:%d
+Attempt to read outside the flash area
+NAND read to offset %llx failed %d
+Attempt to write non page aligned data
+NAND read from offset %llx failed %d
+Skipping bad block 0x%08llx
+ERROR: USB HC TakeOver failed!
+ERROR: USB HC reset timed out!
+ERROR: index > length
+ERROR: sohci_submit_job: EPIPE
+ERROR: sohci_submit_job: URB NOT FINISHED
+ERROR: ep_add_ed: pending delete
+ERROR: sohci_submit_job: ENOMEM
+ERROR: need %d TDs, only have %d
+ERROR: sohci_submit_job: EINVAL
+ERROR: submit_common_message: pipesize for pipe %lx is zero
+ERROR: sohci_submit_job failed
+ERROR: %s device removed!
+ERROR: OHCI Unrecoverable Error, controller usb-%s disabled
+ERROR: CTL:TIMEOUT 
+ERROR: submit_control_message: pipesize for pipe %lx is zero
+hiusb-ohci
+No mmc driver found!
+*No SD card found!
+Operation at 0x%lx -- %3d%% complete.
+%s:find mmc device failed
+block_write ops is null!
+ERROR:%s too long!
+ERROR:%s not found!
+ERROR:bootargs is too long!
+ERROR:Num of partition is more than %0d!
+[%0d]=%-16s start=0x%08x end=0x%08x size=0x%08x
+ERROR:Can't find valid partition info!
+config
+Warning:no config! only update u-boot.bin!
+%s erase...
+sector erase failed
+%s write...
+write failed, return %d
+Use old env!
+ERROR:bootargs analyze fail!
+size=0x%08x
+u-boot.bin
+ext4
+(fmt null)
+Hi3559
+raise: Signal # %d caught
+mmmm
+0000
+ddr_training_save_reg_custom
+ddr_training_restore_reg_custom
+ddr_lpca_data_save
+ddr_ddrt_get_test_addr
+ddr_training_cmd_entry
+ddr_gating_func
+ddr_ac_training_func
+ddr_lpca_training_func
+ddr_training_cmd_result
+ddr_dmc_sfc_cmd
+ddr_vref_set
+ddr_training_check_bypass
+ddr_wl_process
+ddr_ddrt_init
+ddr_ddrt_test
+ddr_hw_training
+ddr_hw_dataeye_read
+ddr_mpr_extract
+ddr_dataeye_check_dq
+ddr_dataeye_find_dq
+ddr_dataeye_deskew
+ddr_vref_find_best
+ddr_vref_get
+ddr_vref_cal
+ddr_adjust_trend_check
+ddr_adjust_move_win
+ddr_adjust_dataeye
+ddr_adjust_byte
+ddr_dataeye_process
+ddr_dataeye_training
+ddr_mpr_find_rdq
+ddr_mpr_training
+ddr_mpr_find_rdqs
+ddr_vref_training
+ddr_write_leveling
+ddr_wl_bdl_sync
+ddr_gate_training
+ddr_gate_find_bdl
+ddr_gate_find_phase
+ddr_sw_training_func
+Disable scramb [0x%x] = 0x%x.
+Restore scramb[0x%x] = 0x%x.
+INFO
+DEBUG
+WARNING
+ERROR
+FATAL
+invalid base_dmc[%x]
+DDRT test address[%x] out of range[%x, %x].
+DDR Training Version: V1.2.1 20160503
+DDR training command entry. Sysctl[%x = %x]
+PHY[%x] hw gating fail.
+Not support DDR AC training.
+Not support LPDDR CA training.
+DDR training result[%x]
+PHY[%x]:
+[%x = %x] WDQS Byte(%x) 
+[%x = %x] WDQ Phase Byte(%x)
+[%x = %x] WDQ BDL DQ(%x-%x)
+[%x = %x] WDM Byte(%x)
+[%x = %x] Write DQ/DQS OE Byte(%x)
+[%x = %x] RDQS Byte(%x)
+[%x = %x] RDQ BDL DQ(%x-%x)
+[%x = %x] Gate Byte(%x)
+[%x = %x] CS
+[%x = %x] CLK
+[%x = %x] Host Vref Byte(%x)
+[%x = %x] DRAM Vref Byte(%x)
+[%x = %x] CA Phase
+[%x = %x] ACADDRBDL(%x)
+SFC cmd wait timeout.
+byte[%x] mode[%x] set vref [%x]
+DDR training itme[%x] is disable. Sysctl[%x = %x]
+type[0x%x] byte[0x%x] phase[0x%x] bdl[0x%x] wl_result[0x%x]
+PHY[%x] WL fail, result[%x]
+PHY[%x] WL not found phase, result[%x]
+DDRT[%x] init.
+DDRT wait timeout.
+DDR hardware training.
+Phy[%x] hw read dataeye fail
+HWR wait timeout.
+byte[%x] data[%x=%x][%x=%x][%x=%x][%x=%x]
+DDR dataeye dq check type not set.
+DQ[%x] def[%x] nok, find new value[%x]
+DQ[%x] not found dq. restore[%x]
+DQ[%x] range: left[%x] right[%x]. best[%x] mode[%x]
+Byte[%x] DQ[%x] no win.
+PHY[%x] byte[%x] vref[%x] win[%x] mode[%x]
+byte[%x] mode[%x] get vref [%x]
+PHY[%x] byte[%x] vref[%x] win[%x][%x] mode[%x]
+byte[%x] bdl[%x] middle[%x] accel[%x] rdqs[%x]
+Move byte[%x] window to middle suc.
+Byte[%x] deskew fail, restore[%x].
+Move byte[%x] to middle fail. [%x]
+DDR dataeye adjust.
+PHY[%x] Byte[%x] mode[%x] win on middle.
+PHY[%x] mode[%x] dataeye training fail.
+DDR dataeye training.
+PHY[%x] Byte[%x] DQ[%x] MPR fail
+DDR MPR training.
+PHY[%x] Byte[%x] rdqs_middle[%x]
+rdqs_start[%x] rdqs_end[%x]
+PHY[%x] Byte[%x] not find RDQS, restore.
+DDR Vref[%x] training.
+DDR Write Leveling training.
+Byte[%x] new[%x][%x] old[%x][%x]
+DDR Gate training.
+PHY[%x] find gate bdl fail. result[%x]
+find gate phase[%x] fail.
+1tbBBbt0
+bootargs=mem=96M console=ttyAMA0,115200
+bootcmd=bootm 0x81000000 0x82000000
+bootdelay=1
+baudrate=115200
+ethaddr=00:00:23:34:45:66
+ipaddr=192.168.1.10
+serverip=192.168.1.2
+netmask=255.255.255.0
+bootfile="uImage"
+        
+(((((
+AAAAAA
+BBBBBB
+spinor
+nand
+emmc

@@ -1,0 +1,374 @@
+/lib/ld-linux.so.3
+libpthread.so.0
+_ITM_deregisterTMCloneTable
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+sem_post
+sem_init
+pthread_mutex_unlock
+pthread_join
+pthread_create
+pthread_cancel
+__errno_location
+pthread_mutex_lock
+pthread_self
+pthread_mutex_trylock
+pthread_mutex_destroy
+pthread_cond_wait
+pthread_cond_destroy
+pthread_cond_timedwait
+sem_wait
+pthread_cond_init
+sem_destroy
+pthread_cond_broadcast
+pthread_mutex_init
+librt.so.1
+__gmon_start__
+timer_delete
+sigaction
+timer_create
+timer_settime
+libc.so.6
+fflush
+strcpy
+sprintf
+fopen
+perror
+__isoc99_scanf
+strncpy
+unlink
+abort
+_exit
+getpid
+__assert_fail
+mmap
+symlink
+strlen
+sigemptyset
+memset
+toupper
+vsnprintf
+stdout
+fputc
+fputs
+fclose
+malloc
+__ctype_b_loc
+ioctl
+munmap
+readlink
+usleep
+fwrite
+gettimeofday
+atof
+atoi
+fprintf
+strcmp
+__libc_start_main
+free
+GLIBC_2.4
+GLIBC_2.7
+[fatal]:
+[error]:
+[warn]:
+[info]:
+[debug]:
+[debug1]:
+[debug2]:
+source/common/hi_message.c
+pLogQueue
+%s %s
+Log_Create
+Log_Destroy
+Log_Msg
+No routine to be run for create thread. 
+{source/common/hi_thread.c:128}thread %s create, threadid:%u.
+{source/common/hi_thread.c:146}cancel thread %s. pid:%d,tid:%d.
+{source/common/hi_thread.c:166}thread %s run, pid:%u, threadid:%u
+{source/common/hi_dbg.c:46}Dump memory error!wish len: %u, dump len:%u
+{source/common/hi_dbg.c:64}Open File %s to dump memory error.
+%05x: 
+ %02x
+error:Input param(len) is greater than 2GB!
+%04x: 
+ %08x
+{source/utils/cmdshell.c:47}cmdstr is zero length string 
+{source/utils/cmdshell.c:62}cann't find cmd: %s 
+null
+cmdstrs's length is %d, which should less than %d
+{source/utils/cmdshell.c:150}cann't find cmdstr:%s
+{source/utils/cmdshell.c:172}cmdstr:%s
+{source/utils/cmdshell.c:177}cann't find cmdstr:%s
+error opt type: %u
+{source/utils/argparser.c:246}Wrong Args x: %s
+{source/utils/argparser.c:253}Wrong Args y: %s
+{source/utils/argparser.c:272}Wrong Args z: %s
+{source/utils/argparser.c:320}opt:%s, argtype:%s, Set:%i, argValue:%i. hlp:%s
+{source/utils/argparser.c:326}opt:%s, argtype:%s, Set:%u, argValue:%f. hlp:%s
+{source/utils/argparser.c:332}opt:%s, argtype:%s, Set:%u, argValue:%c. hlp:%s
+{source/utils/argparser.c:339}opt:%s, argtype:%s, Set:%u, argValue:%s. hlp:%s
+{source/utils/argparser.c:346}opt:%s, argtype:%s, Set:%u, hlp:%s
+{source/utils/argparser.c:349}END
+/dev/mem
+memmap():size can't be zero!
+memmap():open %s error!
+memmap():mmap @ 0x%x error!
+memmap():malloc new node failed!
+memunmap(): address have not been mmaped!
+memunmap(): map node will be remove!
+memunmap(): munmap failed!
+{source/utils/memmap.c:226}Open file %s error: %i.
+{source/utils/memmap.c:236}Memory Map OK. Map File: %s, length:%#X, addr:0x%08lX
+{source/utils/memmap.c:241}Memory Map Failure. Map File %s, length:0x%08lX
+Open file %s error: %d.
+{source/utils/memmap.c:271}Memory Map OK. Map File: %s, length:%#X, addr:0x%08lX
+{source/utils/memmap.c:276}Memory Map Failure. Map File %s, length:0x%08lX
+	print help msg
+	install board tools
+	uninstall board tools
+	print version
+	END
+himc
+memory clear
+himd
+memory display (8bit)
+himd.l
+memory display (32bit)
+himm
+memory modify
+hivd
+video dump
+himdb
+hiddrs
+ddr statistic
+hil2s
+l2 cache statistic
+hiew
+extend device write
+hier
+extend device read
+i2c_read
+i2c device read
+i2c_write
+ssp_read
+ssp device read
+ssp_write
+------------------------------------------------------
+ %-10s : %s
+ver0.0.1_20121120
+*** Board tools : %s *** 
+%d:installing <%s>.
+btools
+ <%s> exist.
+ install error!
+%d:uninstalling <%s>.
+ uninstall error
+ %s not link to me(%s)
+ buffer is too small, %d
+ read link error
+create logqueue error.
+do errro
+[END]
+usage: %s <address> [length]. sample: %s 0x80040000 0x100
+%s exit:%#010lX.{%s:%d}
+source/tools/himd.c
+[END]
+====dump memory 0x%008lX====
+Memory Map error.
+Please input address like 0x12345
+usage: %s <address>. sample: %s 0x80040000
+====dump memory %#010lX====
+filename's length is %d, which should less than %d
+filename's length: %d, which should less than %d
+md_%s-%s
+usage: %s <address> <len> [filename]. sample: %s 0x80040000 
+====dump memory:<%#010lX><%lu> to file:<%s>====
+usage: %s <address> <Value>. sample: %s 0x80040000 0x123
+%s exit:%#010lX.{%s:%d}
+source/tools/himm.c
+[END]
+====dump memory %#lX====
+%s: 0x%08lX
+NewValue:
+Input Error
+Please input address like 0x12345
+%s: 0x%08lX --> 0x%08lX 
+ clear(set) memory. 
+usage: %s <address> <length> [value]. 
+Address: Phy address. 0x80040000 
+Length: the length to set 
+Value: default 0 
+sample: %s 0x80040000 100 1
+Clear memory from 0x80040000, to 0x80040064
+%s exit:%#010lX.{%s:%d}
+source/tools/himc.c
+[END]
+length is invalid.
+length %#lX is invalid.must 2 byte aligned
+value %s is invalid.
+====clear memory %#010lX, length %lu====
+Memory Map error.
+Please input address like 0x12345
+usage: %s <YAddr> <CAddr> <YStirde> <CStride> <width> <height> <savefile>
+sample: %s 0x63010000 0x63020000 1024 1024 352 288 dump.cif
+%s exit:%#010lX.{%s:%d}
+source/tools/hivd.c
+[END]
+Please input height like 0x100 or 256
+ulHeight = %lu
+Please input width like 0x100 or 256
+ulWidth = %lu
+Please input C_stride like 0x100 or 256
+ulCStride = %lu
+Please input Y_stride like 0x100 or 256
+ulYStride = %lu
+Please input address like 0x12345
+ulYAddress = %#lx
+ulCAddress = %#lx
+open file %s error!
+Begin to dump video image to file :%s
+Dump done!
+vdump.cif
+ddrc0[%0.2f%%]
+ddrc1[%0.2f%%]
+ddrc0[%0.2f%%] ddrc1[%0.2f%%]
+ddr%d statistic mmap failed.
+NAME
+  ddrs - ddr statistic
+DESCRIPTION
+  Statistic percentage of occupation of ddr.
+  -d, --ddrc
+      which ddrc you want statistic. "0" statistic ddrc0,
+      "1" statistic ddrc1, "2" statistic ddrc0 and ddrc1 at the same time. "0" as default.
+  -f, --freq
+      one ddcr freq, one chip, please set the freq referring to the chip.
+      "400" as default.
+  -w, --width
+      set the bit-width referring to the chip. "32" or "16".
+      "32" as default.
+  -i, --interval
+      the range is 1~3 second, 1 second as default.
+  -h, --help
+      display this help and exit
+  eg:
+      $ hiddrs -d 0 -f 400 -i 1
+      or
+      $ hiddrs
+--ddrc
+--freq
+--width
+--interval
+--help
+/dev/mem
+ddr statistic open failed:
+ddr statistic install signal failed.
+ddr statistic timer create failed.
+ddr statistic set timer failed.
+===== ddr statistic =====
+ddr statistic catch SIGINT signal failed.
+%0.2f%% %8.2f%% %8.2f%% %8.2f%%
+L2 cache statistic usage like this:
+	hil2s [second=1,2,3...]
+	eg. hil2s 2
+/dev/mem
+cache statistic open failed:
+cache statistic mmap failed.
+cache statistic install signal failed.
+cache statistic timer create failed.
+cache statistic set timer failed.
+===== L2 cache statistic =====
+L1 i
+L2 dw
+L2 dr
+%s %10s %8s %8s
+L1 d
+cache statistic catch SIGINT signal failed.
+usage: %s <device address> <register address> <len>. sample: %s 0xA0 0x10 0x40
+Please input i2c port like 0x100 or 256.
+Please input dev addr like 0x100 or 256.
+Please input reg addr like 0x100 0r 256.
+Please input len like 0x100
+[error]not enough memory.
+/dev/hi_i2c
+====I2C read:<%#x> <%#x> <%#x>====
+usage: %s <device address> <register address> <value>. sample: %s 0xA0 0x10 0x40
+====I2C write:<%#x> <%#x> <%#x>====
+usage: i2c_read <i2c_num> <dev_addr> <reg_addr> <reg_addr_end><reg_width> <data_width> <reg_step>. sample: 
+		0x1 0x56 0x0 0x10 2 2. 
+		0x1 0x56 0x0 0x10 2 2 2. 
+		0x1 0x56 0x0 0x10. default reg_width, data_width, reg_step is 1. 
+usage: i2c_write <i2c_num> <dev_addr> <reg_addr> <value> <reg_width> <data_width>. sample:
+		 0x1 0x56 0x0 0x28 2 2. 
+		 0x1 0x56 0x0 0x28. default reg_width and data_width is 1. 
+reg_addr_end < reg_addr error!
+reg_width must be 1 or 2
+data_width must be 1 or 2
+((reg_addr or reg_addr_end) %% reg_step) != 0, error!
+i2c_num:0x%x, dev_addr:0x%x; reg_addr:0x%x; reg_addr_end:0x%x; reg_width: %d; data_width: %d. 
+/dev/i2c-%u
+Open %s error!
+CMD_SET_I2C_SLAVE error!
+CMD_I2C_READ error!
+0x%x: 0x%x
+i2c_num:0x%x, dev_addr:0x%x; reg_addr:0x%x; data:0x%x; reg_width: %d; data_width: %d.
+set i2c device address error!
+i2c write error!
+Usage: ssp_read <spi_num> <csn> <dev_addr> <reg_addr> [num_reg] [dev_width] [reg_width] [data_width] [reg_order] [data_order] .
+	num_reg and dev_width and reg_width and data_width and reg_order and data_order can be omitted, the default is 0x1.
+	ssp_read 0x0 0x0 0x2 0x0 0x10 0x1 0x1 0x1 0x1 0x1.
+	ssp_read 0x0 0x0 0x2 0x0. default num_reg and dev_width and reg_width and data_width and reg_order and data_order is 0x1.
+Usage: ssp_write <spi_num> <csn> <dev_addr> <reg_addr> <data> [dev_width] [reg_width] [data_width] [reg_order] [data_order].
+	dev_width and reg_width and data_width and reg_order and data_order can be omitted, the default is 0x1.
+	ssp_write 0x0 0x0 0x2 0x0 0x65 0x1 0x1 0x1 0x1 0x1.
+	ssp_write 0x0 0x0 0x2 0x0 0x65. default dev_width and reg_width and data_width and reg_order and data_orderis 0x1.
+dev_width must be 1 or 2
+reg_width must be 1 or 2
+data_width must be 1 or 2
+reg_order must be 1 or 0
+data_order must be 1 or 0
+spi_num:%u, csn:%u
+dev_addr:0x%04x, reg_addr:0x%04x, num_reg:%d, dev_width:%d, reg_width:%d, data_width:%d, reg_order: %d, data_order: %d
+/dev/spidev%u.%u
+Open %s error!
+set spi mode fail!
+====reg_addr:0x%04x====
+SPI_IOC_MESSAGE error 
+0x%04x:  
+0x%04x 
+[END]
+spi_num:%u, csn:%u
+dev_addr:0x%04x, reg_addr:0x%04x, data:0x%04x, dev_width:%d, reg_width:%d, data_width:%d, reg_order: %d, data_order: %d
+NO_OPT
+CHAR
+STRING
+FLOAT
+SINGLE
+HELP
+GCC: (Hisilicon_v600_20170615) 4.9.4 20150629 (prerelease)
+aeabi
+Cortex-A7
+.shstrtab
+.interp
+.note.ABI-tag
+.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.ARM.exidx
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.dynamic
+.got
+.data
+.bss
+.comment
+.ARM.attributes

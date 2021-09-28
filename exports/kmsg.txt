@@ -1,0 +1,2596 @@
+6,0,0,-;Booting Linux on physical CPU 0x0
+6,1,0,-;Initializing cgroup subsys cpu
+5,2,0,-;Linux version 3.18.20 (root@cs) (gcc version 4.9.4 20150629 (prerelease) (Hisilicon_v600_20170615) ) #53 Fri Jun 14 09:44:46 CST 2019
+6,3,0,-;CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c5387d
+6,4,0,-;CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+6,5,0,-;Machine model: Hisilicon HI3559 DEMO Board
+4,6,0,-;Ignoring memory range 0x80000000 - 0x88000000
+6,7,0,-;cmz zone is not set!
+6,8,0,-;cma: Reserved 16 MiB at 0x8f000000
+6,9,0,-;Memory policy: Data cache writeback
+7,10,0,-;On node 0 totalpages: 32768
+7,11,0,-;free_area_init_node: node 0, pgdat c04a1d98, node_mem_map c6eee000
+7,12,0,-;  Normal zone: 256 pages used for memmap
+7,13,0,-;  Normal zone: 0 pages reserved
+7,14,0,-;  Normal zone: 32768 pages, LIFO batch:7
+6,15,0,-;CPU: All CPU(s) started in SVC mode.
+7,16,0,-;pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+7,17,0,-;pcpu-alloc: [0] 0 
+4,18,0,-;Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+5,19,0,-;Kernel command line: mem=128M lpj=240000 console=ttyAMA0 clk_ignore_unused quiet ro root=/dev/mtdblock7 rootfstype=squashfs mtdparts=hi_sfc:128K(mini-u-boot.bin),704K(u-boot.bin),64k(rawparam),64k(rawparam1),256k(paramdef),2560k(miniuImage),3M(media_app_zip.bin),8M(rootfs.squashfs),832k(privatefs.jffs2)
+6,20,0,-;PID hash table entries: 512 (order: -1, 2048 bytes)
+6,21,0,-;Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+6,22,0,-;Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+4,23,0,-;Memory: 108396K/131072K available (3436K kernel code, 138K rwdata, 984K rodata, 152K init, 262K bss, 22676K reserved, 0K highmem)
+5,24,0,-;Virtual kernel memory layout:\x0a    vector  : 0xffff0000 - 0xffff1000   (   4 kB)\x0a    fixmap  : 0xffc00000 - 0xffe00000   (2048 kB)\x0a    vmalloc : 0xc8800000 - 0xff000000   ( 872 MB)\x0a    lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)\x0a    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)\x0a    modules : 0xbf000000 - 0xbfe00000   (  14 MB)\x0a      .text : 0xc0008000 - 0xc04594cc   (4422 kB)\x0a      .init : 0xc045a000 - 0xc0480000   ( 152 kB)\x0a      .data : 0xc0480000 - 0xc04a2a60   ( 139 kB)\x0a       .bss : 0xc04a2a60 - 0xc04e42a0   ( 263 kB)
+6,25,0,-;SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+6,26,0,-;NR_IRQS:16 nr_irqs:16 16
+6,27,0,-;Architected cp15 timer(s) running at 24.00MHz (phys).
+6,28,10,-;sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 2863311519744ns
+6,29,20,-;Switching to timer-based delay loop, resolution 41ns
+6,30,437,-;Console: colour dummy device 80x30
+6,31,456,-;Calibrating delay loop (skipped) preset value.. 480.00 BogoMIPS (lpj=240000)
+6,32,469,-;pid_max: default: 32768 minimum: 301
+6,33,577,-;Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+6,34,587,-;Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+6,35,1185,-;CPU: Testing write buffer coherency: ok
+6,36,1456,-;Setting up static identity map for 0x88347aa8 - 0x88347b00
+6,37,2183,-;ARM CCI driver probed
+6,38,2743,-;devtmpfs: initialized
+6,39,4051,-;VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+6,40,4589,-;regulator-dummy: no parameters
+6,41,7928,-;NET: Registered protocol family 16
+6,42,8291,-;DMA: preallocated 256 KiB pool for atomic coherent allocations
+6,43,13431,-;Serial: AMBA PL011 UART driver
+6,44,13548,-;12100000.uart: ttyAMA0 at MMIO 0x12100000 (irq = 36, base_baud = 0) is a PL011 rev2
+6,45,13616,-;console [ttyAMA0] enabled
+5,46,18331,-;SCSI subsystem initialized
+6,47,18427,-;ssp-pl022 12122000.spi: ARM PL022 driver, device ID: 0x00800022
+ SUBSYSTEM=amba
+ DEVICE=+amba:12122000.spi
+6,48,18460,-;ssp-pl022 12122000.spi: mapped registers from 0x12122000 to fea22000
+ SUBSYSTEM=amba
+ DEVICE=+amba:12122000.spi
+6,49,19465,-;Linux video capture interface: v2.00
+6,50,20284,-;Switched to clocksource arch_sys_counter
+6,51,28017,-;NET: Registered protocol family 2
+6,52,28765,-;TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+6,53,28791,-;TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+6,54,28808,-;TCP: Hash tables configured (established 1024 bind 1024)
+6,55,28872,-;TCP: reno registered
+6,56,28885,-;UDP hash table entries: 256 (order: 0, 4096 bytes)
+6,57,28908,-;UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+6,58,29094,-;NET: Registered protocol family 1
+6,59,29541,-;RPC: Registered named UNIX socket transport module.
+6,60,29551,-;RPC: Registered udp transport module.
+6,61,29554,-;RPC: Registered tcp transport module.
+6,62,29558,-;RPC: Registered tcp NFSv4.1 backchannel transport module.
+6,63,30679,-;futex hash table entries: 256 (order: -1, 3072 bytes)
+6,64,36703,-;squashfs: version 4.0 (2009/01/31) Phillip Lougher
+6,65,37728,-;jffs2: version 2.2. (NAND) \xc2\xa9 2001-2006 Red Hat, Inc.
+6,66,38266,-;msgmni has been set to 211
+6,67,39343,-;Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+6,68,39371,-;io scheduler noop registered
+6,69,39384,-;io scheduler deadline registered (default)
+6,70,39535,-;io scheduler cfq registered
+6,71,45795,-;brd: module loaded
+4,72,47143,-;hisi-sfc hisi_spi_nor.0: all blocks is unlocked.
+ SUBSYSTEM=platform
+ DEVICE=+platform:hisi_spi_nor.0
+6,73,47165,-;hisi-sfc hisi_spi_nor.0: mx25u12835f (16384 Kbytes)
+ SUBSYSTEM=platform
+ DEVICE=+platform:hisi_spi_nor.0
+5,74,47199,-;9 cmdlinepart partitions found on MTD device hi_sfc
+5,75,47204,-;Creating 9 MTD partitions on "hi_sfc":
+5,76,47224,-;0x000000000000-0x000000020000 : "mini-u-boot.bin"
+5,77,48168,-;0x000000020000-0x0000000d0000 : "u-boot.bin"
+5,78,48995,-;0x0000000d0000-0x0000000e0000 : "rawparam"
+5,79,49814,-;0x0000000e0000-0x0000000f0000 : "rawparam1"
+5,80,50646,-;0x0000000f0000-0x000000130000 : "paramdef"
+5,81,51485,-;0x000000130000-0x0000003b0000 : "miniuImage"
+5,82,52322,-;0x0000003b0000-0x0000006b0000 : "media_app_zip.bin"
+5,83,53108,-;0x0000006b0000-0x000000eb0000 : "rootfs.squashfs"
+5,84,53972,-;0x000000eb0000-0x000000f80000 : "privatefs.jffs2"
+6,85,55038,-;i2c /dev entries driver
+6,86,55208,-;hisi-i2c-v110 12113000.i2c: HISILICON I2C V110 bus driver
+ SUBSYSTEM=platform
+ DEVICE=+platform:12113000.i2c
+6,87,55238,-;hisi-i2c-v110 12113000.i2c: mapped registers from 0x12113000 to 0xfea13000
+ SUBSYSTEM=platform
+ DEVICE=+platform:12113000.i2c
+6,88,56440,-;TCP: cubic registered
+6,89,56985,-;NET: Registered protocol family 10
+6,90,57867,-;sit: IPv6 over IPv4 tunneling driver
+6,91,58629,-;NET: Registered protocol family 17
+5,92,58768,-;Registering SWP/SWPB emulation handler
+4,93,60503,-;clk: Not disabling unused clocks
+3,94,61364,-;squashfs: SQUASHFS error: Xattrs in filesystem, these will be ignored
+3,95,67555,-;squashfs: SQUASHFS error: unable to read xattr id index table
+6,96,73882,-;VFS: Mounted root (squashfs filesystem) readonly on device 31:7.
+6,97,74552,-;devtmpfs: mounted
+6,98,74777,-;Freeing unused kernel memory: 152K (c045a000 - c0480000)
+4,99,180391,-;<info> ipcm init:localid = 0
+4,100,180408,-;<info>      local shm_phys: 0x80200000, shm_size: 0x400000
+4,101,187886,-;<info> ##message recv thread run
+4,102,187901,-;<info> shared mem sync...
+4,103,187912,-;<info> all ready[0x3/0x3]
+4,104,187921,-;<info> IPCM init done!
+4,105,187924,-;
+4,106,198390,-;Module himedia: init ok
+6,107,198400,-;Hisilicon Media Memory Zone Manager
+4,108,198405,-;The module param setup_allocator is hisi 
+4,109,198634,-;hi_osal 1.0 init success!
+4,110,204971,-;hi3559_base: module license 'Proprietary' taints kernel.
+4,111,204982,-;Disabling lock debugging due to kernel taint
+4,112,218358,-;load sys.ko for Hi3559...OK!
+4,113,232405,-;load tde.ko ...OK!
+4,114,251088,-;load hifb.ko OK!
+6,115,674411,-;himci: mmc host probe
+6,116,824600,-;himci: mmc host probe
+6,117,9188555,-;cfg80211: Calling CRDA to update world regulatory domain
+4,118,9323922,-;RTW: module init start
+4,119,9452357,-;RTW: rtl8189es v5.3.3.1_27418.20180425
+4,120,9452369,-;RTW: build time: Oct 22 2018 14:51:28
+4,121,9452436,-;RTW: rtw_inetaddr_notifier_register
+4,122,9452521,-;RTW: module init ret=0
+6,123,9481643,-;mmc1: new high speed SDIO card at address 0001
+4,124,9482029,-;RTW: == SDIO Card Info ==
+4,125,9482036,-;RTW:   clock: 50000000 Hz
+4,126,9482040,-;RTW:   timing spec: sd high-speed
+4,127,9482048,-;RTW:   sd3_bus_mode: FALSE
+4,128,9482051,-;RTW: ================
+4,129,9482054,-;RTW: CHIP TYPE: RTL8188E
+4,130,9482411,-;RTW: rtw_hal_config_rftype RF_Type is 0 TotalTxPath is 1
+4,131,9482428,-;RTW: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+4,132,9482438,-;RTW: =>_InitPowerOn_8188ES
+4,133,9482441,-;RTW: =>_CardEnable
+4,134,9488258,-;RTW: SetHwReg: bMacPwrCtrlOn=1
+4,135,9488265,-;RTW: <=_CardEnable
+4,136,9488407,-;RTW: <=_InitPowerOn_8188ES
+4,137,9488443,-;RTW: EEPROM type is E-FUSE
+4,138,9488469,-;RTW: _ReadPROMContent: 9346CR=0x20, Boot from EFUSE, Autoload OK
+4,139,9488555,-;RTW: =>_InitPowerOn_8188ES
+4,140,9488559,-;RTW: =>_CardEnable
+4,141,9488564,-;RTW: =>_CardEnable bMacPwrCtrlOn == _TRUE do nothing !!
+4,142,9488567,-;RTW: <=_CardEnable
+4,143,9488688,-;RTW: <=_InitPowerOn_8188ES
+4,144,9488723,-;bFWReady == _FALSE call reset 8051...
+4,145,9488891,-;RTW: =====> _8051Reset88E(): 8051 reset success .
+4,146,9507684,-;RTW: efuse_read_phymap_from_txpktbuf bcnhead:0
+4,147,9507889,-;RTW: efuse_read_phymap_from_txpktbuf len:162, lenbak:162, aaa:162, aaabak:162
+4,148,9509920,-;RTW: efuse_read_phymap_from_txpktbuf read count:160
+4,149,9510041,-;RTW: HW EFUSE
+4,150,9510051,-;RTW: 0x000: 29 81 00 6C  0B 00 00 00  00 0C 00 00  0A 00 00 00  
+4,151,9510080,-;RTW: 0x010: 2A 29 28 27  27 27 2C 2C  2B 2A 2A 02  FF FF FF FF  
+4,152,9510106,-;RTW: 0x020: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,153,9510132,-;RTW: 0x030: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,154,9510157,-;RTW: 0x040: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,155,9510183,-;RTW: 0x050: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,156,9510208,-;RTW: 0x060: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,157,9510234,-;RTW: 0x070: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,158,9510259,-;RTW: 0x080: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,159,9510306,-;RTW: 0x090: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,160,9510332,-;RTW: 0x0A0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,161,9510357,-;RTW: 0x0B0: FF FF FF FF  FF FF FF FF  08 09 11 00  00 00 FF 00  
+4,162,9510382,-;RTW: 0x0C0: FF 00 00 10  00 00 00 55  00 01 FF FF  FF FF FF FF  
+4,163,9510408,-;RTW: 0x0D0: 3F 00 01 02  32 00 00 FC  20 04 4C 02  79 81 21 02  
+4,164,9510433,-;RTW: 0x0E0: 0C 00 22 04  00 08 00 32  FF 21 02 0C  00 22 2A 01  
+4,165,9510458,-;RTW: 0x0F0: 01 00 00 00  00 00 00 00  00 00 00 00  02 00 FF FF  
+4,166,9510482,-;RTW: 0x100: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  
+4,167,9510506,-;RTW: 0x110: 00 EB 00 6E  01 00 00 00  00 FF 44 B2  95 8C DC A5  
+4,168,9510532,-;RTW: 0x120: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,169,9510558,-;RTW: 0x130: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,170,9510583,-;RTW: 0x140: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,171,9510609,-;RTW: 0x150: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,172,9510634,-;RTW: 0x160: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,173,9510660,-;RTW: 0x170: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,174,9510685,-;RTW: 0x180: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,175,9510711,-;RTW: 0x190: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,176,9510737,-;RTW: 0x1A0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,177,9510762,-;RTW: 0x1B0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,178,9510788,-;RTW: 0x1C0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,179,9510813,-;RTW: 0x1D0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,180,9510839,-;RTW: 0x1E0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,181,9510864,-;RTW: 0x1F0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,182,9510896,-;RTW: EEPROM ID=0x8129
+4,183,9510908,-;RTW: Hal_ReadPowerSavingMode88E...bHWPwrPindetect(0)-bHWPowerdown(0) ,bSupportRemoteWakeup(0)
+4,184,9510913,-;RTW: ### PS params=>  power_mgnt(2),usbss_enable(0) ###
+4,185,9510935,-;RTW: EEPROMRegulatory = 0x0
+4,186,9510946,-;RTW: hal_com_config_channel_plan chplan:0x08
+4,187,9510949,-;RTW: crystal_cap: 0x 9
+4,188,9510953,-;RTW: EEPROM Customer ID: 0x 0
+4,189,9510958,-;RTW: pHalData->ExternalPA_2G = 0 , pHalData->ExternalLNA_2G = 0
+4,190,9510962,-;RTW: pHalData->TypeGLNA is 0x0
+4,191,9510965,-;RTW: pHalData->rfe_type is 0xff
+4,192,9510968,-;RTW: Board Type: 0x 0
+4,193,9510972,-;RTW: ThermalMeter = 0x11
+4,194,9510975,-;RTW: pHalData->EEPROMRFGainVal=0
+4,195,9510983,-;RTW: Hal_ReadRFGainOffset => EEPRORFGainOffset = 0x00,EEPROMRFGainVal=0x00,thermal_offset:0x00
+4,196,9510989,-;RTW: =>hal_poweroff_8188es
+4,197,9511479,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,198,9511783,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,199,9511788,-;RTW: <=hal_poweroff_8188es
+4,200,9511794,-;RTW: rtw_hal_read_chip_info in 29 ms
+4,201,9511828,-;RTW: init_channel_set((null)) ChannelPlan ID:0x08, ch num:14
+4,202,9512955,-;RTW: rtw_alloc_macid((null)) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,203,9513098,-;RTW: IQK FW offload:disable
+4,204,9513123,-;RTW: rtw_regsty_chk_target_tx_power_valid return _FALSE for band:0, path:0, rs:0, t:-1
+4,205,9513139,-;RTW: rtw_macaddr_cfg mac addr:44:b2:95:8c:dc:a5
+4,206,9513278,-;RTW: bDriverStopped:True, bSurpriseRemoved:False, bup:0, hw_init_completed:0
+4,207,9513408,-;RTW: rtw_wiphy_alloc(phy0)
+4,208,9513416,-;RTW: rtw_wdev_alloc(padapter=c8e9f000)
+4,209,9513427,-;RTW: rtw_wiphy_register(phy0)
+4,210,9513432,-;RTW: Register RTW cfg80211 vendor cmd(0x67) interface
+4,211,9513748,-;RTW: rtw_ndev_init(wlan0) if1 mac_addr=44:b2:95:8c:dc:a5
+4,212,9514264,-;RTW: rtw_ndev_notifier_call(wlan0) state:16
+4,213,9515165,-;RTW: rtw_ndev_notifier_call(wlan0) state:5
+5,214,10002640,-;random: hostapd urandom read with 66 bits of entropy available
+4,215,10011234,-;RTW: cfg80211_rtw_change_iface(wlan0) type=3, hw_port:0
+4,216,10011249,-;RTW: cfg80211_rtw_change_iface(wlan0) call netdev_open
+4,217,10011256,-;RTW: _netdev_open(wlan0) , bup=0
+4,218,10011262,-;RTW: +rtl8188es_hal_init
+4,219,10011433,-;RTW: FW does not exit before power on!!
+4,220,10011443,-;RTW: =>_InitPowerOn_8188ES
+4,221,10011446,-;RTW: =>_CardEnable
+4,222,10017326,-;RTW: SetHwReg: bMacPwrCtrlOn=1
+4,223,10017336,-;RTW: <=_CardEnable
+4,224,10017468,-;RTW: <=_InitPowerOn_8188ES
+4,225,10017581,-;RTW: sdio_power_on_check: val_mix:0x0000063f, res:0x0000063f
+4,226,10017587,-;RTW: sdio_power_on_check: 0x100 the result of cmd52 and cmd53 is the same.
+4,227,10017647,-;RTW: sdio_power_on_check: 0x1B8 test Pass.
+4,228,10017652,-;RTW: Power on ok!
+4,229,10017863,-;RTW: rtl8188e_FirmwareDownload fw:NIC, size: 15262
+4,230,10017875,-;RTW: rtl8188e_FirmwareDownload: fw_ver=1c fw_subver=0000 sig=0x88e1, Month=14, Date=27, Hour=7e, Minute=3b
+4,231,10101431,-;RTW: polling_fwdl_chksum: Checksum report OK! (1, 0ms), REG_MCUFWDL:0x00030005
+4,232,10101811,-;RTW: =====> _8051Reset88E(): 8051 reset success .
+4,233,10104613,-;RTW: _FWFreeToGo: Polling FW ready OK! (44, 3ms), REG_MCUFWDL:0x000300c6
+4,234,10104622,-;RTW: FWDL success. write_fw:1, 87ms
+4,235,10319572,-;==> rtl8188e_iol_efuse_patch
+4,236,10345544,-;RTW: HalDetectPwrDownMode(): PDN=0
+4,237,10345554,-;RTW: Set RF Chip ID to RF_6052 and RF type to 0.
+4,238,10558429,-;RTW: DISABLE_BB_RF=0
+4,239,10558441,-;RTW: IS_HARDWARE_TYPE_8188ES=1
+4,240,10558502,-;RTW: -rtl8188es_hal_init
+4,241,10558513,-;RTW: rtl8188es_hal_init in 548ms
+4,242,10558530,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,243,10558751,-;RTW: rtw_hal_get_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,244,10558761,-;RTW: wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,245,10558870,-;RTW: [HW_VAR_ENABLE_RX_BAR] 0x6A2=0x500
+4,246,10559968,-;RTW: Using the default RF gain.
+4,247,10559982,-;RTW: MAC Address = 44:b2:95:8c:dc:a5
+4,248,10559988,-;RTW: rtw_start_drv_threads(wlan0) start RTW_XMIT_THREAD
+4,249,10560114,-;RTW: rtw_start_drv_threads(wlan0) start RTW_CMD_THREAD
+4,250,10560193,-;RTW: rtl8188e_start_thread(wlan0) start RTWHALXT
+4,251,10560259,-;RTW: start rtl8188es_xmit_thread
+4,252,10560350,-;RTW: rtw_cfg80211_init_wiphy:rf_type=0
+4,253,10560359,-;RTW: [HT] HAL Support STBC = 0x01
+4,254,10560386,-;RTW: -871x_drv - drv_open, bup=1
+4,255,10560401,-;RTW: cfg80211_rtw_change_iface(wlan0) old_iftype=2, new_iftype=3
+4,256,10560436,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,257,10560460,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,258,10560494,-;RTW: wlan0- Port-0  set opmode = 3
+4,259,10560506,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,260,10561167,-;RTW: cfg80211_rtw_change_iface(wlan0) ret:0
+4,261,10561665,-;RTW: rtw_ndev_notifier_call(wlan0) state:13
+4,262,10561680,-;RTW: _netdev_open(wlan0) , bup=1
+4,263,10561690,-;RTW: -871x_drv - drv_open, bup=1
+6,264,10561784,-;IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+4,265,10561796,-;RTW: rtw_ndev_notifier_call(wlan0) state:1
+4,266,10562453,-;RTW: cfg80211_rtw_scan(wlan0)
+4,267,10564131,-;RTW: SetHwReg8188E:(HW_VAR_CHECK_TXBUF)TXBUF Empty(1) in 1 ms
+4,268,10564422,-;RTW: wlan0 sleep m0=0x00000002, ori reg_0x48c=0x00000000
+4,269,11701647,-;RTW: wlan0 wakeup m0=0x00000002, ori reg_0x48c=0x00000002
+4,270,11701706,-;RTW: survey done event(1) band:0 for wlan0
+4,271,11701773,-;RTW: rtw_indicate_scan_done(wlan0)
+4,272,11702879,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=  (null)
+4,273,11702892,-;RTW: flush all sta, and cam_entry
+4,274,11703076,-;RTW: rtw_sta_flush(wlan0)
+4,275,11703092,-;RTW: issue_deauth to ff:ff:ff:ff:ff:ff
+4,276,11703548,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=ff:ff:ff:ff:ff:ff
+4,277,11703563,-;RTW: free sta macaddr =ff:ff:ff:ff:ff:ff
+4,278,11703710,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=  (null)
+4,279,11703815,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=1, addr=  (null)
+4,280,11703931,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=2, addr=  (null)
+4,281,11704016,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=3, addr=  (null)
+4,282,11849919,-;RTW: cfg80211_rtw_start_ap(wlan0) hidden_ssid:0, auth_type:5
+4,283,11849938,-;RTW: rtw_add_beacon beacon_head_len=67, beacon_tail_len=109
+4,284,11849957,-;RTW: rtw_check_beacon_data, len=152
+4,285,11849993,-;RTW: [HT] HAL Support STBC = 0x01
+4,286,11850085,-;RTW: update_hw_ht_param
+4,287,11852496,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 44:b2:95:8c:dc:a5
+4,288,11852736,-;RTW: SetHwReg8188E==> bcn_interval:100, eraly_int:50
+4,289,11852776,-;RTW: rtw_ap_chbw_decision(wlan0) ld_sta_num:0, lg_sta_num0, ap_num:0, mesh_num:0
+4,290,11852784,-;RTW: rtw_ap_chbw_decision(wlan0) req: 0,-1,-1
+4,291,11852810,-;RTW: rtw_ap_chbw_decision(wlan0) dec: 6,0,0
+4,292,11852938,-;RTW: HW_VAR_BASIC_RATE: 0x15f->0x15f->0x15f
+4,293,11853123,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,294,11853131,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,295,11853136,-;RTW: STA - MAC_ID:1, Tx - 1 SS, Rx - 1 SS
+4,296,11853140,-;RTW: STA - MAC_ID:1, SM_PS 3
+4,297,11853456,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,298,11853491,-;RTW: wlan0 BMC Init Tx rate - CCK_11M
+4,299,11856021,-;RTW: rtw_cfg80211_indicate_connect(wlan0)
+4,300,11856032,-;RTW: assoc success
+6,301,11856140,-;IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+4,302,11856254,-;RTW: rtw_ndev_notifier_call(wlan0) state:4
+4,303,11856688,-;RTW: cfg80211_rtw_change_bss(wlan0)
+4,304,11862677,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,305,11862693,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=1
+4,306,11862698,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=0
+4,307,11862710,-;RTW: rtw_cfg80211_ap_set_encryption
+4,308,11862718,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP TX GTK idx:1, len:16
+4,309,11862728,-;RTW: rtw_ap_set_group_key
+4,310,11862807,-;RTW: set group key camid:1, addr:00:00:00:00:00:00, kid:1, type:AES
+4,311,11863918,-;RTW: cfg80211_rtw_set_default_key(wlan0) key_index=1, unicast=0, multicast=1
+4,312,15656165,-;RTW: rtw_ioctl_standard_wext_private:...
+4,313,15656263,-;RTW: rtw_ioctl_standard_wext_private:...
+4,314,15656387,-;RTW: rtw_ioctl_standard_wext_private:...
+4,315,15656427,-;RTW: rtw_ioctl_standard_wext_private:...
+4,316,15656461,-;RTW: rtw_ioctl_standard_wext_private:...
+4,317,15656492,-;RTW: rtw_ioctl_standard_wext_private:...
+4,318,15656524,-;RTW: rtw_ioctl_standard_wext_private:...
+4,319,15656574,-;RTW: rtw_ioctl_standard_wext_private:...
+4,320,15656611,-;RTW: rtw_ioctl_standard_wext_private:...
+4,321,15656631,-;RTW: rtw_ioctl_standard_wext_private:...
+4,322,15656801,-;RTW: rtw_ioctl_standard_wext_private:...
+4,323,56963466,-;RTW: +OnAuth
+4,324,56963487,-;RTW: auth alg=0, seq=1
+4,325,56963501,-;RTW: going to alloc stainfo for sa=3c:a9:f4:94:68:d0
+4,326,56963528,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,327,56963551,-;RTW: issue_auth
+4,328,56974443,-;RTW: OnAssocReq
+4,329,56974483,-;RTW: OnAssocReq(wlan0) allocate new AID=1
+4,330,56974496,-;RTW: HT: STA 3c:a9:f4:94:68:d0 HT Capabilities Info: 0x107e
+4,331,56974503,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,332,56974508,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,333,56974514,-;RTW: bss_cap_update_on_sta_join, updated=0
+4,334,56974518,-;RTW: update_sta_info_apmode
+4,335,56974534,-;RTW: ### Set STA_(0) info ###
+4,336,56974538,-;RTW: issue_asocrsp
+4,337,56974573,-;RTW: report_add_sta_event: add STA
+4,338,56974908,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,339,56974951,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,340,56974957,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,341,56974963,-;RTW: STA - MAC_ID:0, Tx - 1 SS, Rx - 1 SS
+4,342,56974966,-;RTW: STA - MAC_ID:0, SM_PS 3
+4,343,56974977,-;RTW: ht_mcs_set=ff ff ff 00, nss=1, bitmap=000000ff
+4,344,56974985,-;RTW: rtw_ap_update_sta_ra_info=> mac_id:0 , tx_ra_bitmap:0x00000000000fffff, networkType:0x0b
+4,345,56975957,-;RTW: ============ STA [3c:a9:f4:94:68:d0]  ===================
+4,346,56975965,-;RTW: mac_id : 0
+4,347,56975968,-;RTW: wireless_mode : 0x0b
+4,348,56975971,-;RTW: mimo_type : 0
+4,349,56975976,-;RTW: bw_mode : 20MHz, ra_bw_mode : 20MHz
+4,350,56975979,-;RTW: rate_id : 0
+4,351,56975983,-;RTW: rssi : -1 (%), rssi_level : 0
+4,352,56975987,-;RTW: is_support_sgi : Y, is_vht_enable : N
+4,353,56975991,-;RTW: disable_ra : N, disable_pt : N
+4,354,56975994,-;RTW: is_noisy : N
+4,355,56975996,-;RTW: txrx_state : 0
+4,356,56976000,-;RTW: curr_tx_rate : CCK_1M (L)
+4,357,56976003,-;RTW: curr_tx_bw : 20MHz
+4,358,56976006,-;RTW: curr_retry_ratio : 0
+4,359,56976009,-;RTW: ra_mask : 0x00000000000fffff\x0a
+4,360,56976013,-;RTW: indicate_sta_assoc_event to upper layer - hostapd
+4,361,56976023,-;RTW: rtw_cfg80211_indicate_sta_assoc(wlan0)
+4,362,56976948,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,363,56977190,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,364,56977575,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,365,56985493,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,366,56985511,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=1
+4,367,56985515,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=0
+4,368,56985528,-;RTW: rtw_cfg80211_ap_set_encryption
+4,369,56985538,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP TX GTK idx:1, len:16
+4,370,56985548,-;RTW: rtw_ap_set_group_key
+4,371,56985616,-;RTW: set group key camid:1, addr:00:00:00:00:00:00, kid:1, type:AES
+4,372,56986235,-;RTW: cfg80211_rtw_set_default_key(wlan0) key_index=1, unicast=0, multicast=1
+4,373,56989132,-;RTW: send eapol packet
+4,374,56999485,-;RTW: recv eapol packet
+4,375,57000067,-;RTW: cfg80211_rtw_get_key(wlan0) keyid=1, pairwise=0, addr=  (null) ret 0
+4,376,57000079,-;RTW: cfg80211_rtw_get_key(wlan0) seq:0x0
+4,377,57000491,-;RTW: send eapol packet
+4,378,57005518,-;RTW: recv eapol packet
+4,379,57006044,-;RTW: cfg80211_rtw_add_key(wlan0) adding key for 3c:a9:f4:94:68:d0
+4,380,57006059,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,381,57006067,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=0
+4,382,57006071,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=1
+4,383,57006082,-;RTW: rtw_cfg80211_ap_set_encryption
+4,384,57006102,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP PTK of 3c:a9:f4:94:68:d0 idx:0, len:16
+4,385,57006208,-;RTW: set pairwise key camid:4, addr:3c:a9:f4:94:68:d0, kid:0, type:AES
+4,386,57007273,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,387,60662827,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,388,64670773,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,389,68678686,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,390,72686657,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,391,76696816,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,392,80702725,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,393,84710772,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,394,88718815,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,395,92726734,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,396,94808442,-;RTW: OnAction_back
+4,397,94808460,-;RTW: OnAction_back, action=0
+4,398,94811481,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=0 size:16, acked, 1/3 in 3 ms
+4,399,96734877,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,400,100742690,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,401,104750758,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,402,108758695,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,403,112766641,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,404,116774715,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,405,120454466,-;RTW: OnAction_back
+4,406,120454487,-;RTW: OnAction_back, action=2
+4,407,120454493,-;RTW: OnAction_back(): DELBA: 0(0)
+4,408,120782847,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,409,124790775,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,410,128798750,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,411,132806702,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,412,134519464,-;RTW: OnAction_back
+4,413,134519482,-;RTW: OnAction_back, action=0
+4,414,134522454,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=0 size:16, acked, 1/3 in 3 ms
+4,415,136814726,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,416,140822781,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,417,144830751,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,418,148838757,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,419,150074420,-;RTW: OnAction_back
+4,420,150074439,-;RTW: OnAction_back, action=2
+4,421,150074445,-;RTW: OnAction_back(): DELBA: 0(0)
+4,422,152846734,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,423,156854892,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,424,160862930,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,425,164871069,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,426,168878932,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,427,172886866,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,428,176894972,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,429,180902924,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,430,184910985,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,431,188918868,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,432,192926920,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,433,196934893,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,434,200942979,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,435,204950867,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,436,208958989,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,437,212966900,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,438,216974870,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,439,220982864,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,440,224990923,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,441,228998676,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,442,233006699,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,443,237014712,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,444,241022704,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,445,242183449,-;RTW: OnAction_back
+4,446,242183468,-;RTW: OnAction_back, action=0
+4,447,242186443,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=0 size:16, acked, 1/3 in 3 ms
+4,448,245030684,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,449,249038698,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,450,253046863,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,451,257055023,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,452,261062748,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,453,265070789,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,454,269078740,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,455,273086638,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,456,277094682,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,457,281102680,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,458,285110799,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,459,289118705,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,460,293126872,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,461,297134797,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,462,301142703,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,463,305150719,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,464,309158717,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,465,313166770,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,466,317174738,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,467,321182727,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,468,325190702,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,469,329198823,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,470,333206791,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,471,337214718,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,472,341222709,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,473,345230759,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,474,349238753,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,475,353246793,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,476,357254841,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,477,361262749,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,478,365270882,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,479,369278734,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,480,373286700,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,481,377294686,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,482,381302767,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,483,385310806,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,484,389318668,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,485,393326761,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,486,397334698,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,487,401342963,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,488,405350771,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,489,409358696,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,490,413366686,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,491,417374708,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,492,421382835,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,493,425390725,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,494,429398751,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,495,433406757,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,496,437414755,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,497,441422720,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,498,445430768,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,499,449438697,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,500,453446783,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,501,457454757,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,502,461462732,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,503,465470755,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,504,469478735,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,505,473486697,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,506,477494713,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,507,481502824,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,508,485510708,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,509,489518740,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,510,493526727,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,511,497534760,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,512,501542701,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,513,505550725,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,514,509558718,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,515,513566652,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,516,517574754,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,517,521582759,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,518,525590697,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,519,529598775,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,520,533606672,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,521,537614838,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,522,541622683,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,523,545630805,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,524,549638809,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,525,932708591,-;RTW: rtw_ioctl_standard_wext_private:...
+4,526,932708697,-;RTW: cfg80211_rtw_stop_ap(wlan0)
+4,527,932708707,-;RTW: stop_ap_mode -wlan0
+4,528,932708721,-;RTW: rtw_sta_flush(wlan0)
+4,529,932708780,-;RTW: issue_del_ba(wlan0) ra=3c:a9:f4:94:68:d0 reason=37, tid=0, initiator=0
+4,530,932708796,-;RTW: issue_deauth to 3c:a9:f4:94:68:d0
+4,531,932708819,-;RTW: rtw_cfg80211_indicate_sta_disassoc(wlan0)
+4,532,932708868,-;RTW: report_del_sta_event(wlan0) 3c:a9:f4:94:68:d0 mac_id=0, enqueue:1, res:1
+4,533,932708876,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,534,932708882,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,535,932708886,-;RTW: bss_cap_update_on_sta_leave, updated=0
+4,536,932708906,-;RTW: ### Clean STA_(0) info ###
+4,537,932708920,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,538,932708928,-;RTW: issue_deauth to ff:ff:ff:ff:ff:ff
+4,539,932709102,-;RTW: clear key for addr:3c:a9:f4:94:68:d0, camid:4
+4,540,932710103,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=1 shared
+4,541,932710130,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,542,932710323,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,543,932710333,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,544,932710360,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,545,932710994,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0
+4,546,932711002,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=0
+4,547,932711232,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,548,932712220,-;RTW: wlan0 wakeup macid=0, ori reg_0x48c=0x00000000
+4,549,932712233,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0 psta == NULL
+4,550,932712464,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,551,932712584,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,552,932712590,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,553,932712618,-;RTW: rtw_cfg80211_indicate_disconnect(wlan0)
+4,554,932712857,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,555,932712979,-;RTW: wlan0- Port-0  set opmode = 2
+4,556,932712990,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,557,932713410,-;RTW: rtw_reset_securitypriv(wlan0) - End to Disconnect
+4,558,932713424,-;RTW: rtl8188e_set_FwJoinBssReport_cmd mstatus(0)
+4,559,932713515,-;RTW: rtw_ndev_notifier_call(wlan0) state:9
+4,560,932713546,-;RTW: netdev_close(wlan0) , bup=1
+4,561,932713552,-;RTW: (2)871x_drv - drv_close, bup=1, hw_init_completed=_TRUE
+4,562,932713847,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,563,932713956,-;RTW: rtw_cfg80211_indicate_disconnect(wlan0)
+4,564,932713979,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,565,932713986,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,566,932713996,-;RTW: -871x_drv - drv_close, bup=1
+4,567,932714259,-;RTW: rtw_ndev_notifier_call(wlan0) state:2
+4,568,932715423,-;RTW: rtw_reset_securitypriv(wlan0) - End to Disconnect
+4,569,932715449,-;RTW: rtl8188e_set_FwJoinBssReport_cmd mstatus(0)
+4,570,932733233,-;RTW: module exit start
+4,571,932733369,-;RTW: rtw_wdev_unregister(wdev=c5801840)
+4,572,932733691,-;RTW: rtw_ndev_notifier_call(wlan0) state:6
+4,573,932733704,-;RTW: rtw_ndev_uninit(wlan0) if1
+4,574,932734375,-;RTW: rtw_ndev_notifier_call(wlan0) state:17
+4,575,932734398,-;RTW: rtw_wiphy_unregister(phy0)
+4,576,932734402,-;RTW: Vendor: Unregister RTW cfg80211 vendor interface
+4,577,932734569,-;RTW: rtw_pm_set_ips IPS_NONE
+4,578,932734606,-;RTW: rtw_cmd_thread(wlan0) Exit
+4,579,932734769,-;RTW: ==> rtw_dev_unload(wlan0)
+4,580,932734859,-;RTW: rtw_xmit_thread(wlan0) Exit
+4,581,932734962,-;RTW: rtl8188es_xmit_thread(wlan0) Exit
+4,582,932735113,-;RTW: CheckIPSStatus(): Read 0x100=0xff 0x86=0x00
+4,583,932735143,-;RTW: rtw_dev_unload: driver not in IPS
+4,584,932735149,-;RTW: =>rtl8188es_hal_deinit
+4,585,932735155,-;RTW: =>hal_poweroff_8188es
+4,586,932735666,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,587,932735980,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,588,932735985,-;RTW: <=hal_poweroff_8188es
+4,589,932735987,-;RTW: <=rtl8188es_hal_deinit
+4,590,932735991,-;RTW: <== rtw_dev_unload(wlan0)
+4,591,932736000,-;RTW: +r871xu_dev_remove, hw_init_completed=0
+4,592,932736419,-;RTW: rtw_wdev_free(wdev=c5801840)
+4,593,932736432,-;RTW: rtw_wiphy_free(phy0)
+4,594,932736931,-;RTW: rtw_inetaddr_notifier_unregister
+4,595,932736943,-;RTW: module exit success
+6,596,938264599,-;cfg80211: Calling CRDA to update world regulatory domain
+4,597,938292822,-;RTW: module init start
+6,598,938292986,-;mmc1: card 0001 removed
+4,599,938524363,-;RTW: rtl8189es v5.3.3.1_27418.20180425
+4,600,938524376,-;RTW: build time: Oct 22 2018 14:51:28
+4,601,938524442,-;RTW: rtw_inetaddr_notifier_register
+4,602,938524527,-;RTW: module init ret=0
+6,603,938551698,-;mmc1: new high speed SDIO card at address 0001
+4,604,938552094,-;RTW: == SDIO Card Info ==
+4,605,938552105,-;RTW:   clock: 50000000 Hz
+4,606,938552108,-;RTW:   timing spec: sd high-speed
+4,607,938552119,-;RTW:   sd3_bus_mode: FALSE
+4,608,938552121,-;RTW: ================
+4,609,938552124,-;RTW: CHIP TYPE: RTL8188E
+4,610,938552616,-;RTW: rtw_hal_config_rftype RF_Type is 0 TotalTxPath is 1
+4,611,938552635,-;RTW: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+4,612,938552645,-;RTW: =>_InitPowerOn_8188ES
+4,613,938552648,-;RTW: =>_CardEnable
+4,614,938558518,-;RTW: SetHwReg: bMacPwrCtrlOn=1
+4,615,938558527,-;RTW: <=_CardEnable
+4,616,938558655,-;RTW: <=_InitPowerOn_8188ES
+4,617,938558692,-;RTW: EEPROM type is E-FUSE
+4,618,938558720,-;RTW: _ReadPROMContent: 9346CR=0x20, Boot from EFUSE, Autoload OK
+4,619,938558808,-;RTW: =>_InitPowerOn_8188ES
+4,620,938558812,-;RTW: =>_CardEnable
+4,621,938558817,-;RTW: =>_CardEnable bMacPwrCtrlOn == _TRUE do nothing !!
+4,622,938558819,-;RTW: <=_CardEnable
+4,623,938558942,-;RTW: <=_InitPowerOn_8188ES
+4,624,938558979,-;bFWReady == _FALSE call reset 8051...
+4,625,938559151,-;RTW: =====> _8051Reset88E(): 8051 reset success .
+4,626,938577948,-;RTW: efuse_read_phymap_from_txpktbuf bcnhead:0
+4,627,938578142,-;RTW: efuse_read_phymap_from_txpktbuf len:162, lenbak:162, aaa:162, aaabak:162
+4,628,938580222,-;RTW: efuse_read_phymap_from_txpktbuf read count:160
+4,629,938580398,-;RTW: HW EFUSE
+4,630,938580411,-;RTW: 0x000: 29 81 00 6C  0B 00 00 00  00 0C 00 00  0A 00 00 00  
+4,631,938580441,-;RTW: 0x010: 2A 29 28 27  27 27 2C 2C  2B 2A 2A 02  FF FF FF FF  
+4,632,938580467,-;RTW: 0x020: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,633,938580492,-;RTW: 0x030: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,634,938580518,-;RTW: 0x040: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,635,938580543,-;RTW: 0x050: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,636,938580568,-;RTW: 0x060: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,637,938580594,-;RTW: 0x070: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,638,938580619,-;RTW: 0x080: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,639,938580645,-;RTW: 0x090: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,640,938580670,-;RTW: 0x0A0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,641,938580696,-;RTW: 0x0B0: FF FF FF FF  FF FF FF FF  08 09 11 00  00 00 FF 00  
+4,642,938580721,-;RTW: 0x0C0: FF 00 00 10  00 00 00 55  00 01 FF FF  FF FF FF FF  
+4,643,938580746,-;RTW: 0x0D0: 3F 00 01 02  32 00 00 FC  20 04 4C 02  79 81 21 02  
+4,644,938580771,-;RTW: 0x0E0: 0C 00 22 04  00 08 00 32  FF 21 02 0C  00 22 2A 01  
+4,645,938580796,-;RTW: 0x0F0: 01 00 00 00  00 00 00 00  00 00 00 00  02 00 FF FF  
+4,646,938580821,-;RTW: 0x100: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  
+4,647,938580845,-;RTW: 0x110: 00 EB 00 6E  01 00 00 00  00 FF 44 B2  95 8C DC A5  
+4,648,938580870,-;RTW: 0x120: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,649,938580896,-;RTW: 0x130: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,650,938580921,-;RTW: 0x140: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,651,938580947,-;RTW: 0x150: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,652,938580973,-;RTW: 0x160: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,653,938580998,-;RTW: 0x170: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,654,938581024,-;RTW: 0x180: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,655,938581049,-;RTW: 0x190: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,656,938581075,-;RTW: 0x1A0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,657,938581100,-;RTW: 0x1B0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,658,938581126,-;RTW: 0x1C0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,659,938581152,-;RTW: 0x1D0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,660,938581177,-;RTW: 0x1E0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,661,938581203,-;RTW: 0x1F0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,662,938581233,-;RTW: EEPROM ID=0x8129
+4,663,938581245,-;RTW: Hal_ReadPowerSavingMode88E...bHWPwrPindetect(0)-bHWPowerdown(0) ,bSupportRemoteWakeup(0)
+4,664,938581249,-;RTW: ### PS params=>  power_mgnt(2),usbss_enable(0) ###
+4,665,938581291,-;RTW: EEPROMRegulatory = 0x0
+4,666,938581301,-;RTW: hal_com_config_channel_plan chplan:0x08
+4,667,938581304,-;RTW: crystal_cap: 0x 9
+4,668,938581308,-;RTW: EEPROM Customer ID: 0x 0
+4,669,938581312,-;RTW: pHalData->ExternalPA_2G = 0 , pHalData->ExternalLNA_2G = 0
+4,670,938581316,-;RTW: pHalData->TypeGLNA is 0x0
+4,671,938581320,-;RTW: pHalData->rfe_type is 0xff
+4,672,938581323,-;RTW: Board Type: 0x 0
+4,673,938581326,-;RTW: ThermalMeter = 0x11
+4,674,938581329,-;RTW: pHalData->EEPROMRFGainVal=0
+4,675,938581336,-;RTW: Hal_ReadRFGainOffset => EEPRORFGainOffset = 0x00,EEPROMRFGainVal=0x00,thermal_offset:0x00
+4,676,938581344,-;RTW: =>hal_poweroff_8188es
+4,677,938581776,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,678,938582081,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,679,938582086,-;RTW: <=hal_poweroff_8188es
+4,680,938582091,-;RTW: rtw_hal_read_chip_info in 29 ms
+4,681,938582124,-;RTW: init_channel_set((null)) ChannelPlan ID:0x08, ch num:14
+4,682,938583083,-;RTW: rtw_alloc_macid((null)) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,683,938583210,-;RTW: IQK FW offload:disable
+4,684,938583234,-;RTW: rtw_regsty_chk_target_tx_power_valid return _FALSE for band:0, path:0, rs:0, t:-1
+4,685,938583248,-;RTW: rtw_macaddr_cfg mac addr:44:b2:95:8c:dc:a5
+4,686,938583430,-;RTW: bDriverStopped:True, bSurpriseRemoved:False, bup:0, hw_init_completed:0
+4,687,938583499,-;RTW: rtw_wiphy_alloc(phy0)
+4,688,938583507,-;RTW: rtw_wdev_alloc(padapter=c8fae000)
+4,689,938583517,-;RTW: rtw_wiphy_register(phy0)
+4,690,938583522,-;RTW: Register RTW cfg80211 vendor cmd(0x67) interface
+4,691,938583848,-;RTW: rtw_ndev_init(wlan0) if1 mac_addr=44:b2:95:8c:dc:a5
+4,692,938584411,-;RTW: rtw_ndev_notifier_call(wlan0) state:16
+4,693,938585209,-;RTW: rtw_ndev_notifier_call(wlan0) state:5
+4,694,939052649,-;RTW: cfg80211_rtw_change_iface(wlan0) type=3, hw_port:0
+4,695,939052663,-;RTW: cfg80211_rtw_change_iface(wlan0) call netdev_open
+4,696,939052671,-;RTW: _netdev_open(wlan0) , bup=0
+4,697,939052676,-;RTW: +rtl8188es_hal_init
+4,698,939052740,-;RTW: FW does not exit before power on!!
+4,699,939052747,-;RTW: =>_InitPowerOn_8188ES
+4,700,939052749,-;RTW: =>_CardEnable
+4,701,939058702,-;RTW: SetHwReg: bMacPwrCtrlOn=1
+4,702,939058714,-;RTW: <=_CardEnable
+4,703,939058854,-;RTW: <=_InitPowerOn_8188ES
+4,704,939058978,-;RTW: sdio_power_on_check: val_mix:0x0000063f, res:0x0000063f
+4,705,939058983,-;RTW: sdio_power_on_check: 0x100 the result of cmd52 and cmd53 is the same.
+4,706,939059044,-;RTW: sdio_power_on_check: 0x1B8 test Pass.
+4,707,939059049,-;RTW: Power on ok!
+4,708,939059308,-;RTW: rtl8188e_FirmwareDownload fw:NIC, size: 15262
+4,709,939059320,-;RTW: rtl8188e_FirmwareDownload: fw_ver=1c fw_subver=0000 sig=0x88e1, Month=14, Date=27, Hour=7e, Minute=3b
+4,710,939143042,-;RTW: polling_fwdl_chksum: Checksum report OK! (1, 0ms), REG_MCUFWDL:0x00030005
+4,711,939143436,-;RTW: =====> _8051Reset88E(): 8051 reset success .
+4,712,939146200,-;RTW: _FWFreeToGo: Polling FW ready OK! (44, 3ms), REG_MCUFWDL:0x000300c6
+4,713,939146209,-;RTW: FWDL success. write_fw:1, 86ms
+4,714,939361523,-;==> rtl8188e_iol_efuse_patch
+4,715,939387545,-;RTW: HalDetectPwrDownMode(): PDN=0
+4,716,939387556,-;RTW: Set RF Chip ID to RF_6052 and RF type to 0.
+4,717,939600673,-;RTW: DISABLE_BB_RF=0
+4,718,939600684,-;RTW: IS_HARDWARE_TYPE_8188ES=1
+4,719,939600742,-;RTW: -rtl8188es_hal_init
+4,720,939600752,-;RTW: rtl8188es_hal_init in 548ms
+4,721,939600769,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,722,939600991,-;RTW: rtw_hal_get_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,723,939601002,-;RTW: wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,724,939601109,-;RTW: [HW_VAR_ENABLE_RX_BAR] 0x6A2=0x500
+4,725,939602206,-;RTW: Using the default RF gain.
+4,726,939602219,-;RTW: MAC Address = 44:b2:95:8c:dc:a5
+4,727,939602226,-;RTW: rtw_start_drv_threads(wlan0) start RTW_XMIT_THREAD
+4,728,939602379,-;RTW: rtw_start_drv_threads(wlan0) start RTW_CMD_THREAD
+4,729,939602449,-;RTW: rtl8188e_start_thread(wlan0) start RTWHALXT
+4,730,939602517,-;RTW: start rtl8188es_xmit_thread
+4,731,939602581,-;RTW: rtw_cfg80211_init_wiphy:rf_type=0
+4,732,939602590,-;RTW: [HT] HAL Support STBC = 0x01
+4,733,939602618,-;RTW: -871x_drv - drv_open, bup=1
+4,734,939602633,-;RTW: cfg80211_rtw_change_iface(wlan0) old_iftype=2, new_iftype=3
+4,735,939602673,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,736,939602696,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,737,939602731,-;RTW: wlan0- Port-0  set opmode = 3
+4,738,939602742,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,739,939603461,-;RTW: cfg80211_rtw_change_iface(wlan0) ret:0
+4,740,939603969,-;RTW: rtw_ndev_notifier_call(wlan0) state:13
+4,741,939603985,-;RTW: _netdev_open(wlan0) , bup=1
+4,742,939603993,-;RTW: -871x_drv - drv_open, bup=1
+6,743,939604123,-;IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+4,744,939604134,-;RTW: rtw_ndev_notifier_call(wlan0) state:1
+4,745,939606220,-;RTW: cfg80211_rtw_scan(wlan0)
+4,746,939606589,-;RTW: SetHwReg8188E:(HW_VAR_CHECK_TXBUF)TXBUF Empty(1) in 0 ms
+4,747,939606668,-;RTW: wlan0 sleep m0=0x00000002, ori reg_0x48c=0x00000000
+4,748,940719616,-;RTW: wlan0 wakeup m0=0x00000002, ori reg_0x48c=0x00000002
+4,749,940719672,-;RTW: survey done event(1) band:0 for wlan0
+4,750,940719728,-;RTW: rtw_indicate_scan_done(wlan0)
+4,751,940720766,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=  (null)
+4,752,940720778,-;RTW: flush all sta, and cam_entry
+4,753,940721013,-;RTW: rtw_sta_flush(wlan0)
+4,754,940721041,-;RTW: issue_deauth to ff:ff:ff:ff:ff:ff
+4,755,940721449,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=ff:ff:ff:ff:ff:ff
+4,756,940721465,-;RTW: free sta macaddr =ff:ff:ff:ff:ff:ff
+4,757,940721601,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=  (null)
+4,758,940721696,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=1, addr=  (null)
+4,759,940721801,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=2, addr=  (null)
+4,760,940721881,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=3, addr=  (null)
+4,761,940873272,-;RTW: cfg80211_rtw_start_ap(wlan0) hidden_ssid:0, auth_type:5
+4,762,940873342,-;RTW: rtw_add_beacon beacon_head_len=67, beacon_tail_len=109
+4,763,940873363,-;RTW: rtw_check_beacon_data, len=152
+4,764,940873399,-;RTW: [HT] HAL Support STBC = 0x01
+4,765,940873494,-;RTW: update_hw_ht_param
+4,766,940873862,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 44:b2:95:8c:dc:a5
+4,767,940874064,-;RTW: SetHwReg8188E==> bcn_interval:100, eraly_int:50
+4,768,940874095,-;RTW: rtw_ap_chbw_decision(wlan0) ld_sta_num:0, lg_sta_num0, ap_num:0, mesh_num:0
+4,769,940874103,-;RTW: rtw_ap_chbw_decision(wlan0) req: 0,-1,-1
+4,770,940874128,-;RTW: rtw_ap_chbw_decision(wlan0) dec: 6,0,0
+4,771,940874246,-;RTW: HW_VAR_BASIC_RATE: 0x15f->0x15f->0x15f
+4,772,940874524,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,773,940874533,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,774,940874539,-;RTW: STA - MAC_ID:1, Tx - 1 SS, Rx - 1 SS
+4,775,940874543,-;RTW: STA - MAC_ID:1, SM_PS 3
+4,776,940874776,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,777,940874806,-;RTW: wlan0 BMC Init Tx rate - CCK_11M
+4,778,940876206,-;RTW: rtw_cfg80211_indicate_connect(wlan0)
+4,779,940876215,-;RTW: assoc success
+6,780,940876341,-;IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+4,781,940876456,-;RTW: rtw_ndev_notifier_call(wlan0) state:4
+4,782,940876800,-;RTW: cfg80211_rtw_change_bss(wlan0)
+4,783,940879861,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,784,940879879,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=1
+4,785,940879883,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=0
+4,786,940879895,-;RTW: rtw_cfg80211_ap_set_encryption
+4,787,940879905,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP TX GTK idx:1, len:16
+4,788,940879915,-;RTW: rtw_ap_set_group_key
+4,789,940879999,-;RTW: set group key camid:1, addr:00:00:00:00:00:00, kid:1, type:AES
+4,790,940880818,-;RTW: cfg80211_rtw_set_default_key(wlan0) key_index=1, unicast=0, multicast=1
+4,791,944240450,-;RTW: +OnAuth
+4,792,944240469,-;RTW: auth alg=0, seq=1
+4,793,944240482,-;RTW: going to alloc stainfo for sa=3c:a9:f4:94:68:d0
+4,794,944240509,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,795,944240533,-;RTW: issue_auth
+4,796,944251432,-;RTW: OnAssocReq
+4,797,944251472,-;RTW: OnAssocReq(wlan0) allocate new AID=1
+4,798,944251485,-;RTW: HT: STA 3c:a9:f4:94:68:d0 HT Capabilities Info: 0x107e
+4,799,944251493,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,800,944251498,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,801,944251504,-;RTW: bss_cap_update_on_sta_join, updated=0
+4,802,944251508,-;RTW: update_sta_info_apmode
+4,803,944251525,-;RTW: ### Set STA_(0) info ###
+4,804,944251529,-;RTW: issue_asocrsp
+4,805,944251561,-;RTW: report_add_sta_event: add STA
+4,806,944251885,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,807,944251925,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,808,944251931,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,809,944251937,-;RTW: STA - MAC_ID:0, Tx - 1 SS, Rx - 1 SS
+4,810,944251941,-;RTW: STA - MAC_ID:0, SM_PS 3
+4,811,944251953,-;RTW: ht_mcs_set=ff ff ff 00, nss=1, bitmap=000000ff
+4,812,944251962,-;RTW: rtw_ap_update_sta_ra_info=> mac_id:0 , tx_ra_bitmap:0x00000000000fffff, networkType:0x0b
+4,813,944252928,-;RTW: ============ STA [3c:a9:f4:94:68:d0]  ===================
+4,814,944252934,-;RTW: mac_id : 0
+4,815,944252939,-;RTW: wireless_mode : 0x0b
+4,816,944252941,-;RTW: mimo_type : 0
+4,817,944252946,-;RTW: bw_mode : 20MHz, ra_bw_mode : 20MHz
+4,818,944252949,-;RTW: rate_id : 0
+4,819,944252953,-;RTW: rssi : -1 (%), rssi_level : 0
+4,820,944252957,-;RTW: is_support_sgi : Y, is_vht_enable : N
+4,821,944252961,-;RTW: disable_ra : N, disable_pt : N
+4,822,944252964,-;RTW: is_noisy : N
+4,823,944252967,-;RTW: txrx_state : 0
+4,824,944252971,-;RTW: curr_tx_rate : CCK_1M (L)
+4,825,944252974,-;RTW: curr_tx_bw : 20MHz
+4,826,944252977,-;RTW: curr_retry_ratio : 0
+4,827,944252980,-;RTW: ra_mask : 0x00000000000fffff\x0a
+4,828,944252984,-;RTW: indicate_sta_assoc_event to upper layer - hostapd
+4,829,944252995,-;RTW: rtw_cfg80211_indicate_sta_assoc(wlan0)
+4,830,944253960,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,831,944254255,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,832,944254836,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,833,944262362,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,834,944262378,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=1
+4,835,944262382,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=0
+4,836,944262393,-;RTW: rtw_cfg80211_ap_set_encryption
+4,837,944262404,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP TX GTK idx:1, len:16
+4,838,944262413,-;RTW: rtw_ap_set_group_key
+4,839,944262494,-;RTW: set group key camid:1, addr:00:00:00:00:00:00, kid:1, type:AES
+4,840,944263081,-;RTW: cfg80211_rtw_set_default_key(wlan0) key_index=1, unicast=0, multicast=1
+4,841,944266208,-;RTW: send eapol packet
+4,842,944272499,-;RTW: recv eapol packet
+4,843,944273100,-;RTW: cfg80211_rtw_get_key(wlan0) keyid=1, pairwise=0, addr=  (null) ret 0
+4,844,944273112,-;RTW: cfg80211_rtw_get_key(wlan0) seq:0x0
+4,845,944273520,-;RTW: send eapol packet
+4,846,944281486,-;RTW: recv eapol packet
+4,847,944281966,-;RTW: cfg80211_rtw_add_key(wlan0) adding key for 3c:a9:f4:94:68:d0
+4,848,944281981,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,849,944281989,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=0
+4,850,944281993,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=1
+4,851,944282002,-;RTW: rtw_cfg80211_ap_set_encryption
+4,852,944282019,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP PTK of 3c:a9:f4:94:68:d0 idx:0, len:16
+4,853,944282112,-;RTW: set pairwise key camid:4, addr:3c:a9:f4:94:68:d0, kid:0, type:AES
+4,854,944283106,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,855,944691811,-;RTW: rtw_ioctl_standard_wext_private:...
+4,856,944691854,-;RTW: rtw_ioctl_standard_wext_private:...
+4,857,944691908,-;RTW: rtw_ioctl_standard_wext_private:...
+4,858,944691943,-;RTW: rtw_ioctl_standard_wext_private:...
+4,859,944691975,-;RTW: rtw_ioctl_standard_wext_private:...
+4,860,944692005,-;RTW: rtw_ioctl_standard_wext_private:...
+4,861,944692036,-;RTW: rtw_ioctl_standard_wext_private:...
+4,862,944692067,-;RTW: rtw_ioctl_standard_wext_private:...
+4,863,944692099,-;RTW: rtw_ioctl_standard_wext_private:...
+4,864,944692118,-;RTW: rtw_ioctl_standard_wext_private:...
+4,865,944692177,-;RTW: rtw_ioctl_standard_wext_private:...
+4,866,948243476,-;RTW: OnDeAuth(wlan0) - Start to Disconnect
+4,867,948243498,-;RTW: OnDeAuth(wlan0) reason=3, ta=3c:a9:f4:94:68:d0
+4,868,948243518,-;RTW: rtw_cfg80211_indicate_sta_disassoc(wlan0)
+4,869,948243565,-;RTW: report_del_sta_event(wlan0) 3c:a9:f4:94:68:d0 mac_id=0, enqueue:1, res:1
+4,870,948243576,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,871,948243582,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,872,948243587,-;RTW: bss_cap_update_on_sta_leave, updated=0
+4,873,948243607,-;RTW: ### Clean STA_(0) info ###
+4,874,948243620,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,875,948243685,-;RTW: clear key for addr:3c:a9:f4:94:68:d0, camid:4
+4,876,948244528,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,877,948244734,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,878,948244863,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,879,948244996,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=3c:a9:f4:94:68:d0
+4,880,948245008,-;RTW: free sta macaddr =3c:a9:f4:94:68:d0
+4,881,948245014,-;RTW: -cfg80211_rtw_del_station(wlan0)
+4,882,948246065,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0
+4,883,948246080,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=0
+4,884,948246341,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,885,948247248,-;RTW: wlan0 wakeup macid=0, ori reg_0x48c=0x00000000
+4,886,948247260,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0 psta == NULL
+4,887,952336444,-;RTW: +OnAuth
+4,888,952336462,-;RTW: auth alg=0, seq=1
+4,889,952336475,-;RTW: going to alloc stainfo for sa=3c:a9:f4:94:68:d0
+4,890,952336501,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,891,952336523,-;RTW: issue_auth
+4,892,952347446,-;RTW: OnAssocReq
+4,893,952347491,-;RTW: OnAssocReq(wlan0) allocate new AID=1
+4,894,952347505,-;RTW: HT: STA 3c:a9:f4:94:68:d0 HT Capabilities Info: 0x107e
+4,895,952347513,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,896,952347519,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,897,952347524,-;RTW: bss_cap_update_on_sta_join, updated=0
+4,898,952347529,-;RTW: update_sta_info_apmode
+4,899,952347545,-;RTW: ### Set STA_(0) info ###
+4,900,952347550,-;RTW: issue_asocrsp
+4,901,952347581,-;RTW: report_add_sta_event: add STA
+4,902,952347917,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,903,952347959,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,904,952347965,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,905,952347971,-;RTW: STA - MAC_ID:0, Tx - 1 SS, Rx - 1 SS
+4,906,952347974,-;RTW: STA - MAC_ID:0, SM_PS 3
+4,907,952347986,-;RTW: ht_mcs_set=ff ff ff 00, nss=1, bitmap=000000ff
+4,908,952347995,-;RTW: rtw_ap_update_sta_ra_info=> mac_id:0 , tx_ra_bitmap:0x00000000000fffff, networkType:0x0b
+4,909,952348972,-;RTW: ============ STA [3c:a9:f4:94:68:d0]  ===================
+4,910,952348979,-;RTW: mac_id : 0
+4,911,952348983,-;RTW: wireless_mode : 0x0b
+4,912,952348985,-;RTW: mimo_type : 0
+4,913,952348992,-;RTW: bw_mode : 20MHz, ra_bw_mode : 20MHz
+4,914,952348995,-;RTW: rate_id : 0
+4,915,952348999,-;RTW: rssi : -1 (%), rssi_level : 0
+4,916,952349002,-;RTW: is_support_sgi : Y, is_vht_enable : N
+4,917,952349006,-;RTW: disable_ra : N, disable_pt : N
+4,918,952349009,-;RTW: is_noisy : N
+4,919,952349012,-;RTW: txrx_state : 0
+4,920,952349016,-;RTW: curr_tx_rate : CCK_1M (L)
+4,921,952349019,-;RTW: curr_tx_bw : 20MHz
+4,922,952349022,-;RTW: curr_retry_ratio : 0
+4,923,952349026,-;RTW: ra_mask : 0x00000000000fffff\x0a
+4,924,952349029,-;RTW: indicate_sta_assoc_event to upper layer - hostapd
+4,925,952349039,-;RTW: rtw_cfg80211_indicate_sta_assoc(wlan0)
+4,926,952349860,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,927,952350111,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,928,952350249,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,929,952353106,-;RTW: send eapol packet
+4,930,952368466,-;RTW: recv eapol packet
+4,931,952369030,-;RTW: cfg80211_rtw_get_key(wlan0) keyid=1, pairwise=0, addr=  (null) ret 0
+4,932,952369041,-;RTW: cfg80211_rtw_get_key(wlan0) seq:0xb
+4,933,952369436,-;RTW: send eapol packet
+4,934,952382506,-;RTW: recv eapol packet
+4,935,952383051,-;RTW: cfg80211_rtw_add_key(wlan0) adding key for 3c:a9:f4:94:68:d0
+4,936,952383068,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,937,952383076,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=0
+4,938,952383080,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=1
+4,939,952383092,-;RTW: rtw_cfg80211_ap_set_encryption
+4,940,952383110,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP PTK of 3c:a9:f4:94:68:d0 idx:0, len:16
+4,941,952383197,-;RTW: set pairwise key camid:4, addr:3c:a9:f4:94:68:d0, kid:0, type:AES
+4,942,952384141,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,943,968424445,-;RTW: OnAction_back
+4,944,968424463,-;RTW: OnAction_back, action=0
+4,945,968427422,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=0 size:16, acked, 1/3 in 3 ms
+6,946,1072094347,-;himci: card connected!
+4,947,1072285329,-;mmc0: cannot verify signal voltage switch
+6,948,1072339330,-;himci: tuning mmc0: valid phase shift [15, 9] Final Phase 4
+6,949,1072339359,-;mmc0: new ultra high speed SDR104 SDHC card at address 0001
+6,950,1072340824,-;mmcblk0: mmc0:0001 SD16G 29.4 GiB 
+6,951,1072342260,-; mmcblk0: p1
+4,952,1072434650,-;FAT-fs (mmcblk0p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+4,953,1124153464,-;RTW: +OnAuth
+4,954,1124153485,-;RTW: auth alg=0, seq=1
+4,955,1124153510,-;RTW: issue_auth
+4,956,1124167433,-;RTW: OnAssocReq
+4,957,1124167475,-;RTW: OnAssocReq(wlan0) old AID=1
+4,958,1124167488,-;RTW: HT: STA 3c:a9:f4:94:68:d0 HT Capabilities Info: 0x107e
+4,959,1124167496,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,960,1124167501,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,961,1124167507,-;RTW: bss_cap_update_on_sta_join, updated=0
+4,962,1124167512,-;RTW: update_sta_info_apmode
+4,963,1124167552,-;RTW: issue_del_ba(wlan0) ra=3c:a9:f4:94:68:d0 reason=37, tid=0, initiator=0
+4,964,1124167566,-;RTW: ### Set STA_(0) info ###
+4,965,1124167570,-;RTW: issue_asocrsp
+4,966,1124167589,-;RTW: report_add_sta_event: add STA
+4,967,1124167907,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,968,1124167951,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,969,1124167957,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,970,1124167963,-;RTW: STA - MAC_ID:0, Tx - 1 SS, Rx - 1 SS
+4,971,1124167966,-;RTW: STA - MAC_ID:0, SM_PS 3
+4,972,1124167979,-;RTW: ht_mcs_set=ff ff ff 00, nss=1, bitmap=000000ff
+4,973,1124167989,-;RTW: rtw_ap_update_sta_ra_info=> mac_id:0 , tx_ra_bitmap:0x00000000000fffff, networkType:0x0b
+4,974,1124168027,-;RTW: ============ STA [3c:a9:f4:94:68:d0]  ===================
+4,975,1124168032,-;RTW: mac_id : 0
+4,976,1124168036,-;RTW: wireless_mode : 0x0b
+4,977,1124168038,-;RTW: mimo_type : 0
+4,978,1124168043,-;RTW: bw_mode : 20MHz, ra_bw_mode : 20MHz
+4,979,1124168047,-;RTW: rate_id : 0
+4,980,1124168051,-;RTW: rssi : 54 (%), rssi_level : 6
+4,981,1124168054,-;RTW: is_support_sgi : Y, is_vht_enable : N
+4,982,1124168058,-;RTW: disable_ra : N, disable_pt : N
+4,983,1124168061,-;RTW: is_noisy : Y
+4,984,1124168064,-;RTW: txrx_state : 2
+4,985,1124168069,-;RTW: curr_tx_rate : CCK_1M (L)
+4,986,1124168072,-;RTW: curr_tx_bw : 20MHz
+4,987,1124168075,-;RTW: curr_retry_ratio : 0
+4,988,1124168077,-;RTW: ra_mask : 0x00000000000fffff\x0a
+4,989,1124168081,-;RTW: indicate_sta_assoc_event to upper layer - hostapd
+4,990,1124168092,-;RTW: rtw_cfg80211_indicate_sta_assoc(wlan0)
+4,991,1124168957,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,992,1124169199,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,993,1124172085,-;RTW: send eapol packet
+4,994,1124195466,-;RTW: recv eapol packet
+4,995,1124196046,-;RTW: cfg80211_rtw_get_key(wlan0) keyid=1, pairwise=0, addr=  (null) ret 0
+4,996,1124196059,-;RTW: cfg80211_rtw_get_key(wlan0) seq:0xab
+4,997,1124196473,-;RTW: send eapol packet
+4,998,1124204484,-;RTW: recv eapol packet
+4,999,1124204974,-;RTW: cfg80211_rtw_add_key(wlan0) adding key for 3c:a9:f4:94:68:d0
+4,1000,1124204988,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,1001,1124204996,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=0
+4,1002,1124205000,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=1
+4,1003,1124205011,-;RTW: rtw_cfg80211_ap_set_encryption
+4,1004,1124205028,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP PTK of 3c:a9:f4:94:68:d0 idx:0, len:16
+4,1005,1124205113,-;RTW: set pairwise key camid:4, addr:3c:a9:f4:94:68:d0, kid:0, type:AES
+4,1006,1124205973,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1007,1142795420,-;RTW: OnAction_back
+4,1008,1142795436,-;RTW: OnAction_back, action=0
+4,1009,1142798423,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=7 size:16, acked, 1/3 in 3 ms
+4,1010,1147948453,-;RTW: OnAction_back
+4,1011,1147948472,-;RTW: OnAction_back, action=2
+4,1012,1147948477,-;RTW: OnAction_back(): DELBA: 0(0)
+4,1013,1163492450,-;RTW: OnAction_back
+4,1014,1163492470,-;RTW: OnAction_back, action=0
+4,1015,1163494453,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=0 size:16, acked, 1/3 in 2 ms
+4,1016,1290769434,-;RTW: OnAction_back
+4,1017,1290769452,-;RTW: OnAction_back, action=0
+4,1018,1290772470,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=7 size:16, acked, 1/3 in 3 ms
+4,1019,1296018466,-;RTW: OnAction_back
+4,1020,1296018487,-;RTW: OnAction_back, action=2
+4,1021,1296018494,-;RTW: OnAction_back(): DELBA: 0(0)
+4,1022,1357777421,-;RTW: OnAction_back
+4,1023,1357777444,-;RTW: OnAction_back, action=0
+4,1024,1357779418,-;RTW: Drop duplicate management frame with seq_num = 230.
+4,1025,1357779527,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=7 size:16, acked, 1/3 in 2 ms
+4,1026,1362992473,-;RTW: OnAction_back
+4,1027,1362992493,-;RTW: OnAction_back, action=2
+4,1028,1362992499,-;RTW: OnAction_back(): DELBA: 0(0)
+4,1029,1529434166,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1030,1529434261,-;RTW: cfg80211_rtw_stop_ap(wlan0)
+4,1031,1529434326,-;RTW: stop_ap_mode -wlan0
+4,1032,1529434341,-;RTW: rtw_sta_flush(wlan0)
+4,1033,1529434392,-;RTW: issue_del_ba(wlan0) ra=3c:a9:f4:94:68:d0 reason=37, tid=0, initiator=0
+4,1034,1529434405,-;RTW: issue_deauth to 3c:a9:f4:94:68:d0
+4,1035,1529434427,-;RTW: rtw_cfg80211_indicate_sta_disassoc(wlan0)
+4,1036,1529434470,-;RTW: report_del_sta_event(wlan0) 3c:a9:f4:94:68:d0 mac_id=0, enqueue:1, res:1
+4,1037,1529434478,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,1038,1529434484,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,1039,1529434489,-;RTW: bss_cap_update_on_sta_leave, updated=0
+4,1040,1529434507,-;RTW: ### Clean STA_(0) info ###
+4,1041,1529434520,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,1042,1529434529,-;RTW: issue_deauth to ff:ff:ff:ff:ff:ff
+4,1043,1529434747,-;RTW: clear key for addr:3c:a9:f4:94:68:d0, camid:4
+4,1044,1529435585,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=1 shared
+4,1045,1529435628,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,1046,1529435759,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,1047,1529435768,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,1048,1529435793,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,1049,1529436557,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0
+4,1050,1529436568,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=0
+4,1051,1529436796,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,1052,1529437892,-;RTW: wlan0 wakeup macid=0, ori reg_0x48c=0x00000000
+4,1053,1529437905,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0 psta == NULL
+4,1054,1529438124,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,1055,1529438247,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,1056,1529438255,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,1057,1529438305,-;RTW: rtw_cfg80211_indicate_disconnect(wlan0)
+4,1058,1529438621,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,1059,1529438747,-;RTW: wlan0- Port-0  set opmode = 2
+4,1060,1529438759,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,1061,1529439164,-;RTW: rtw_reset_securitypriv(wlan0) - End to Disconnect
+4,1062,1529439177,-;RTW: rtl8188e_set_FwJoinBssReport_cmd mstatus(0)
+4,1063,1529439266,-;RTW: rtw_ndev_notifier_call(wlan0) state:9
+4,1064,1529439319,-;RTW: netdev_close(wlan0) , bup=1
+4,1065,1529439323,-;RTW: (2)871x_drv - drv_close, bup=1, hw_init_completed=_TRUE
+4,1066,1529439660,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,1067,1529439776,-;RTW: rtw_cfg80211_indicate_disconnect(wlan0)
+4,1068,1529439801,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,1069,1529439808,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,1070,1529439817,-;RTW: -871x_drv - drv_close, bup=1
+4,1071,1529440056,-;RTW: rtw_ndev_notifier_call(wlan0) state:2
+4,1072,1529441488,-;RTW: rtw_reset_securitypriv(wlan0) - End to Disconnect
+4,1073,1529441517,-;RTW: rtl8188e_set_FwJoinBssReport_cmd mstatus(0)
+4,1074,1529457175,-;RTW: module exit start
+4,1075,1529457246,-;RTW: rtw_wdev_unregister(wdev=c5a2c3c0)
+4,1076,1529457565,-;RTW: rtw_ndev_notifier_call(wlan0) state:6
+4,1077,1529457577,-;RTW: rtw_ndev_uninit(wlan0) if1
+4,1078,1529458534,-;RTW: rtw_ndev_notifier_call(wlan0) state:17
+4,1079,1529458558,-;RTW: rtw_wiphy_unregister(phy0)
+4,1080,1529458563,-;RTW: Vendor: Unregister RTW cfg80211 vendor interface
+4,1081,1529458748,-;RTW: rtw_pm_set_ips IPS_NONE
+4,1082,1529458783,-;RTW: rtw_cmd_thread(wlan0) Exit
+4,1083,1529458929,-;RTW: ==> rtw_dev_unload(wlan0)
+4,1084,1529459038,-;RTW: rtw_xmit_thread(wlan0) Exit
+4,1085,1529459152,-;RTW: rtl8188es_xmit_thread(wlan0) Exit
+4,1086,1529459378,-;RTW: CheckIPSStatus(): Read 0x100=0xff 0x86=0x00
+4,1087,1529459420,-;RTW: rtw_dev_unload: driver not in IPS
+4,1088,1529459426,-;RTW: =>rtl8188es_hal_deinit
+4,1089,1529459434,-;RTW: =>hal_poweroff_8188es
+4,1090,1529459896,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,1091,1529460199,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,1092,1529460203,-;RTW: <=hal_poweroff_8188es
+4,1093,1529460206,-;RTW: <=rtl8188es_hal_deinit
+4,1094,1529460211,-;RTW: <== rtw_dev_unload(wlan0)
+4,1095,1529460220,-;RTW: +r871xu_dev_remove, hw_init_completed=0
+4,1096,1529460612,-;RTW: rtw_wdev_free(wdev=c5a2c3c0)
+4,1097,1529460621,-;RTW: rtw_wiphy_free(phy0)
+4,1098,1529461117,-;RTW: rtw_inetaddr_notifier_unregister
+4,1099,1529461131,-;RTW: module exit success
+6,1100,1532542112,-;cfg80211: Calling CRDA to update world regulatory domain
+4,1101,1532569116,-;RTW: module init start
+6,1102,1532569262,-;mmc1: card 0001 removed
+4,1103,1532801315,-;RTW: rtl8189es v5.3.3.1_27418.20180425
+4,1104,1532801327,-;RTW: build time: Oct 22 2018 14:51:28
+4,1105,1532801389,-;RTW: rtw_inetaddr_notifier_register
+4,1106,1532801469,-;RTW: module init ret=0
+6,1107,1532828613,-;mmc1: new high speed SDIO card at address 0001
+4,1108,1532829021,-;RTW: == SDIO Card Info ==
+4,1109,1532829031,-;RTW:   clock: 50000000 Hz
+4,1110,1532829036,-;RTW:   timing spec: sd high-speed
+4,1111,1532829045,-;RTW:   sd3_bus_mode: FALSE
+4,1112,1532829047,-;RTW: ================
+4,1113,1532829051,-;RTW: CHIP TYPE: RTL8188E
+4,1114,1532829946,-;RTW: rtw_hal_config_rftype RF_Type is 0 TotalTxPath is 1
+4,1115,1532829964,-;RTW: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+4,1116,1532829975,-;RTW: =>_InitPowerOn_8188ES
+4,1117,1532829980,-;RTW: =>_CardEnable
+4,1118,1532835849,-;RTW: SetHwReg: bMacPwrCtrlOn=1
+4,1119,1532835858,-;RTW: <=_CardEnable
+4,1120,1532835989,-;RTW: <=_InitPowerOn_8188ES
+4,1121,1532836025,-;RTW: EEPROM type is E-FUSE
+4,1122,1532836051,-;RTW: _ReadPROMContent: 9346CR=0x20, Boot from EFUSE, Autoload OK
+4,1123,1532836139,-;RTW: =>_InitPowerOn_8188ES
+4,1124,1532836143,-;RTW: =>_CardEnable
+4,1125,1532836149,-;RTW: =>_CardEnable bMacPwrCtrlOn == _TRUE do nothing !!
+4,1126,1532836152,-;RTW: <=_CardEnable
+4,1127,1532836332,-;RTW: <=_InitPowerOn_8188ES
+4,1128,1532836375,-;bFWReady == _FALSE call reset 8051...
+4,1129,1532836545,-;RTW: =====> _8051Reset88E(): 8051 reset success .
+4,1130,1532855509,-;RTW: efuse_read_phymap_from_txpktbuf bcnhead:0
+4,1131,1532855705,-;RTW: efuse_read_phymap_from_txpktbuf len:162, lenbak:162, aaa:162, aaabak:162
+4,1132,1532858559,-;RTW: efuse_read_phymap_from_txpktbuf read count:160
+4,1133,1532859520,-;RTW: HW EFUSE
+4,1134,1532859540,-;RTW: 0x000: 29 81 00 6C  0B 00 00 00  00 0C 00 00  0A 00 00 00  
+4,1135,1532859572,-;RTW: 0x010: 2A 29 28 27  27 27 2C 2C  2B 2A 2A 02  FF FF FF FF  
+4,1136,1532859599,-;RTW: 0x020: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1137,1532859625,-;RTW: 0x030: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1138,1532859650,-;RTW: 0x040: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1139,1532859676,-;RTW: 0x050: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1140,1532859701,-;RTW: 0x060: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1141,1532859727,-;RTW: 0x070: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1142,1532859753,-;RTW: 0x080: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1143,1532859778,-;RTW: 0x090: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1144,1532859804,-;RTW: 0x0A0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1145,1532859829,-;RTW: 0x0B0: FF FF FF FF  FF FF FF FF  08 09 11 00  00 00 FF 00  
+4,1146,1532859855,-;RTW: 0x0C0: FF 00 00 10  00 00 00 55  00 01 FF FF  FF FF FF FF  
+4,1147,1532859880,-;RTW: 0x0D0: 3F 00 01 02  32 00 00 FC  20 04 4C 02  79 81 21 02  
+4,1148,1532859905,-;RTW: 0x0E0: 0C 00 22 04  00 08 00 32  FF 21 02 0C  00 22 2A 01  
+4,1149,1532859931,-;RTW: 0x0F0: 01 00 00 00  00 00 00 00  00 00 00 00  02 00 FF FF  
+4,1150,1532859955,-;RTW: 0x100: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  
+4,1151,1532859979,-;RTW: 0x110: 00 EB 00 6E  01 00 00 00  00 FF 44 B2  95 8C DC A5  
+4,1152,1532860005,-;RTW: 0x120: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1153,1532860031,-;RTW: 0x130: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1154,1532860056,-;RTW: 0x140: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1155,1532860082,-;RTW: 0x150: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1156,1532860108,-;RTW: 0x160: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1157,1532860133,-;RTW: 0x170: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1158,1532860159,-;RTW: 0x180: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1159,1532860185,-;RTW: 0x190: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1160,1532860210,-;RTW: 0x1A0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1161,1532860236,-;RTW: 0x1B0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1162,1532860262,-;RTW: 0x1C0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1163,1532860322,-;RTW: 0x1D0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1164,1532860347,-;RTW: 0x1E0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1165,1532860373,-;RTW: 0x1F0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1166,1532860404,-;RTW: EEPROM ID=0x8129
+4,1167,1532860418,-;RTW: Hal_ReadPowerSavingMode88E...bHWPwrPindetect(0)-bHWPowerdown(0) ,bSupportRemoteWakeup(0)
+4,1168,1532860423,-;RTW: ### PS params=>  power_mgnt(2),usbss_enable(0) ###
+4,1169,1532860444,-;RTW: EEPROMRegulatory = 0x0
+4,1170,1532860453,-;RTW: hal_com_config_channel_plan chplan:0x08
+4,1171,1532860456,-;RTW: crystal_cap: 0x 9
+4,1172,1532860460,-;RTW: EEPROM Customer ID: 0x 0
+4,1173,1532860465,-;RTW: pHalData->ExternalPA_2G = 0 , pHalData->ExternalLNA_2G = 0
+4,1174,1532860468,-;RTW: pHalData->TypeGLNA is 0x0
+4,1175,1532860472,-;RTW: pHalData->rfe_type is 0xff
+4,1176,1532860475,-;RTW: Board Type: 0x 0
+4,1177,1532860479,-;RTW: ThermalMeter = 0x11
+4,1178,1532860482,-;RTW: pHalData->EEPROMRFGainVal=0
+4,1179,1532860489,-;RTW: Hal_ReadRFGainOffset => EEPRORFGainOffset = 0x00,EEPROMRFGainVal=0x00,thermal_offset:0x00
+4,1180,1532860501,-;RTW: =>hal_poweroff_8188es
+4,1181,1532861423,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,1182,1532861844,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,1183,1532861850,-;RTW: <=hal_poweroff_8188es
+4,1184,1532861858,-;RTW: rtw_hal_read_chip_info in 32 ms
+4,1185,1532861898,-;RTW: init_channel_set((null)) ChannelPlan ID:0x08, ch num:14
+4,1186,1532862908,-;RTW: rtw_alloc_macid((null)) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,1187,1532863038,-;RTW: IQK FW offload:disable
+4,1188,1532863063,-;RTW: rtw_regsty_chk_target_tx_power_valid return _FALSE for band:0, path:0, rs:0, t:-1
+4,1189,1532863078,-;RTW: rtw_macaddr_cfg mac addr:44:b2:95:8c:dc:a5
+4,1190,1532863206,-;RTW: bDriverStopped:True, bSurpriseRemoved:False, bup:0, hw_init_completed:0
+4,1191,1532863330,-;RTW: rtw_wiphy_alloc(phy0)
+4,1192,1532863340,-;RTW: rtw_wdev_alloc(padapter=cafeb000)
+4,1193,1532863352,-;RTW: rtw_wiphy_register(phy0)
+4,1194,1532863358,-;RTW: Register RTW cfg80211 vendor cmd(0x67) interface
+4,1195,1532863667,-;RTW: rtw_ndev_init(wlan0) if1 mac_addr=44:b2:95:8c:dc:a5
+4,1196,1532864150,-;RTW: rtw_ndev_notifier_call(wlan0) state:16
+4,1197,1532865013,-;RTW: rtw_ndev_notifier_call(wlan0) state:5
+4,1198,1533327024,-;RTW: cfg80211_rtw_change_iface(wlan0) type=3, hw_port:0
+4,1199,1533327039,-;RTW: cfg80211_rtw_change_iface(wlan0) call netdev_open
+4,1200,1533327047,-;RTW: _netdev_open(wlan0) , bup=0
+4,1201,1533327052,-;RTW: +rtl8188es_hal_init
+4,1202,1533327117,-;RTW: FW does not exit before power on!!
+4,1203,1533327123,-;RTW: =>_InitPowerOn_8188ES
+4,1204,1533327126,-;RTW: =>_CardEnable
+4,1205,1533333200,-;RTW: SetHwReg: bMacPwrCtrlOn=1
+4,1206,1533333211,-;RTW: <=_CardEnable
+4,1207,1533333399,-;RTW: <=_InitPowerOn_8188ES
+4,1208,1533333515,-;RTW: sdio_power_on_check: val_mix:0x0000063f, res:0x0000063f
+4,1209,1533333520,-;RTW: sdio_power_on_check: 0x100 the result of cmd52 and cmd53 is the same.
+4,1210,1533333573,-;RTW: sdio_power_on_check: 0x1B8 test Pass.
+4,1211,1533333577,-;RTW: Power on ok!
+4,1212,1533333786,-;RTW: rtl8188e_FirmwareDownload fw:NIC, size: 15262
+4,1213,1533333797,-;RTW: rtl8188e_FirmwareDownload: fw_ver=1c fw_subver=0000 sig=0x88e1, Month=14, Date=27, Hour=7e, Minute=3b
+4,1214,1533416834,-;RTW: polling_fwdl_chksum: Checksum report OK! (1, 0ms), REG_MCUFWDL:0x00030005
+4,1215,1533417205,-;RTW: =====> _8051Reset88E(): 8051 reset success .
+4,1216,1533419973,-;RTW: _FWFreeToGo: Polling FW ready OK! (43, 3ms), REG_MCUFWDL:0x000300c6
+4,1217,1533419984,-;RTW: FWDL success. write_fw:1, 86ms
+4,1218,1533634518,-;==> rtl8188e_iol_efuse_patch
+4,1219,1533660358,-;RTW: HalDetectPwrDownMode(): PDN=0
+4,1220,1533660371,-;RTW: Set RF Chip ID to RF_6052 and RF type to 0.
+4,1221,1533874095,-;RTW: DISABLE_BB_RF=0
+4,1222,1533874107,-;RTW: IS_HARDWARE_TYPE_8188ES=1
+4,1223,1533874170,-;RTW: -rtl8188es_hal_init
+4,1224,1533874179,-;RTW: rtl8188es_hal_init in 547ms
+4,1225,1533874198,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,1226,1533878665,-;RTW: rtw_hal_get_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,1227,1533878685,-;RTW: wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,1228,1533878819,-;RTW: [HW_VAR_ENABLE_RX_BAR] 0x6A2=0x500
+4,1229,1533880027,-;RTW: Using the default RF gain.
+4,1230,1533880043,-;RTW: MAC Address = 44:b2:95:8c:dc:a5
+4,1231,1533880053,-;RTW: rtw_start_drv_threads(wlan0) start RTW_XMIT_THREAD
+4,1232,1533881139,-;RTW: rtw_start_drv_threads(wlan0) start RTW_CMD_THREAD
+4,1233,1533882363,-;RTW: rtl8188e_start_thread(wlan0) start RTWHALXT
+4,1234,1533882545,-;RTW: start rtl8188es_xmit_thread
+4,1235,1533882574,-;RTW: rtw_cfg80211_init_wiphy:rf_type=0
+4,1236,1533882584,-;RTW: [HT] HAL Support STBC = 0x01
+4,1237,1533882612,-;RTW: -871x_drv - drv_open, bup=1
+4,1238,1533882628,-;RTW: cfg80211_rtw_change_iface(wlan0) old_iftype=2, new_iftype=3
+4,1239,1533882666,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,1240,1533882689,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,1241,1533882720,-;RTW: wlan0- Port-0  set opmode = 3
+4,1242,1533882732,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,1243,1533883649,-;RTW: cfg80211_rtw_change_iface(wlan0) ret:0
+4,1244,1533884089,-;RTW: rtw_ndev_notifier_call(wlan0) state:13
+4,1245,1533884103,-;RTW: _netdev_open(wlan0) , bup=1
+4,1246,1533884112,-;RTW: -871x_drv - drv_open, bup=1
+6,1247,1533884189,-;IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+4,1248,1533884199,-;RTW: rtw_ndev_notifier_call(wlan0) state:1
+4,1249,1533884839,-;RTW: cfg80211_rtw_scan(wlan0)
+4,1250,1533886936,-;RTW: SetHwReg8188E:(HW_VAR_CHECK_TXBUF)TXBUF Empty(1) in 0 ms
+4,1251,1533887031,-;RTW: wlan0 sleep m0=0x00000002, ori reg_0x48c=0x00000000
+4,1252,1535000667,-;RTW: wlan0 wakeup m0=0x00000002, ori reg_0x48c=0x00000002
+4,1253,1535000724,-;RTW: survey done event(1) band:0 for wlan0
+4,1254,1535000787,-;RTW: rtw_indicate_scan_done(wlan0)
+4,1255,1535001877,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=  (null)
+4,1256,1535001889,-;RTW: flush all sta, and cam_entry
+4,1257,1535002164,-;RTW: rtw_sta_flush(wlan0)
+4,1258,1535002188,-;RTW: issue_deauth to ff:ff:ff:ff:ff:ff
+4,1259,1535002643,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=ff:ff:ff:ff:ff:ff
+4,1260,1535002658,-;RTW: free sta macaddr =ff:ff:ff:ff:ff:ff
+4,1261,1535002784,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=  (null)
+4,1262,1535002896,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=1, addr=  (null)
+4,1263,1535002979,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=2, addr=  (null)
+4,1264,1535003057,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=3, addr=  (null)
+4,1265,1535147230,-;RTW: cfg80211_rtw_start_ap(wlan0) hidden_ssid:0, auth_type:5
+4,1266,1535147249,-;RTW: rtw_add_beacon beacon_head_len=67, beacon_tail_len=109
+4,1267,1535147267,-;RTW: rtw_check_beacon_data, len=152
+4,1268,1535147354,-;RTW: [HT] HAL Support STBC = 0x01
+4,1269,1535147482,-;RTW: update_hw_ht_param
+4,1270,1535147832,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 44:b2:95:8c:dc:a5
+4,1271,1535148027,-;RTW: SetHwReg8188E==> bcn_interval:100, eraly_int:50
+4,1272,1535148059,-;RTW: rtw_ap_chbw_decision(wlan0) ld_sta_num:0, lg_sta_num0, ap_num:0, mesh_num:0
+4,1273,1535148066,-;RTW: rtw_ap_chbw_decision(wlan0) req: 0,-1,-1
+4,1274,1535148090,-;RTW: rtw_ap_chbw_decision(wlan0) dec: 6,0,0
+4,1275,1535148208,-;RTW: HW_VAR_BASIC_RATE: 0x15f->0x15f->0x15f
+4,1276,1535148527,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,1277,1535148535,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,1278,1535148542,-;RTW: STA - MAC_ID:1, Tx - 1 SS, Rx - 1 SS
+4,1279,1535148546,-;RTW: STA - MAC_ID:1, SM_PS 3
+4,1280,1535148778,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,1281,1535148807,-;RTW: wlan0 BMC Init Tx rate - CCK_11M
+4,1282,1535150165,-;RTW: rtw_cfg80211_indicate_connect(wlan0)
+4,1283,1535150175,-;RTW: assoc success
+6,1284,1535150259,-;IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+4,1285,1535150401,-;RTW: rtw_ndev_notifier_call(wlan0) state:4
+4,1286,1535150743,-;RTW: cfg80211_rtw_change_bss(wlan0)
+4,1287,1535153726,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,1288,1535153743,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=1
+4,1289,1535153748,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=0
+4,1290,1535153759,-;RTW: rtw_cfg80211_ap_set_encryption
+4,1291,1535153769,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP TX GTK idx:1, len:16
+4,1292,1535153778,-;RTW: rtw_ap_set_group_key
+4,1293,1535153850,-;RTW: set group key camid:1, addr:00:00:00:00:00:00, kid:1, type:AES
+4,1294,1535154653,-;RTW: cfg80211_rtw_set_default_key(wlan0) key_index=1, unicast=0, multicast=1
+4,1295,1538983810,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1296,1538983851,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1297,1538983903,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1298,1538983936,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1299,1538983969,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1300,1538983998,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1301,1538984028,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1302,1538984059,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1303,1538984088,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1304,1538984111,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1305,1538984172,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1306,1541049448,-;RTW: +OnAuth
+4,1307,1541049466,-;RTW: auth alg=0, seq=1
+4,1308,1541049478,-;RTW: going to alloc stainfo for sa=3c:a9:f4:94:68:d0
+4,1309,1541049505,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,1310,1541049527,-;RTW: issue_auth
+4,1311,1541060467,-;RTW: OnAssocReq
+4,1312,1541060510,-;RTW: OnAssocReq(wlan0) allocate new AID=1
+4,1313,1541060524,-;RTW: HT: STA 3c:a9:f4:94:68:d0 HT Capabilities Info: 0x107e
+4,1314,1541060530,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,1315,1541060536,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,1316,1541060542,-;RTW: bss_cap_update_on_sta_join, updated=0
+4,1317,1541060547,-;RTW: update_sta_info_apmode
+4,1318,1541060562,-;RTW: ### Set STA_(0) info ###
+4,1319,1541060567,-;RTW: issue_asocrsp
+4,1320,1541060602,-;RTW: report_add_sta_event: add STA
+4,1321,1541060923,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,1322,1541060959,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,1323,1541060965,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,1324,1541060972,-;RTW: STA - MAC_ID:0, Tx - 1 SS, Rx - 1 SS
+4,1325,1541060976,-;RTW: STA - MAC_ID:0, SM_PS 3
+4,1326,1541060988,-;RTW: ht_mcs_set=ff ff ff 00, nss=1, bitmap=000000ff
+4,1327,1541060996,-;RTW: rtw_ap_update_sta_ra_info=> mac_id:0 , tx_ra_bitmap:0x00000000000fffff, networkType:0x0b
+4,1328,1541062163,-;RTW: ============ STA [3c:a9:f4:94:68:d0]  ===================
+4,1329,1541062170,-;RTW: mac_id : 0
+4,1330,1541062174,-;RTW: wireless_mode : 0x0b
+4,1331,1541062177,-;RTW: mimo_type : 0
+4,1332,1541062181,-;RTW: bw_mode : 20MHz, ra_bw_mode : 20MHz
+4,1333,1541062185,-;RTW: rate_id : 0
+4,1334,1541062189,-;RTW: rssi : -1 (%), rssi_level : 0
+4,1335,1541062193,-;RTW: is_support_sgi : Y, is_vht_enable : N
+4,1336,1541062196,-;RTW: disable_ra : N, disable_pt : N
+4,1337,1541062199,-;RTW: is_noisy : N
+4,1338,1541062201,-;RTW: txrx_state : 0
+4,1339,1541062206,-;RTW: curr_tx_rate : CCK_1M (L)
+4,1340,1541062208,-;RTW: curr_tx_bw : 20MHz
+4,1341,1541062211,-;RTW: curr_retry_ratio : 0
+4,1342,1541062214,-;RTW: ra_mask : 0x00000000000fffff\x0a
+4,1343,1541062219,-;RTW: indicate_sta_assoc_event to upper layer - hostapd
+4,1344,1541062228,-;RTW: rtw_cfg80211_indicate_sta_assoc(wlan0)
+4,1345,1541063007,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1346,1541063232,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1347,1541063733,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1348,1541071186,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,1349,1541071205,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=1
+4,1350,1541071210,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=0
+4,1351,1541071222,-;RTW: rtw_cfg80211_ap_set_encryption
+4,1352,1541071232,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP TX GTK idx:1, len:16
+4,1353,1541071242,-;RTW: rtw_ap_set_group_key
+4,1354,1541071372,-;RTW: set group key camid:1, addr:00:00:00:00:00:00, kid:1, type:AES
+4,1355,1541072109,-;RTW: cfg80211_rtw_set_default_key(wlan0) key_index=1, unicast=0, multicast=1
+4,1356,1541074974,-;RTW: send eapol packet
+4,1357,1541085488,-;RTW: recv eapol packet
+4,1358,1541086019,-;RTW: cfg80211_rtw_get_key(wlan0) keyid=1, pairwise=0, addr=  (null) ret 0
+4,1359,1541086030,-;RTW: cfg80211_rtw_get_key(wlan0) seq:0x0
+4,1360,1541086446,-;RTW: send eapol packet
+4,1361,1541089370,-;RTW: rtw_mlcst2unicst()-424: rtw_xmit() return error! res=-1
+4,1362,1541097471,-;RTW: recv eapol packet
+4,1363,1541097899,-;RTW: cfg80211_rtw_add_key(wlan0) adding key for 3c:a9:f4:94:68:d0
+4,1364,1541097912,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,1365,1541097921,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=0
+4,1366,1541097925,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=1
+4,1367,1541097935,-;RTW: rtw_cfg80211_ap_set_encryption
+4,1368,1541097952,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP PTK of 3c:a9:f4:94:68:d0 idx:0, len:16
+4,1369,1541098031,-;RTW: set pairwise key camid:4, addr:3c:a9:f4:94:68:d0, kid:0, type:AES
+4,1370,1541098947,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1371,1542871491,-;RTW: OnDeAuth(wlan0) - Start to Disconnect
+4,1372,1542871516,-;RTW: OnDeAuth(wlan0) reason=3, ta=3c:a9:f4:94:68:d0
+4,1373,1542871536,-;RTW: rtw_cfg80211_indicate_sta_disassoc(wlan0)
+4,1374,1542871583,-;RTW: report_del_sta_event(wlan0) 3c:a9:f4:94:68:d0 mac_id=0, enqueue:1, res:1
+4,1375,1542871591,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,1376,1542871597,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,1377,1542871602,-;RTW: bss_cap_update_on_sta_leave, updated=0
+4,1378,1542871622,-;RTW: ### Clean STA_(0) info ###
+4,1379,1542871636,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,1380,1542871708,-;RTW: clear key for addr:3c:a9:f4:94:68:d0, camid:4
+4,1381,1542872562,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1382,1542872772,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1383,1542872915,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1384,1542873058,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=3c:a9:f4:94:68:d0
+4,1385,1542873068,-;RTW: free sta macaddr =3c:a9:f4:94:68:d0
+4,1386,1542873074,-;RTW: -cfg80211_rtw_del_station(wlan0)
+4,1387,1542873935,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0
+4,1388,1542873949,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=0
+4,1389,1542874179,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,1390,1542875159,-;RTW: wlan0 wakeup macid=0, ori reg_0x48c=0x00000000
+4,1391,1542875173,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0 psta == NULL
+4,1392,1546900441,-;RTW: +OnAuth
+4,1393,1546900459,-;RTW: auth alg=0, seq=1
+4,1394,1546900471,-;RTW: going to alloc stainfo for sa=3c:a9:f4:94:68:d0
+4,1395,1546900497,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,1396,1546900518,-;RTW: issue_auth
+4,1397,1546911454,-;RTW: OnAssocReq
+4,1398,1546911498,-;RTW: OnAssocReq(wlan0) allocate new AID=1
+4,1399,1546911512,-;RTW: HT: STA 3c:a9:f4:94:68:d0 HT Capabilities Info: 0x107e
+4,1400,1546911519,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,1401,1546911524,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,1402,1546911530,-;RTW: bss_cap_update_on_sta_join, updated=0
+4,1403,1546911535,-;RTW: update_sta_info_apmode
+4,1404,1546911553,-;RTW: ### Set STA_(0) info ###
+4,1405,1546911557,-;RTW: issue_asocrsp
+4,1406,1546911591,-;RTW: report_add_sta_event: add STA
+4,1407,1546911921,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,1408,1546911961,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,1409,1546911968,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,1410,1546911973,-;RTW: STA - MAC_ID:0, Tx - 1 SS, Rx - 1 SS
+4,1411,1546911977,-;RTW: STA - MAC_ID:0, SM_PS 3
+4,1412,1546911988,-;RTW: ht_mcs_set=ff ff ff 00, nss=1, bitmap=000000ff
+4,1413,1546911997,-;RTW: rtw_ap_update_sta_ra_info=> mac_id:0 , tx_ra_bitmap:0x00000000000fffff, networkType:0x0b
+4,1414,1546913082,-;RTW: ============ STA [3c:a9:f4:94:68:d0]  ===================
+4,1415,1546913092,-;RTW: mac_id : 0
+4,1416,1546913095,-;RTW: wireless_mode : 0x0b
+4,1417,1546913098,-;RTW: mimo_type : 0
+4,1418,1546913103,-;RTW: bw_mode : 20MHz, ra_bw_mode : 20MHz
+4,1419,1546913106,-;RTW: rate_id : 0
+4,1420,1546913111,-;RTW: rssi : -1 (%), rssi_level : 0
+4,1421,1546913114,-;RTW: is_support_sgi : Y, is_vht_enable : N
+4,1422,1546913118,-;RTW: disable_ra : N, disable_pt : N
+4,1423,1546913121,-;RTW: is_noisy : N
+4,1424,1546913123,-;RTW: txrx_state : 0
+4,1425,1546913128,-;RTW: curr_tx_rate : CCK_1M (L)
+4,1426,1546913131,-;RTW: curr_tx_bw : 20MHz
+4,1427,1546913134,-;RTW: curr_retry_ratio : 0
+4,1428,1546913137,-;RTW: ra_mask : 0x00000000000fffff\x0a
+4,1429,1546913141,-;RTW: indicate_sta_assoc_event to upper layer - hostapd
+4,1430,1546913150,-;RTW: rtw_cfg80211_indicate_sta_assoc(wlan0)
+4,1431,1546913957,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1432,1546914198,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1433,1546914721,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1434,1546917444,-;RTW: send eapol packet
+4,1435,1546944493,-;RTW: recv eapol packet
+4,1436,1546945085,-;RTW: cfg80211_rtw_get_key(wlan0) keyid=1, pairwise=0, addr=  (null) ret 0
+4,1437,1546945098,-;RTW: cfg80211_rtw_get_key(wlan0) seq:0x8
+4,1438,1546945600,-;RTW: send eapol packet
+4,1439,1546953476,-;RTW: recv eapol packet
+4,1440,1546953915,-;RTW: cfg80211_rtw_add_key(wlan0) adding key for 3c:a9:f4:94:68:d0
+4,1441,1546953928,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,1442,1546953937,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=0
+4,1443,1546953941,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=1
+4,1444,1546953951,-;RTW: rtw_cfg80211_ap_set_encryption
+4,1445,1546954004,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP PTK of 3c:a9:f4:94:68:d0 idx:0, len:16
+4,1446,1546954088,-;RTW: set pairwise key camid:4, addr:3c:a9:f4:94:68:d0, kid:0, type:AES
+4,1447,1546955028,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1448,1558021448,-;RTW: OnAction_back
+4,1449,1558021469,-;RTW: OnAction_back, action=0
+4,1450,1558024448,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=0 size:16, acked, 1/3 in 3 ms
+4,1451,2321889350,-;vnet ipcm: Link is Up - 1Gbps/Full - flow control rx/tx
+6,1452,2441428090,-;usbcore: registered new interface driver usbfs
+6,1453,2441428167,-;usbcore: registered new interface driver hub
+6,1454,2441428245,-;usbcore: registered new device driver usb
+6,1455,2441784177,-;hiudc: version 3.00a 10-AUG-2012
+4,1456,2441817450,-;Core Release: 3.10a
+4,1457,2441817467,-;Setting default values for core params
+4,1458,2442019286,-;Using Descriptor DMA mode
+4,1459,2442019337,-;Dedicated Tx FIFOs mode
+4,1460,2442056265,-;using random self ethernet address
+4,1461,2442056340,-;using random host ethernet address
+6,1462,2442057371,-;usb0: HOST MAC 5a:03:fd:b2:fa:53
+6,1463,2442057445,-;usb0: MAC 66:6c:ed:41:d2:2e
+6,1464,2442057497,-;g_multi gadget: Multifunction Composite Gadget
+6,1465,2442057510,-;g_multi gadget: g_multi ready
+6,1466,2442061124,-;IPv6: ADDRCONF(NETDEV_UP): usb0: link is not ready
+6,1467,2659415728,-;g_multi gadget: high-speed config #1: Multifunction with RNDIS
+6,1468,2659415939,-;IPv6: ADDRCONF(NETDEV_CHANGE): usb0: link becomes ready
+6,1469,2659442816,-;rndis_command_complete: MaxTransferSize: 2048 : Multi_pkt_txr: disabled
+4,1470,2669344448,-;RTW: OnAction_back
+4,1471,2669344466,-;RTW: OnAction_back, action=2
+4,1472,2669344472,-;RTW: OnAction_back(): DELBA: 0(0)
+4,1473,2671568431,-;RTW: OnAction_back
+4,1474,2671568450,-;RTW: OnAction_back, action=0
+4,1475,2671571455,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=0 size:16, acked, 1/3 in 3 ms
+4,1476,2682980478,-;RTW: OnAction_back
+4,1477,2682980498,-;RTW: OnAction_back, action=2
+4,1478,2682980505,-;RTW: OnAction_back(): DELBA: 0(0)
+4,1479,2757016611,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1480,2757016723,-;RTW: cfg80211_rtw_stop_ap(wlan0)
+4,1481,2757016731,-;RTW: stop_ap_mode -wlan0
+4,1482,2757016746,-;RTW: rtw_sta_flush(wlan0)
+4,1483,2757016771,-;RTW: issue_deauth to 3c:a9:f4:94:68:d0
+4,1484,2757016825,-;RTW: rtw_cfg80211_indicate_sta_disassoc(wlan0)
+4,1485,2757016873,-;RTW: report_del_sta_event(wlan0) 3c:a9:f4:94:68:d0 mac_id=0, enqueue:1, res:1
+4,1486,2757016882,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,1487,2757016889,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,1488,2757016894,-;RTW: bss_cap_update_on_sta_leave, updated=0
+4,1489,2757016915,-;RTW: ### Clean STA_(0) info ###
+4,1490,2757016930,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,1491,2757016940,-;RTW: issue_deauth to ff:ff:ff:ff:ff:ff
+4,1492,2757017116,-;RTW: clear key for addr:3c:a9:f4:94:68:d0, camid:4
+4,1493,2757018507,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=1 shared
+4,1494,2757018534,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,1495,2757018679,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,1496,2757018688,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,1497,2757018713,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,1498,2757019333,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0
+4,1499,2757019341,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=0
+4,1500,2757020051,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,1501,2757021462,-;RTW: wlan0 wakeup macid=0, ori reg_0x48c=0x00000000
+4,1502,2757021484,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0 psta == NULL
+4,1503,2757021729,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,1504,2757021862,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,1505,2757021870,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,1506,2757021902,-;RTW: rtw_cfg80211_indicate_disconnect(wlan0)
+4,1507,2757022156,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,1508,2757022578,-;RTW: wlan0- Port-0  set opmode = 2
+4,1509,2757022593,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,1510,2757023023,-;RTW: rtw_reset_securitypriv(wlan0) - End to Disconnect
+4,1511,2757023038,-;RTW: rtl8188e_set_FwJoinBssReport_cmd mstatus(0)
+4,1512,2757023131,-;RTW: rtw_ndev_notifier_call(wlan0) state:9
+4,1513,2757023158,-;RTW: netdev_close(wlan0) , bup=1
+4,1514,2757023163,-;RTW: (2)871x_drv - drv_close, bup=1, hw_init_completed=_TRUE
+4,1515,2757023759,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,1516,2757023884,-;RTW: rtw_cfg80211_indicate_disconnect(wlan0)
+4,1517,2757023908,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,1518,2757023917,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,1519,2757023928,-;RTW: -871x_drv - drv_close, bup=1
+4,1520,2757024196,-;RTW: rtw_ndev_notifier_call(wlan0) state:2
+4,1521,2757025405,-;RTW: rtw_reset_securitypriv(wlan0) - End to Disconnect
+4,1522,2757025431,-;RTW: rtl8188e_set_FwJoinBssReport_cmd mstatus(0)
+4,1523,2757041830,-;RTW: module exit start
+4,1524,2757041894,-;RTW: rtw_wdev_unregister(wdev=c5a63180)
+4,1525,2757042145,-;RTW: rtw_ndev_notifier_call(wlan0) state:6
+4,1526,2757042159,-;RTW: rtw_ndev_uninit(wlan0) if1
+4,1527,2757043263,-;RTW: rtw_ndev_notifier_call(wlan0) state:17
+4,1528,2757043328,-;RTW: rtw_wiphy_unregister(phy0)
+4,1529,2757043333,-;RTW: Vendor: Unregister RTW cfg80211 vendor interface
+4,1530,2757043700,-;RTW: rtw_pm_set_ips IPS_NONE
+4,1531,2757043735,-;RTW: rtw_cmd_thread(wlan0) Exit
+4,1532,2757043880,-;RTW: ==> rtw_dev_unload(wlan0)
+4,1533,2757043972,-;RTW: rtw_xmit_thread(wlan0) Exit
+4,1534,2757044067,-;RTW: rtl8188es_xmit_thread(wlan0) Exit
+4,1535,2757044206,-;RTW: CheckIPSStatus(): Read 0x100=0xff 0x86=0x00
+4,1536,2757044237,-;RTW: rtw_dev_unload: driver not in IPS
+4,1537,2757044242,-;RTW: =>rtl8188es_hal_deinit
+4,1538,2757044250,-;RTW: =>hal_poweroff_8188es
+4,1539,2757045013,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,1540,2757045473,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,1541,2757045479,-;RTW: <=hal_poweroff_8188es
+4,1542,2757045484,-;RTW: <=rtl8188es_hal_deinit
+4,1543,2757045488,-;RTW: <== rtw_dev_unload(wlan0)
+4,1544,2757045496,-;RTW: +r871xu_dev_remove, hw_init_completed=0
+4,1545,2757045819,-;RTW: rtw_wdev_free(wdev=c5a63180)
+4,1546,2757045828,-;RTW: rtw_wiphy_free(phy0)
+4,1547,2757046219,-;RTW: rtw_inetaddr_notifier_unregister
+4,1548,2757046231,-;RTW: module exit success
+6,1549,2761437550,-;cfg80211: Calling CRDA to update world regulatory domain
+4,1550,2761464685,-;RTW: module init start
+6,1551,2761464841,-;mmc1: card 0001 removed
+4,1552,2761696365,-;RTW: rtl8189es v5.3.3.1_27418.20180425
+4,1553,2761696379,-;RTW: build time: Oct 22 2018 14:51:28
+4,1554,2761696445,-;RTW: rtw_inetaddr_notifier_register
+4,1555,2761696521,-;RTW: module init ret=0
+6,1556,2761723669,-;mmc1: new high speed SDIO card at address 0001
+4,1557,2761724066,-;RTW: == SDIO Card Info ==
+4,1558,2761724075,-;RTW:   clock: 50000000 Hz
+4,1559,2761724080,-;RTW:   timing spec: sd high-speed
+4,1560,2761724090,-;RTW:   sd3_bus_mode: FALSE
+4,1561,2761724092,-;RTW: ================
+4,1562,2761724095,-;RTW: CHIP TYPE: RTL8188E
+4,1563,2761725080,-;RTW: rtw_hal_config_rftype RF_Type is 0 TotalTxPath is 1
+4,1564,2761725099,-;RTW: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+4,1565,2761725111,-;RTW: =>_InitPowerOn_8188ES
+4,1566,2761725115,-;RTW: =>_CardEnable
+4,1567,2761731247,-;RTW: SetHwReg: bMacPwrCtrlOn=1
+4,1568,2761731256,-;RTW: <=_CardEnable
+4,1569,2761731506,-;RTW: <=_InitPowerOn_8188ES
+4,1570,2761731547,-;RTW: EEPROM type is E-FUSE
+4,1571,2761731573,-;RTW: _ReadPROMContent: 9346CR=0x20, Boot from EFUSE, Autoload OK
+4,1572,2761731675,-;RTW: =>_InitPowerOn_8188ES
+4,1573,2761731678,-;RTW: =>_CardEnable
+4,1574,2761731684,-;RTW: =>_CardEnable bMacPwrCtrlOn == _TRUE do nothing !!
+4,1575,2761731687,-;RTW: <=_CardEnable
+4,1576,2761731816,-;RTW: <=_InitPowerOn_8188ES
+4,1577,2761731852,-;bFWReady == _FALSE call reset 8051...
+4,1578,2761732022,-;RTW: =====> _8051Reset88E(): 8051 reset success .
+4,1579,2761750818,-;RTW: efuse_read_phymap_from_txpktbuf bcnhead:0
+4,1580,2761751013,-;RTW: efuse_read_phymap_from_txpktbuf len:162, lenbak:162, aaa:162, aaabak:162
+4,1581,2761753287,-;RTW: efuse_read_phymap_from_txpktbuf read count:160
+4,1582,2761753415,-;RTW: HW EFUSE
+4,1583,2761753428,-;RTW: 0x000: 29 81 00 6C  0B 00 00 00  00 0C 00 00  0A 00 00 00  
+4,1584,2761753458,-;RTW: 0x010: 2A 29 28 27  27 27 2C 2C  2B 2A 2A 02  FF FF FF FF  
+4,1585,2761753484,-;RTW: 0x020: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1586,2761753510,-;RTW: 0x030: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1587,2761753535,-;RTW: 0x040: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1588,2761753561,-;RTW: 0x050: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1589,2761753586,-;RTW: 0x060: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1590,2761753612,-;RTW: 0x070: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1591,2761753637,-;RTW: 0x080: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1592,2761753663,-;RTW: 0x090: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1593,2761753689,-;RTW: 0x0A0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1594,2761753714,-;RTW: 0x0B0: FF FF FF FF  FF FF FF FF  08 09 11 00  00 00 FF 00  
+4,1595,2761753739,-;RTW: 0x0C0: FF 00 00 10  00 00 00 55  00 01 FF FF  FF FF FF FF  
+4,1596,2761753765,-;RTW: 0x0D0: 3F 00 01 02  32 00 00 FC  20 04 4C 02  79 81 21 02  
+4,1597,2761753790,-;RTW: 0x0E0: 0C 00 22 04  00 08 00 32  FF 21 02 0C  00 22 2A 01  
+4,1598,2761753815,-;RTW: 0x0F0: 01 00 00 00  00 00 00 00  00 00 00 00  02 00 FF FF  
+4,1599,2761753840,-;RTW: 0x100: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  
+4,1600,2761753864,-;RTW: 0x110: 00 EB 00 6E  01 00 00 00  00 FF 44 B2  95 8C DC A5  
+4,1601,2761753889,-;RTW: 0x120: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1602,2761753915,-;RTW: 0x130: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1603,2761753941,-;RTW: 0x140: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1604,2761753990,-;RTW: 0x150: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1605,2761754016,-;RTW: 0x160: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1606,2761754042,-;RTW: 0x170: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1607,2761754067,-;RTW: 0x180: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1608,2761754093,-;RTW: 0x190: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1609,2761754119,-;RTW: 0x1A0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1610,2761754145,-;RTW: 0x1B0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1611,2761754170,-;RTW: 0x1C0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1612,2761754196,-;RTW: 0x1D0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1613,2761754222,-;RTW: 0x1E0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1614,2761754248,-;RTW: 0x1F0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+4,1615,2761754301,-;RTW: EEPROM ID=0x8129
+4,1616,2761754314,-;RTW: Hal_ReadPowerSavingMode88E...bHWPwrPindetect(0)-bHWPowerdown(0) ,bSupportRemoteWakeup(0)
+4,1617,2761754319,-;RTW: ### PS params=>  power_mgnt(2),usbss_enable(0) ###
+4,1618,2761754341,-;RTW: EEPROMRegulatory = 0x0
+4,1619,2761754350,-;RTW: hal_com_config_channel_plan chplan:0x08
+4,1620,2761754353,-;RTW: crystal_cap: 0x 9
+4,1621,2761754357,-;RTW: EEPROM Customer ID: 0x 0
+4,1622,2761754362,-;RTW: pHalData->ExternalPA_2G = 0 , pHalData->ExternalLNA_2G = 0
+4,1623,2761754366,-;RTW: pHalData->TypeGLNA is 0x0
+4,1624,2761754369,-;RTW: pHalData->rfe_type is 0xff
+4,1625,2761754372,-;RTW: Board Type: 0x 0
+4,1626,2761754376,-;RTW: ThermalMeter = 0x11
+4,1627,2761754379,-;RTW: pHalData->EEPROMRFGainVal=0
+4,1628,2761754386,-;RTW: Hal_ReadRFGainOffset => EEPRORFGainOffset = 0x00,EEPROMRFGainVal=0x00,thermal_offset:0x00
+4,1629,2761754393,-;RTW: =>hal_poweroff_8188es
+4,1630,2761755541,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,1631,2761755856,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,1632,2761755860,-;RTW: <=hal_poweroff_8188es
+4,1633,2761755867,-;RTW: rtw_hal_read_chip_info in 31 ms
+4,1634,2761755906,-;RTW: init_channel_set((null)) ChannelPlan ID:0x08, ch num:14
+4,1635,2761757094,-;RTW: rtw_alloc_macid((null)) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,1636,2761757227,-;RTW: IQK FW offload:disable
+4,1637,2761757253,-;RTW: rtw_regsty_chk_target_tx_power_valid return _FALSE for band:0, path:0, rs:0, t:-1
+4,1638,2761757341,-;RTW: rtw_macaddr_cfg mac addr:44:b2:95:8c:dc:a5
+4,1639,2761757656,-;RTW: bDriverStopped:True, bSurpriseRemoved:False, bup:0, hw_init_completed:0
+4,1640,2761757725,-;RTW: rtw_wiphy_alloc(phy0)
+4,1641,2761757733,-;RTW: rtw_wdev_alloc(padapter=ca719000)
+4,1642,2761757744,-;RTW: rtw_wiphy_register(phy0)
+4,1643,2761757749,-;RTW: Register RTW cfg80211 vendor cmd(0x67) interface
+4,1644,2761758054,-;RTW: rtw_ndev_init(wlan0) if1 mac_addr=44:b2:95:8c:dc:a5
+4,1645,2761758638,-;RTW: rtw_ndev_notifier_call(wlan0) state:16
+4,1646,2761759502,-;RTW: rtw_ndev_notifier_call(wlan0) state:5
+4,1647,2762221894,-;RTW: cfg80211_rtw_change_iface(wlan0) type=3, hw_port:0
+4,1648,2762221911,-;RTW: cfg80211_rtw_change_iface(wlan0) call netdev_open
+4,1649,2762221918,-;RTW: _netdev_open(wlan0) , bup=0
+4,1650,2762221923,-;RTW: +rtl8188es_hal_init
+4,1651,2762221991,-;RTW: FW does not exit before power on!!
+4,1652,2762221997,-;RTW: =>_InitPowerOn_8188ES
+4,1653,2762222000,-;RTW: =>_CardEnable
+4,1654,2762228247,-;RTW: SetHwReg: bMacPwrCtrlOn=1
+4,1655,2762228257,-;RTW: <=_CardEnable
+4,1656,2762228542,-;RTW: <=_InitPowerOn_8188ES
+4,1657,2762228657,-;RTW: sdio_power_on_check: val_mix:0x0000063f, res:0x0000063f
+4,1658,2762228664,-;RTW: sdio_power_on_check: 0x100 the result of cmd52 and cmd53 is the same.
+4,1659,2762228720,-;RTW: sdio_power_on_check: 0x1B8 test Pass.
+4,1660,2762228723,-;RTW: Power on ok!
+4,1661,2762228930,-;RTW: rtl8188e_FirmwareDownload fw:NIC, size: 15262
+4,1662,2762228941,-;RTW: rtl8188e_FirmwareDownload: fw_ver=1c fw_subver=0000 sig=0x88e1, Month=14, Date=27, Hour=7e, Minute=3b
+4,1663,2762312431,-;RTW: polling_fwdl_chksum: Checksum report OK! (1, 0ms), REG_MCUFWDL:0x00030005
+4,1664,2762312800,-;RTW: =====> _8051Reset88E(): 8051 reset success .
+4,1665,2762315614,-;RTW: _FWFreeToGo: Polling FW ready OK! (41, 3ms), REG_MCUFWDL:0x000300c6
+4,1666,2762315623,-;RTW: FWDL success. write_fw:1, 87ms
+4,1667,2762530527,-;==> rtl8188e_iol_efuse_patch
+4,1668,2762556571,-;RTW: HalDetectPwrDownMode(): PDN=0
+4,1669,2762556583,-;RTW: Set RF Chip ID to RF_6052 and RF type to 0.
+4,1670,2762769585,-;RTW: DISABLE_BB_RF=0
+4,1671,2762769597,-;RTW: IS_HARDWARE_TYPE_8188ES=1
+4,1672,2762769655,-;RTW: -rtl8188es_hal_init
+4,1673,2762769665,-;RTW: rtl8188es_hal_init in 548ms
+4,1674,2762769681,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,1675,2762769897,-;RTW: rtw_hal_get_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,1676,2762769906,-;RTW: wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,1677,2762770010,-;RTW: [HW_VAR_ENABLE_RX_BAR] 0x6A2=0x500
+4,1678,2762771401,-;RTW: Using the default RF gain.
+4,1679,2762771417,-;RTW: MAC Address = 44:b2:95:8c:dc:a5
+4,1680,2762771426,-;RTW: rtw_start_drv_threads(wlan0) start RTW_XMIT_THREAD
+4,1681,2762771562,-;RTW: rtw_start_drv_threads(wlan0) start RTW_CMD_THREAD
+4,1682,2762771623,-;RTW: rtl8188e_start_thread(wlan0) start RTWHALXT
+4,1683,2762771684,-;RTW: start rtl8188es_xmit_thread
+4,1684,2762771743,-;RTW: rtw_cfg80211_init_wiphy:rf_type=0
+4,1685,2762771751,-;RTW: [HT] HAL Support STBC = 0x01
+4,1686,2762771779,-;RTW: -871x_drv - drv_open, bup=1
+4,1687,2762771793,-;RTW: cfg80211_rtw_change_iface(wlan0) old_iftype=2, new_iftype=3
+4,1688,2762771828,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,1689,2762771851,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,1690,2762771883,-;RTW: wlan0- Port-0  set opmode = 3
+4,1691,2762771895,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,1692,2762772908,-;RTW: cfg80211_rtw_change_iface(wlan0) ret:0
+4,1693,2762773418,-;RTW: rtw_ndev_notifier_call(wlan0) state:13
+4,1694,2762773431,-;RTW: _netdev_open(wlan0) , bup=1
+4,1695,2762773439,-;RTW: -871x_drv - drv_open, bup=1
+6,1696,2762773518,-;IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+4,1697,2762773529,-;RTW: rtw_ndev_notifier_call(wlan0) state:1
+4,1698,2762774090,-;RTW: cfg80211_rtw_scan(wlan0)
+4,1699,2762775945,-;RTW: SetHwReg8188E:(HW_VAR_CHECK_TXBUF)TXBUF Empty(1) in 0 ms
+4,1700,2762776070,-;RTW: wlan0 sleep m0=0x00000002, ori reg_0x48c=0x00000000
+4,1701,2763892944,-;RTW: wlan0 wakeup m0=0x00000002, ori reg_0x48c=0x00000002
+4,1702,2763893005,-;RTW: survey done event(1) band:0 for wlan0
+4,1703,2763893067,-;RTW: rtw_indicate_scan_done(wlan0)
+4,1704,2763894144,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=  (null)
+4,1705,2763894154,-;RTW: flush all sta, and cam_entry
+4,1706,2763894689,-;RTW: rtw_sta_flush(wlan0)
+4,1707,2763894706,-;RTW: issue_deauth to ff:ff:ff:ff:ff:ff
+4,1708,2763895087,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=ff:ff:ff:ff:ff:ff
+4,1709,2763895102,-;RTW: free sta macaddr =ff:ff:ff:ff:ff:ff
+4,1710,2763895261,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=  (null)
+4,1711,2763895791,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=1, addr=  (null)
+4,1712,2763895931,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=2, addr=  (null)
+4,1713,2763896023,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=3, addr=  (null)
+4,1714,2764049158,-;RTW: cfg80211_rtw_start_ap(wlan0) hidden_ssid:0, auth_type:5
+4,1715,2764049176,-;RTW: rtw_add_beacon beacon_head_len=67, beacon_tail_len=109
+4,1716,2764049194,-;RTW: rtw_check_beacon_data, len=152
+4,1717,2764049226,-;RTW: [HT] HAL Support STBC = 0x01
+4,1718,2764049607,-;RTW: update_hw_ht_param
+4,1719,2764049954,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 44:b2:95:8c:dc:a5
+4,1720,2764050149,-;RTW: SetHwReg8188E==> bcn_interval:100, eraly_int:50
+4,1721,2764050180,-;RTW: rtw_ap_chbw_decision(wlan0) ld_sta_num:0, lg_sta_num0, ap_num:0, mesh_num:0
+4,1722,2764050187,-;RTW: rtw_ap_chbw_decision(wlan0) req: 0,-1,-1
+4,1723,2764050210,-;RTW: rtw_ap_chbw_decision(wlan0) dec: 6,0,0
+4,1724,2764050529,-;RTW: HW_VAR_BASIC_RATE: 0x15f->0x15f->0x15f
+4,1725,2764050693,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,1726,2764050700,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,1727,2764050707,-;RTW: STA - MAC_ID:1, Tx - 1 SS, Rx - 1 SS
+4,1728,2764050711,-;RTW: STA - MAC_ID:1, SM_PS 3
+4,1729,2764050924,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,1730,2764050952,-;RTW: wlan0 BMC Init Tx rate - CCK_11M
+4,1731,2764052245,-;RTW: rtw_cfg80211_indicate_connect(wlan0)
+4,1732,2764052254,-;RTW: assoc success
+6,1733,2764052416,-;IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+4,1734,2764052519,-;RTW: rtw_ndev_notifier_call(wlan0) state:4
+4,1735,2764052834,-;RTW: cfg80211_rtw_change_bss(wlan0)
+4,1736,2764056146,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,1737,2764056166,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=1
+4,1738,2764056171,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=0
+4,1739,2764056182,-;RTW: rtw_cfg80211_ap_set_encryption
+4,1740,2764056195,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP TX GTK idx:1, len:16
+4,1741,2764056203,-;RTW: rtw_ap_set_group_key
+4,1742,2764056349,-;RTW: set group key camid:1, addr:00:00:00:00:00:00, kid:1, type:AES
+4,1743,2764057410,-;RTW: cfg80211_rtw_set_default_key(wlan0) key_index=1, unicast=0, multicast=1
+4,1744,2767875918,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1745,2767875964,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1746,2767876016,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1747,2767876054,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1748,2767876088,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1749,2767876117,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1750,2767876148,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1751,2767876178,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1752,2767876208,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1753,2767876226,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1754,2767876394,-;RTW: rtw_ioctl_standard_wext_private:...
+4,1755,2768623426,-;RTW: +OnAuth
+4,1756,2768623443,-;RTW: auth alg=0, seq=1
+4,1757,2768623455,-;RTW: going to alloc stainfo for sa=3c:a9:f4:94:68:d0
+4,1758,2768623480,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,1759,2768623500,-;RTW: issue_auth
+4,1760,2768628478,-;RTW: OnAssocReq
+4,1761,2768628522,-;RTW: OnAssocReq(wlan0) allocate new AID=1
+4,1762,2768628537,-;RTW: HT: STA 3c:a9:f4:94:68:d0 HT Capabilities Info: 0x107e
+4,1763,2768628544,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,1764,2768628550,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,1765,2768628556,-;RTW: bss_cap_update_on_sta_join, updated=0
+4,1766,2768628561,-;RTW: update_sta_info_apmode
+4,1767,2768628579,-;RTW: ### Set STA_(0) info ###
+4,1768,2768628583,-;RTW: issue_asocrsp
+4,1769,2768628618,-;RTW: report_add_sta_event: add STA
+4,1770,2768628977,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,1771,2768629019,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,1772,2768629025,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,1773,2768629031,-;RTW: STA - MAC_ID:0, Tx - 1 SS, Rx - 1 SS
+4,1774,2768629035,-;RTW: STA - MAC_ID:0, SM_PS 3
+4,1775,2768629047,-;RTW: ht_mcs_set=ff ff ff 00, nss=1, bitmap=000000ff
+4,1776,2768629055,-;RTW: rtw_ap_update_sta_ra_info=> mac_id:0 , tx_ra_bitmap:0x00000000000fffff, networkType:0x0b
+4,1777,2768630462,-;RTW: ============ STA [3c:a9:f4:94:68:d0]  ===================
+4,1778,2768630473,-;RTW: mac_id : 0
+4,1779,2768630477,-;RTW: wireless_mode : 0x0b
+4,1780,2768630480,-;RTW: mimo_type : 0
+4,1781,2768630484,-;RTW: bw_mode : 20MHz, ra_bw_mode : 20MHz
+4,1782,2768630489,-;RTW: rate_id : 0
+4,1783,2768630492,-;RTW: rssi : -1 (%), rssi_level : 0
+4,1784,2768630496,-;RTW: is_support_sgi : Y, is_vht_enable : N
+4,1785,2768630500,-;RTW: disable_ra : N, disable_pt : N
+4,1786,2768630502,-;RTW: is_noisy : N
+4,1787,2768630505,-;RTW: txrx_state : 0
+4,1788,2768630509,-;RTW: curr_tx_rate : CCK_1M (L)
+4,1789,2768630512,-;RTW: curr_tx_bw : 20MHz
+4,1790,2768630516,-;RTW: curr_retry_ratio : 0
+4,1791,2768630519,-;RTW: ra_mask : 0x00000000000fffff\x0a
+4,1792,2768630524,-;RTW: indicate_sta_assoc_event to upper layer - hostapd
+4,1793,2768630534,-;RTW: rtw_cfg80211_indicate_sta_assoc(wlan0)
+4,1794,2768631579,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1795,2768631818,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1796,2768631958,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1797,2768640135,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,1798,2768640151,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=1
+4,1799,2768640156,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=0
+4,1800,2768640166,-;RTW: rtw_cfg80211_ap_set_encryption
+4,1801,2768640177,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP TX GTK idx:1, len:16
+4,1802,2768640187,-;RTW: rtw_ap_set_group_key
+4,1803,2768640264,-;RTW: set group key camid:1, addr:00:00:00:00:00:00, kid:1, type:AES
+4,1804,2768641139,-;RTW: cfg80211_rtw_set_default_key(wlan0) key_index=1, unicast=0, multicast=1
+4,1805,2768643972,-;RTW: send eapol packet
+4,1806,2768648491,-;RTW: recv eapol packet
+4,1807,2768649031,-;RTW: cfg80211_rtw_get_key(wlan0) keyid=1, pairwise=0, addr=  (null) ret 0
+4,1808,2768649044,-;RTW: cfg80211_rtw_get_key(wlan0) seq:0x0
+4,1809,2768649574,-;RTW: send eapol packet
+4,1810,2768660476,-;RTW: recv eapol packet
+4,1811,2768660998,-;RTW: cfg80211_rtw_add_key(wlan0) adding key for 3c:a9:f4:94:68:d0
+4,1812,2768661015,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,1813,2768661022,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=0
+4,1814,2768661027,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=1
+4,1815,2768661039,-;RTW: rtw_cfg80211_ap_set_encryption
+4,1816,2768661055,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP PTK of 3c:a9:f4:94:68:d0 idx:0, len:16
+4,1817,2768661156,-;RTW: set pairwise key camid:4, addr:3c:a9:f4:94:68:d0, kid:0, type:AES
+4,1818,2768662887,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1819,2768786671,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1820,2772794731,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1821,2776802659,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1822,2780810775,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1823,2784818622,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1824,2785996445,-;RTW: OnDeAuth(wlan0) - Start to Disconnect
+4,1825,2785996467,-;RTW: OnDeAuth(wlan0) reason=3, ta=3c:a9:f4:94:68:d0
+4,1826,2785996485,-;RTW: rtw_cfg80211_indicate_sta_disassoc(wlan0)
+4,1827,2785996528,-;RTW: report_del_sta_event(wlan0) 3c:a9:f4:94:68:d0 mac_id=0, enqueue:1, res:1
+4,1828,2785996537,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,1829,2785996543,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,1830,2785996548,-;RTW: bss_cap_update_on_sta_leave, updated=0
+4,1831,2785996566,-;RTW: ### Clean STA_(0) info ###
+4,1832,2785996579,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,1833,2785996640,-;RTW: clear key for addr:3c:a9:f4:94:68:d0, camid:4
+4,1834,2785997397,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1835,2785997606,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1836,2785997733,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1837,2785997867,-;RTW: +cfg80211_rtw_del_station(wlan0) mac=3c:a9:f4:94:68:d0
+4,1838,2785997879,-;RTW: free sta macaddr =3c:a9:f4:94:68:d0
+4,1839,2785997885,-;RTW: -cfg80211_rtw_del_station(wlan0)
+4,1840,2785999102,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0
+4,1841,2785999117,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=0
+4,1842,2785999462,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,1843,2786000537,-;RTW: wlan0 wakeup macid=0, ori reg_0x48c=0x00000000
+4,1844,2786000553,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0 psta == NULL
+4,1845,2790163440,-;RTW: +OnAuth
+4,1846,2790163460,-;RTW: auth alg=0, seq=1
+4,1847,2790163472,-;RTW: going to alloc stainfo for sa=3c:a9:f4:94:68:d0
+4,1848,2790163496,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,1849,2790163516,-;RTW: issue_auth
+4,1850,2790170424,-;RTW: OnAssocReq
+4,1851,2790170464,-;RTW: OnAssocReq(wlan0) allocate new AID=1
+4,1852,2790170477,-;RTW: HT: STA 3c:a9:f4:94:68:d0 HT Capabilities Info: 0x107e
+4,1853,2790170484,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,1854,2790170490,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,1855,2790170495,-;RTW: bss_cap_update_on_sta_join, updated=0
+4,1856,2790170500,-;RTW: update_sta_info_apmode
+4,1857,2790170516,-;RTW: ### Set STA_(0) info ###
+4,1858,2790170521,-;RTW: issue_asocrsp
+4,1859,2790170551,-;RTW: report_add_sta_event: add STA
+4,1860,2790170893,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,1861,2790170931,-;RTW: rtw_get_sta_tx_nss: 1 SS
+4,1862,2790170937,-;RTW: rtw_get_sta_rx_nss: 1 SS
+4,1863,2790170943,-;RTW: STA - MAC_ID:0, Tx - 1 SS, Rx - 1 SS
+4,1864,2790170947,-;RTW: STA - MAC_ID:0, SM_PS 3
+4,1865,2790170958,-;RTW: ht_mcs_set=ff ff ff 00, nss=1, bitmap=000000ff
+4,1866,2790170967,-;RTW: rtw_ap_update_sta_ra_info=> mac_id:0 , tx_ra_bitmap:0x00000000000fffff, networkType:0x0b
+4,1867,2790172379,-;RTW: ============ STA [3c:a9:f4:94:68:d0]  ===================
+4,1868,2790172388,-;RTW: mac_id : 0
+4,1869,2790172392,-;RTW: wireless_mode : 0x0b
+4,1870,2790172395,-;RTW: mimo_type : 0
+4,1871,2790172400,-;RTW: bw_mode : 20MHz, ra_bw_mode : 20MHz
+4,1872,2790172404,-;RTW: rate_id : 0
+4,1873,2790172408,-;RTW: rssi : -1 (%), rssi_level : 0
+4,1874,2790172412,-;RTW: is_support_sgi : Y, is_vht_enable : N
+4,1875,2790172416,-;RTW: disable_ra : N, disable_pt : N
+4,1876,2790172418,-;RTW: is_noisy : N
+4,1877,2790172421,-;RTW: txrx_state : 0
+4,1878,2790172425,-;RTW: curr_tx_rate : CCK_1M (L)
+4,1879,2790172428,-;RTW: curr_tx_bw : 20MHz
+4,1880,2790172431,-;RTW: curr_retry_ratio : 0
+4,1881,2790172434,-;RTW: ra_mask : 0x00000000000fffff\x0a
+4,1882,2790172438,-;RTW: indicate_sta_assoc_event to upper layer - hostapd
+4,1883,2790172448,-;RTW: rtw_cfg80211_indicate_sta_assoc(wlan0)
+4,1884,2790173169,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1885,2790173485,-;RTW: cfg80211_rtw_del_key(wlan0) key_index=0, addr=3c:a9:f4:94:68:d0
+4,1886,2790173627,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1887,2790176882,-;RTW: send eapol packet
+4,1888,2790192477,-;RTW: recv eapol packet
+4,1889,2790193020,-;RTW: cfg80211_rtw_get_key(wlan0) keyid=1, pairwise=0, addr=  (null) ret 0
+4,1890,2790193033,-;RTW: cfg80211_rtw_get_key(wlan0) seq:0x13
+4,1891,2790193608,-;RTW: send eapol packet
+4,1892,2790199490,-;RTW: recv eapol packet
+4,1893,2790199964,-;RTW: cfg80211_rtw_add_key(wlan0) adding key for 3c:a9:f4:94:68:d0
+4,1894,2790199979,-;RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+4,1895,2790199985,-;RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=0
+4,1896,2790199990,-;RTW: cfg80211_rtw_add_key(wlan0) pairwise=1
+4,1897,2790200001,-;RTW: rtw_cfg80211_ap_set_encryption
+4,1898,2790200017,-;RTW: rtw_cfg80211_ap_set_encryption(wlan0) set CCMP PTK of 3c:a9:f4:94:68:d0 idx:0, len:16
+4,1899,2790200101,-;RTW: set pairwise key camid:4, addr:3c:a9:f4:94:68:d0, kid:0, type:AES
+4,1900,2790201228,-;RTW: cfg80211_rtw_change_station(wlan0) mac:3c:a9:f4:94:68:d0
+4,1901,2792834655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1902,2796842693,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1903,2800854157,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1904,2804858842,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1905,2808866736,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1906,2812874664,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1907,2816882732,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1908,2820890715,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1909,2824898640,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1910,2828906716,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1911,2832914671,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1912,2836922668,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1913,2840930655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1914,2844938783,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1915,2848954462,-;RTW: asoc check, sta(3c:a9:f4:94:68:d0) is alive
+4,1916,2848956022,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1917,2852954676,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1918,2856962754,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1919,2860970764,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1920,2864978640,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1921,2868986655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1922,2872996504,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1923,2877002695,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1924,2881010644,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1925,2885018702,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1926,2889026677,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1927,2893034646,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1928,2897042702,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1929,2901050702,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1930,2905058652,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1931,2909066643,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1932,2913074781,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1933,2917082733,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1934,2921090754,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1935,2925098731,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1936,2929106647,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1937,2933114660,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1938,2937122769,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1939,2941130633,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1940,2945138746,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1941,2949146642,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1942,2953157432,-;RTW: asoc check, sta(3c:a9:f4:94:68:d0) is alive
+4,1943,2953158870,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1944,2957162659,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1945,2961170624,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1946,2965178667,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1947,2969186769,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1948,2971195431,-;RTW: asoc check, sta(3c:a9:f4:94:68:d0) is alive
+4,1949,2973194659,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1950,2977202697,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1951,2981210761,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1952,2985218692,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1953,2989226677,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1954,2993234603,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1955,2997242592,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1956,3001250668,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1957,3005258755,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1958,3009266637,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1959,3013274669,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1960,3017282667,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1961,3019337484,-;RTW: OnAction_back
+4,1962,3019337503,-;RTW: OnAction_back, action=0
+4,1963,3019340428,-;RTW: issue_addba_rsp_wait_ack(wlan0) ra=3c:a9:f4:94:68:d0 status:=0 tid=0 size:16, acked, 1/3 in 3 ms
+4,1964,3021290939,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1965,3025298741,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1966,3029306674,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1967,3033314639,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1968,3037322634,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1969,3041330707,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1970,3045338702,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1971,3049347038,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1972,3053354617,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1973,3057363172,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1974,3061370983,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1975,3065378665,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1976,3069386652,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1977,3073394655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1978,3077402639,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1979,3081410724,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1980,3085418698,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1981,3089426609,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1982,3093434645,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1983,3094713959,-;dwc_otg_handle_wakeup_detected_intr lxstate = 2
+4,1984,3097442767,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1985,3101450777,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1986,3105458647,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1987,3109466629,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1988,3113474836,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1989,3117482639,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1990,3121490702,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1991,3125498670,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1992,3129506660,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1993,3133514656,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1994,3137522692,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1995,3141530654,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1996,3145538801,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1997,3149546702,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1998,3153554679,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,1999,3157562676,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2000,3161570695,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2001,3165578602,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2002,3169586633,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2003,3173594608,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2004,3177602615,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2005,3181610749,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2006,3185618714,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2007,3189626694,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2008,3193634668,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2009,3197642600,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2010,3201650688,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2011,3205658683,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2012,3209666595,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2013,3213674678,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2014,3217682730,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2015,3221690686,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2016,3225698655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2017,3229706710,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2018,3233714664,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2019,3237722667,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2020,3241730620,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2021,3245738727,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2022,3249746693,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2023,3253754641,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2024,3257762679,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2025,3261770689,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2026,3265778645,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2027,3269786674,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2028,3273794693,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2029,3277802678,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2030,3281810684,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2031,3285818653,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2032,3289826719,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2033,3293834751,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2034,3297842724,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2035,3301853087,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2036,3305858730,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2037,3309866686,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2038,3313874756,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2039,3317882768,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2040,3321890840,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2041,3325898657,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2042,3329906647,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2043,3333914747,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2044,3337922669,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2045,3341930640,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2046,3345938732,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2047,3349946698,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2048,3353954681,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2049,3357962617,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2050,3361970744,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2051,3365978672,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2052,3369986614,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2053,3373996532,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2054,3378002662,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2055,3382010717,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2056,3386018702,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2057,3390026642,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2058,3394034702,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2059,3398042648,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2060,3402050663,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2061,3406058642,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2062,3410066664,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2063,3414074725,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2064,3418082984,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2065,3422090799,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2066,3426098645,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2067,3430106640,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2068,3434114677,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2069,3438122681,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2070,3442130640,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2071,3446138742,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2072,3450146645,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2073,3454154677,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2074,3458162646,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2075,3462170688,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2076,3466178652,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2077,3470186649,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2078,3474194655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2079,3478202645,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2080,3482210767,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2081,3486218697,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2082,3490226655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2083,3494234669,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2084,3498242600,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2085,3502250683,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2086,3506258655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2087,3510266611,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2088,3514274641,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2089,3518282699,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2090,3522290700,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2091,3526298779,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2092,3530306695,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2093,3534314616,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2094,3538322762,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2095,3542330690,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2096,3546338654,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2097,3550346655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2098,3554354720,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2099,3558362617,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2100,3562370620,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2101,3566378667,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2102,3570386769,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2103,3574394654,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2104,3578402647,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2105,3582410691,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2106,3586418668,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2107,3590426747,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2108,3594434696,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2109,3598442662,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2110,3602450646,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2111,3606458629,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2112,3610466611,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2113,3614474683,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2114,3618482680,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2115,3622490632,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2116,3626498647,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2117,3630506665,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2118,3634514663,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2119,3638522661,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2120,3642530753,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2121,3646538641,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2122,3650546654,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2123,3654554693,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2124,3658562689,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2125,3662570692,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2126,3666578640,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2127,3670586691,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2128,3674594653,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2129,3678602686,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2130,3682610675,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2131,3686618731,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2132,3690626634,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2133,3694634630,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2134,3698642647,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2135,3702650730,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2136,3706658689,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2137,3710666643,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2138,3714674726,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2139,3718682635,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2140,3722690632,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2141,3726698768,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2142,3730706660,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2143,3734714632,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2144,3738722636,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2145,3742730683,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2146,3746738800,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2147,3750746680,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2148,3754754655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2149,3758762716,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2150,3762770732,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2151,3766778595,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2152,3770786718,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2153,3774794636,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2154,3778802682,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2155,3782810694,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2156,3786818682,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2157,3790826655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2158,3794834675,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2159,3798842663,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2160,3802854061,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2161,3806858881,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2162,3810866602,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2163,3814874685,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2164,3818882796,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2165,3822890711,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2166,3826898687,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2167,3830906629,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2168,3834914762,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2169,3838922644,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2170,3842930705,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2171,3846938712,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2172,3850946676,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2173,3854954840,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2174,3858962648,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2175,3862970737,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2176,3866978712,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2177,3870986653,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2178,3874996650,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2179,3879002679,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2180,3883010713,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2181,3887018626,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2182,3891026706,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2183,3895034689,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2184,3899042627,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2185,3903050664,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2186,3907058635,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2187,3911066686,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2188,3915074738,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2189,3919082637,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2190,3923090674,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2191,3927098699,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2192,3931106835,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2193,3935114636,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2194,3939122733,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2195,3943130590,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2196,3947138684,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2197,3951146690,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2198,3955154676,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2199,3959162646,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2200,3963170706,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2201,3967178674,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2202,3971186661,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2203,3975194671,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2204,3979202633,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2205,3983210732,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2206,3987218663,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2207,3991226591,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2208,3995234614,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2209,3999242617,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2210,4003250616,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2211,4007258775,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2212,4011266649,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2213,4015274686,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2214,4019282659,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2215,4023290687,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2216,4027298754,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2217,4031306686,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2218,4035314823,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2219,4039322679,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2220,4043330665,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2221,4047338693,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2222,4051346679,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2223,4055354675,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2224,4059362622,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2225,4063370758,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2226,4067378639,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2227,4071386690,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2228,4075394615,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2229,4079402697,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2230,4083410705,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2231,4087418647,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2232,4091426655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2233,4095434670,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2234,4099442753,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2235,4103450690,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2236,4107458692,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2237,4111466629,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2238,4115474738,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2239,4119482649,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2240,4123490709,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2241,4127498730,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2242,4131506619,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2243,4135514597,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2244,4139522595,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2245,4143530743,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2246,4147538704,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2247,4151546621,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2248,4155554706,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2249,4159562651,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2250,4163570685,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2251,4167578662,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2252,4171586640,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2253,4175594738,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2254,4179602694,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2255,4183610729,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2256,4187618697,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2257,4191626601,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2258,4195634741,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2259,4199642636,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2260,4203650746,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2261,4207658655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2262,4211667046,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2263,4215674714,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2264,4219682750,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2265,4223690794,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2266,4227698632,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2267,4231706739,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2268,4235714638,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2269,4239722679,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2270,4243730612,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2271,4247738689,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2272,4251746721,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2273,4255754699,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2274,4259762694,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2275,4263770650,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2276,4267778696,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2277,4271786643,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2278,4275794614,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2279,4279802667,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2280,4283810667,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2281,4287818701,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2282,4291826741,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2283,4295834707,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2284,4299842748,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2285,4303854198,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2286,4307858993,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2287,4311866680,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2288,4315874775,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2289,4319882790,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2290,4323890651,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2291,4327898729,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2292,4331906628,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2293,4335914639,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2294,4339922812,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2295,4343930650,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2296,4347938706,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2297,4351946700,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2298,4355954715,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2299,4359962605,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2300,4363970711,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2301,4367978651,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2302,4371986628,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2303,4375996577,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2304,4380002608,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2305,4384010653,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2306,4388018689,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2307,4392026612,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2308,4396034704,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2309,4400042674,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2310,4404050718,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2311,4408058649,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2312,4412066577,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2313,4416074712,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2314,4420082666,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2315,4424090732,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2316,4428098647,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2317,4432106669,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2318,4436114635,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2319,4440122865,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2320,4444130692,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2321,4448138670,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2322,4452146651,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2323,4456154706,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2324,4460162652,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2325,4464170666,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2326,4468178689,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2327,4472186628,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2328,4476194685,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2329,4480202627,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2330,4484210743,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2331,4488218656,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2332,4492226596,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2333,4496234640,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2334,4500242640,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2335,4504250751,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2336,4508258651,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2337,4512266610,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2338,4516274674,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2339,4520282679,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2340,4524290616,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2341,4528298747,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2342,4532306627,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2343,4536314631,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2344,4540322698,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2345,4544330674,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2346,4548338672,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2347,4552346769,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2348,4556354695,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2349,4560362655,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2350,4564370687,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2351,4568378593,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2352,4572386644,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2353,4576394657,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2354,4580402611,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2355,4584410723,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2356,4588418682,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2357,4592426636,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2358,4596434611,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2359,4600442677,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2360,4604450746,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2361,4608458635,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2362,4612466686,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2363,4616474706,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2364,4620482659,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2365,4624490681,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2366,4628498632,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2367,4632506769,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2368,4636514695,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2369,4640522676,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2370,4644530656,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2371,4648538681,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2372,4652546633,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2373,4656554674,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2374,4660562677,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2375,4664570603,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2376,4668578630,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2377,4672586673,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2378,4676594646,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2379,4680602605,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2380,4684610771,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2381,4688618735,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2382,4692626689,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2383,4696634671,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2384,4700642635,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2385,4704650657,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2386,4708658661,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2387,4712666587,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2388,4716674684,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2389,4720682725,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2390,4724690669,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2391,4728698690,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2392,4732706697,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2393,4736714604,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2394,4740722615,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2395,4744730663,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2396,4748738704,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2397,4752746687,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2398,4756754658,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2399,4760762647,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2400,4764770749,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2401,4768778637,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2402,4772786637,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2403,4776794642,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2404,4780802627,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2405,4784810734,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2406,4788818658,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2407,4792826733,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2408,4796834740,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2409,4800842667,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2410,4804854033,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2411,4808858709,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2412,4812866645,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2413,4816874685,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2414,4820882720,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2415,4824890707,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2416,4828898705,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2417,4832906654,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2418,4836914712,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2419,4840922803,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2420,4844930636,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2421,4848938648,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2422,4852946761,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2423,4856954746,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2424,4860962641,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2425,4864970695,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2426,4868978593,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2427,4872986670,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2428,4876996567,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2429,4881002716,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2430,4885010779,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2431,4889018644,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2432,4893026712,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2433,4897034693,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2434,4901042624,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2435,4905050693,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2436,4909058683,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2437,4913066613,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2438,4917074742,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2439,4921082612,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2440,4925090721,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2441,4929098679,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2442,4933106628,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2443,4937114631,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2444,4941122685,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2445,4945130648,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2446,4949138633,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2447,4953146783,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2448,4957154677,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2449,4961162628,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2450,4965170617,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2451,4969178735,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2452,4973186657,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2453,4977194753,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2454,4981202565,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2455,4985210712,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2456,4989218680,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2457,4993226647,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2458,4997234634,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2459,5001242645,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2460,5005250619,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2461,5009258705,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2462,5013266658,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2463,5017274887,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2464,5021282690,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2465,5025290690,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2466,5029298714,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2467,5033306675,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2468,5037314611,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2469,5041322614,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2470,5045330727,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2471,5049338661,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2472,5053346677,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2473,5057354687,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2474,5061362616,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2475,5065370687,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2476,5069378594,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2477,5073386690,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2478,5077394604,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2479,5081402679,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2480,5085410725,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2481,5089418683,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2482,5093426692,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2483,5097434851,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2484,5101442669,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+4,2485,5105450687,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+6,2486,5107445122,-;hiudc module removed
+6,2487,5107546887,-;usbcore: deregistering device driver usb
+6,2488,5107546971,-;usbcore: deregistering interface driver usbfs
+6,2489,5107547028,-;usbcore: deregistering interface driver hub
+6,2490,5108553019,-;usbcore: registered new interface driver usbfs
+6,2491,5108553093,-;usbcore: registered new interface driver hub
+6,2492,5108553198,-;usbcore: registered new device driver usb
+6,2493,5108891208,-;hiudc: version 3.00a 10-AUG-2012
+4,2494,5108924416,-;Core Release: 3.10a
+4,2495,5108924433,-;Setting default values for core params
+4,2496,5109126271,-;Using Descriptor DMA mode
+4,2497,5109126318,-;Dedicated Tx FIFOs mode
+6,2498,5109132531,-;Number of LUNs=8
+6,2499,5109132563,-;Mass Storage Function, version: 2009/09/11
+6,2500,5109132574,-;LUN: removable file: (no medium)
+6,2501,5109132596,-;Number of LUNs=1
+6,2502,5109132667,-;LUN: removable file: (no medium)
+6,2503,5109132672,-;Number of LUNs=1
+6,2504,5109132896,-;g_mass_storage gadget: Mass Storage Gadget, version: 2009/09/11
+4,2505,5109132907,-;g_mass_storage gadget: userspace failed to provide iSerialNumber
+6,2506,5109132919,-;g_mass_storage gadget: g_mass_storage ready
+4,2507,5109458730,-;RTW: hw_rate_to_m_rate(): Non supported Rate [ff]!!!
+6,2508,5109518976,-;g_mass_storage gadget: high-speed config #1: Linux File-Backed Storage
+4,2509,5111862356,-;RTW: rtw_ioctl_standard_wext_private:...
+4,2510,5111862444,-;RTW: cfg80211_rtw_stop_ap(wlan0)
+4,2511,5111862451,-;RTW: stop_ap_mode -wlan0
+4,2512,5111862464,-;RTW: rtw_sta_flush(wlan0)
+4,2513,5111862515,-;RTW: issue_del_ba(wlan0) ra=3c:a9:f4:94:68:d0 reason=37, tid=0, initiator=0
+4,2514,5111862528,-;RTW: issue_deauth to 3c:a9:f4:94:68:d0
+4,2515,5111862549,-;RTW: rtw_cfg80211_indicate_sta_disassoc(wlan0)
+4,2516,5111862588,-;RTW: report_del_sta_event(wlan0) 3c:a9:f4:94:68:d0 mac_id=0, enqueue:1, res:1
+4,2517,5111862596,-;RTW: rtw_ht_operation_update current operation mode=0x0
+4,2518,5111862602,-;RTW: rtw_ht_operation_update new operation mode=0x0 changes=0
+4,2519,5111862608,-;RTW: bss_cap_update_on_sta_leave, updated=0
+4,2520,5111862624,-;RTW: ### Clean STA_(0) info ###
+4,2521,5111862638,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:3c:a9:f4:94:68:d0 macid:0
+4,2522,5111862647,-;RTW: issue_deauth to ff:ff:ff:ff:ff:ff
+4,2523,5111862805,-;RTW: clear key for addr:3c:a9:f4:94:68:d0, camid:4
+4,2524,5111863966,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=1 shared
+4,2525,5111863991,-;RTW: rtw_release_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,2526,5111864119,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,2527,5111864127,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,2528,5111864152,-;RTW: rtw_alloc_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+4,2529,5111865002,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0
+4,2530,5111865013,-;RTW: rtw_sta_mstatus_disc_rpt(wlan0) - mac_id=0
+4,2531,5111865247,-;RTW: ### MacID(1),Set Max Tx RPT MID(2)
+4,2532,5111866516,-;RTW: wlan0 wakeup macid=0, ori reg_0x48c=0x00000000
+4,2533,5111866533,-;RTW: rtw_stadel_event_callback(mac_id=0)=3c:a9:f4:94:68:d0 psta == NULL
+4,2534,5111866749,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,2535,5111866868,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,2536,5111866876,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,2537,5111866902,-;RTW: rtw_cfg80211_indicate_disconnect(wlan0)
+4,2538,5111867155,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,2539,5111867490,-;RTW: wlan0- Port-0  set opmode = 2
+4,2540,5111867504,-;RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+4,2541,5111867930,-;RTW: rtw_reset_securitypriv(wlan0) - End to Disconnect
+4,2542,5111867944,-;RTW: rtl8188e_set_FwJoinBssReport_cmd mstatus(0)
+4,2543,5111868036,-;RTW: rtw_ndev_notifier_call(wlan0) state:9
+4,2544,5111868060,-;RTW: netdev_close(wlan0) , bup=1
+4,2545,5111868066,-;RTW: (2)871x_drv - drv_close, bup=1, hw_init_completed=_TRUE
+4,2546,5111868608,-;RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+4,2547,5111868733,-;RTW: rtw_cfg80211_indicate_disconnect(wlan0)
+4,2548,5111868759,-;RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=44:b2:95:8c:dc:a5 ssid=FOXEER_BOX2_dca5
+4,2549,5111868766,-;RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL\x0a
+4,2550,5111868777,-;RTW: -871x_drv - drv_close, bup=1
+4,2551,5111869058,-;RTW: rtw_ndev_notifier_call(wlan0) state:2
+4,2552,5111870746,-;RTW: rtw_reset_securitypriv(wlan0) - End to Disconnect
+4,2553,5111870774,-;RTW: rtl8188e_set_FwJoinBssReport_cmd mstatus(0)
+4,2554,5111886809,-;RTW: module exit start
+4,2555,5111886870,-;RTW: rtw_wdev_unregister(wdev=c5a63b40)
+4,2556,5111887107,-;RTW: rtw_ndev_notifier_call(wlan0) state:6
+4,2557,5111887119,-;RTW: rtw_ndev_uninit(wlan0) if1
+4,2558,5111887999,-;RTW: rtw_ndev_notifier_call(wlan0) state:17
+4,2559,5111888022,-;RTW: rtw_wiphy_unregister(phy0)
+4,2560,5111888027,-;RTW: Vendor: Unregister RTW cfg80211 vendor interface
+4,2561,5111888206,-;RTW: rtw_pm_set_ips IPS_NONE
+4,2562,5111888236,-;RTW: rtw_cmd_thread(wlan0) Exit
+4,2563,5111888614,-;RTW: ==> rtw_dev_unload(wlan0)
+4,2564,5111888703,-;RTW: rtw_xmit_thread(wlan0) Exit
+4,2565,5111888810,-;RTW: rtl8188es_xmit_thread(wlan0) Exit
+4,2566,5111888946,-;RTW: CheckIPSStatus(): Read 0x100=0xff 0x86=0x00
+4,2567,5111888974,-;RTW: rtw_dev_unload: driver not in IPS
+4,2568,5111888979,-;RTW: =>rtl8188es_hal_deinit
+4,2569,5111888987,-;RTW: =>hal_poweroff_8188es
+4,2570,5111889792,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,2571,5111890104,-;RTW: SetHwReg: bMacPwrCtrlOn=0
+4,2572,5111890108,-;RTW: <=hal_poweroff_8188es
+4,2573,5111890112,-;RTW: <=rtl8188es_hal_deinit
+4,2574,5111890117,-;RTW: <== rtw_dev_unload(wlan0)
+4,2575,5111890126,-;RTW: +r871xu_dev_remove, hw_init_completed=0
+4,2576,5111890525,-;RTW: rtw_wdev_free(wdev=c5a63b40)
+4,2577,5111890536,-;RTW: rtw_wiphy_free(phy0)
+4,2578,5111891155,-;RTW: rtw_inetaddr_notifier_unregister
+4,2579,5111891169,-;RTW: module exit success
+6,2580,5155672518,-;hiudc module removed
+6,2581,5155773335,-;usbcore: deregistering device driver usb
+6,2582,5155773405,-;usbcore: deregistering interface driver usbfs
+6,2583,5155773458,-;usbcore: deregistering interface driver hub

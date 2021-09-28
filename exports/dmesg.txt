@@ -1,0 +1,301 @@
+Booting Linux on physical CPU 0x0
+Initializing cgroup subsys cpu
+Linux version 3.18.20 (root@cs) (gcc version 4.9.4 20150629 (prerelease) (Hisilicon_v600_20170615) ) #53 Fri Jun 14 09:44:46 CST 2019
+CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c5387d
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Machine model: Hisilicon HI3559 DEMO Board
+Ignoring memory range 0x80000000 - 0x88000000
+cmz zone is not set!
+cma: Reserved 16 MiB at 0x8f000000
+Memory policy: Data cache writeback
+On node 0 totalpages: 32768
+free_area_init_node: node 0, pgdat c04a1d98, node_mem_map c6eee000
+  Normal zone: 256 pages used for memmap
+  Normal zone: 0 pages reserved
+  Normal zone: 32768 pages, LIFO batch:7
+CPU: All CPU(s) started in SVC mode.
+pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+pcpu-alloc: [0] 0 
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Kernel command line: mem=128M lpj=240000 console=ttyAMA0 clk_ignore_unused quiet ro root=/dev/mtdblock7 rootfstype=squashfs mtdparts=hi_sfc:128K(mini-u-boot.bin),704K(u-boot.bin),64k(rawparam),64k(rawparam1),256k(paramdef),2560k(miniuImage),3M(media_app_zip.bin),8M(rootfs.squashfs),832k(privatefs.jffs2)
+PID hash table entries: 512 (order: -1, 2048 bytes)
+Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Memory: 108396K/131072K available (3436K kernel code, 138K rwdata, 984K rodata, 152K init, 262K bss, 22676K reserved, 0K highmem)
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xffe00000   (2048 kB)
+    vmalloc : 0xc8800000 - 0xff000000   ( 872 MB)
+    lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+    modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+      .text : 0xc0008000 - 0xc04594cc   (4422 kB)
+      .init : 0xc045a000 - 0xc0480000   ( 152 kB)
+      .data : 0xc0480000 - 0xc04a2a60   ( 139 kB)
+       .bss : 0xc04a2a60 - 0xc04e42a0   ( 263 kB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+NR_IRQS:16 nr_irqs:16 16
+Architected cp15 timer(s) running at 24.00MHz (phys).
+sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 2863311519744ns
+Switching to timer-based delay loop, resolution 41ns
+Console: colour dummy device 80x30
+Calibrating delay loop (skipped) preset value.. 480.00 BogoMIPS (lpj=240000)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+CPU: Testing write buffer coherency: ok
+Setting up static identity map for 0x88347aa8 - 0x88347b00
+ARM CCI driver probed
+devtmpfs: initialized
+VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+regulator-dummy: no parameters
+NET: Registered protocol family 16
+DMA: preallocated 256 KiB pool for atomic coherent allocations
+Serial: AMBA PL011 UART driver
+12100000.uart: ttyAMA0 at MMIO 0x12100000 (irq = 36, base_baud = 0) is a PL011 rev2
+console [ttyAMA0] enabled
+SCSI subsystem initialized
+ssp-pl022 12122000.spi: ARM PL022 driver, device ID: 0x00800022
+ssp-pl022 12122000.spi: mapped registers from 0x12122000 to fea22000
+Linux video capture interface: v2.00
+Switched to clocksource arch_sys_counter
+NET: Registered protocol family 2
+TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+TCP: Hash tables configured (established 1024 bind 1024)
+TCP: reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+futex hash table entries: 256 (order: -1, 3072 bytes)
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+msgmni has been set to 211
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+io scheduler noop registered
+io scheduler deadline registered (default)
+io scheduler cfq registered
+brd: module loaded
+hisi-sfc hisi_spi_nor.0: all blocks is unlocked.
+hisi-sfc hisi_spi_nor.0: mx25u12835f (16384 Kbytes)
+9 cmdlinepart partitions found on MTD device hi_sfc
+Creating 9 MTD partitions on "hi_sfc":
+0x000000000000-0x000000020000 : "mini-u-boot.bin"
+0x000000020000-0x0000000d0000 : "u-boot.bin"
+0x0000000d0000-0x0000000e0000 : "rawparam"
+0x0000000e0000-0x0000000f0000 : "rawparam1"
+0x0000000f0000-0x000000130000 : "paramdef"
+0x000000130000-0x0000003b0000 : "miniuImage"
+0x0000003b0000-0x0000006b0000 : "media_app_zip.bin"
+0x0000006b0000-0x000000eb0000 : "rootfs.squashfs"
+0x000000eb0000-0x000000f80000 : "privatefs.jffs2"
+i2c /dev entries driver
+hisi-i2c-v110 12113000.i2c: HISILICON I2C V110 bus driver
+hisi-i2c-v110 12113000.i2c: mapped registers from 0x12113000 to 0xfea13000
+TCP: cubic registered
+NET: Registered protocol family 10
+sit: IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+Registering SWP/SWPB emulation handler
+clk: Not disabling unused clocks
+VFS: Mounted root (squashfs filesystem) readonly on device 31:7.
+devtmpfs: mounted
+Freeing unused kernel memory: 152K (c045a000 - c0480000)
+<info> ipcm init:localid = 0
+<info>      local shm_phys: 0x80200000, shm_size: 0x400000
+<info> ##message recv thread run
+<info> shared mem sync...
+<info> all ready[0x3/0x3]
+<info> IPCM init done!
+
+Module himedia: init ok
+Hisilicon Media Memory Zone Manager
+The module param setup_allocator is hisi 
+hi_osal 1.0 init success!
+hi3559_base: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+load sys.ko for Hi3559...OK!
+load tde.ko ...OK!
+load hifb.ko OK!
+himci: mmc host probe
+himci: mmc host probe
+mmc0: cannot verify signal voltage switch
+himci: tuning mmc0: valid phase shift [13, 8] Final Phase 2
+mmc0: new ultra high speed SDR104 SDHC card at address aaaa
+mmcblk0: mmc0:aaaa SE32G 29.7 GiB 
+ mmcblk0: p1
+FAT-fs (mmcblk0p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+cfg80211: Calling CRDA to update world regulatory domain
+RTW: module init start
+RTW: rtl8189es v5.3.3.1_27418.20180425
+RTW: build time: Oct 22 2018 14:51:28
+RTW: rtw_inetaddr_notifier_register
+RTW: module init ret=0
+mmc1: new high speed SDIO card at address 0001
+RTW: == SDIO Card Info ==
+RTW:   clock: 50000000 Hz
+RTW:   timing spec: sd high-speed
+RTW:   sd3_bus_mode: FALSE
+RTW: ================
+RTW: CHIP TYPE: RTL8188E
+RTW: rtw_hal_config_rftype RF_Type is 0 TotalTxPath is 1
+RTW: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+RTW: =>_InitPowerOn_8188ES
+RTW: =>_CardEnable
+RTW: SetHwReg: bMacPwrCtrlOn=1
+RTW: <=_CardEnable
+RTW: <=_InitPowerOn_8188ES
+RTW: EEPROM type is E-FUSE
+RTW: _ReadPROMContent: 9346CR=0x20, Boot from EFUSE, Autoload OK
+RTW: =>_InitPowerOn_8188ES
+RTW: =>_CardEnable
+RTW: =>_CardEnable bMacPwrCtrlOn == _TRUE do nothing !!
+RTW: <=_CardEnable
+RTW: <=_InitPowerOn_8188ES
+bFWReady == _FALSE call reset 8051...
+RTW: =====> _8051Reset88E(): 8051 reset success .
+RTW: efuse_read_phymap_from_txpktbuf bcnhead:0
+RTW: efuse_read_phymap_from_txpktbuf len:162, lenbak:162, aaa:162, aaabak:162
+RTW: efuse_read_phymap_from_txpktbuf read count:160
+RTW: HW EFUSE
+RTW: 0x000: 29 81 00 6C  0B 00 00 00  00 0C 00 00  0A 00 00 00  
+RTW: 0x010: 2A 29 28 27  27 27 2C 2C  2B 2A 2A 02  FF FF FF FF  
+RTW: 0x020: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x030: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x040: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x050: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x060: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x070: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x080: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x090: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x0A0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x0B0: FF FF FF FF  FF FF FF FF  08 09 11 00  00 00 FF 00  
+RTW: 0x0C0: FF 00 00 10  00 00 00 55  00 01 FF FF  FF FF FF FF  
+RTW: 0x0D0: 3F 00 01 02  32 00 00 FC  20 04 4C 02  79 81 21 02  
+RTW: 0x0E0: 0C 00 22 04  00 08 00 32  FF 21 02 0C  00 22 2A 01  
+RTW: 0x0F0: 01 00 00 00  00 00 00 00  00 00 00 00  02 00 FF FF  
+RTW: 0x100: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  
+RTW: 0x110: 00 EB 00 6E  01 00 00 00  00 FF 44 B2  95 8C DC A5  
+RTW: 0x120: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x130: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x140: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x150: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x160: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x170: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x180: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x190: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x1A0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x1B0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x1C0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x1D0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x1E0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: 0x1F0: FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF  
+RTW: EEPROM ID=0x8129
+RTW: Hal_ReadPowerSavingMode88E...bHWPwrPindetect(0)-bHWPowerdown(0) ,bSupportRemoteWakeup(0)
+RTW: ### PS params=>  power_mgnt(2),usbss_enable(0) ###
+RTW: EEPROMRegulatory = 0x0
+RTW: hal_com_config_channel_plan chplan:0x08
+RTW: crystal_cap: 0x 9
+RTW: EEPROM Customer ID: 0x 0
+RTW: pHalData->ExternalPA_2G = 0 , pHalData->ExternalLNA_2G = 0
+RTW: pHalData->TypeGLNA is 0x0
+RTW: pHalData->rfe_type is 0xff
+RTW: Board Type: 0x 0
+RTW: ThermalMeter = 0x11
+RTW: pHalData->EEPROMRFGainVal=0
+RTW: Hal_ReadRFGainOffset => EEPRORFGainOffset = 0x00,EEPROMRFGainVal=0x00,thermal_offset:0x00
+RTW: =>hal_poweroff_8188es
+RTW: SetHwReg: bMacPwrCtrlOn=0
+RTW: SetHwReg: bMacPwrCtrlOn=0
+RTW: <=hal_poweroff_8188es
+RTW: rtw_hal_read_chip_info in 29 ms
+RTW: init_channel_set((null)) ChannelPlan ID:0x08, ch num:14
+RTW: rtw_alloc_macid((null)) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+RTW: IQK FW offload:disable
+RTW: rtw_regsty_chk_target_tx_power_valid return _FALSE for band:0, path:0, rs:0, t:-1
+RTW: rtw_macaddr_cfg mac addr:44:b2:95:8c:dc:a5
+RTW: bDriverStopped:True, bSurpriseRemoved:False, bup:0, hw_init_completed:0
+RTW: rtw_wiphy_alloc(phy0)
+RTW: rtw_wdev_alloc(padapter=c8e88000)
+RTW: rtw_wiphy_register(phy0)
+RTW: Register RTW cfg80211 vendor cmd(0x67) interface
+RTW: rtw_ndev_init(wlan0) if1 mac_addr=44:b2:95:8c:dc:a5
+RTW: rtw_ndev_notifier_call(wlan0) state:16
+RTW: rtw_ndev_notifier_call(wlan0) state:5
+RTW: rtw_ndev_notifier_call(wlan0) state:13
+RTW: _netdev_open(wlan0) , bup=0
+RTW: +rtl8188es_hal_init
+RTW: FW does not exit before power on!!
+RTW: =>_InitPowerOn_8188ES
+RTW: =>_CardEnable
+RTW: SetHwReg: bMacPwrCtrlOn=1
+RTW: <=_CardEnable
+RTW: <=_InitPowerOn_8188ES
+RTW: sdio_power_on_check: val_mix:0x0000063f, res:0x0000063f
+RTW: sdio_power_on_check: 0x100 the result of cmd52 and cmd53 is the same.
+RTW: sdio_power_on_check: 0x1B8 test Pass.
+RTW: Power on ok!
+RTW: rtl8188e_FirmwareDownload fw:NIC, size: 15262
+RTW: rtl8188e_FirmwareDownload: fw_ver=1c fw_subver=0000 sig=0x88e1, Month=14, Date=27, Hour=7e, Minute=3b
+random: hostapd urandom read with 70 bits of entropy available
+RTW: polling_fwdl_chksum: Checksum report OK! (1, 0ms), REG_MCUFWDL:0x00030005
+RTW: =====> _8051Reset88E(): 8051 reset success .
+RTW: _FWFreeToGo: Polling FW ready OK! (44, 4ms), REG_MCUFWDL:0x000300c6
+RTW: FWDL success. write_fw:1, 93ms
+==> rtl8188e_iol_efuse_patch
+RTW: HalDetectPwrDownMode(): PDN=0
+RTW: Set RF Chip ID to RF_6052 and RF type to 0.
+RTW: DISABLE_BB_RF=0
+RTW: IS_HARDWARE_TYPE_8188ES=1
+RTW: -rtl8188es_hal_init
+RTW: rtl8188es_hal_init in 600ms
+RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+RTW: rtw_hal_get_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+RTW: wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+RTW: [HW_VAR_ENABLE_RX_BAR] 0x6A2=0x500
+RTW: Using the default RF gain.
+RTW: MAC Address = 44:b2:95:8c:dc:a5
+RTW: rtw_start_drv_threads(wlan0) start RTW_XMIT_THREAD
+RTW: rtw_start_drv_threads(wlan0) start RTW_CMD_THREAD
+RTW: rtl8188e_start_thread(wlan0) start RTWHALXT
+RTW: start rtl8188es_xmit_thread
+RTW: rtw_cfg80211_init_wiphy:rf_type=0
+RTW: [HT] HAL Support STBC = 0x01
+RTW: -871x_drv - drv_open, bup=1
+IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+RTW: cfg80211_rtw_set_power_mgmt(wlan0) enabled:1, timeout:-1
+RTW: rtw_ndev_notifier_call(wlan0) state:1
+RTW: rtw_ndev_notifier_call(wlan0) state:9
+RTW: netdev_close(wlan0) , bup=1
+RTW: (2)871x_drv - drv_close, bup=1, hw_init_completed=_TRUE
+RTW: rtw_hal_set_bssid wlan0- hw port -0 BSSID: 00:00:00:00:00:00
+RTW: rtw_cfg80211_indicate_disconnect(wlan0)
+RTW: rtw_free_assoc_resources-wlan0 tgt_network MacAddress=00:00:00:00:00:00 ssid=
+RTW: free disconnecting network of scanned_queue failed due to pwlan== NULL
+
+RTW: -871x_drv - drv_close, bup=1
+RTW: rtw_ndev_notifier_call(wlan0) state:2
+RTW: cfg80211_rtw_change_iface(wlan0) type=3, hw_port:0
+RTW: cfg80211_rtw_change_iface(wlan0) call netdev_open
+RTW: _netdev_open(wlan0) , bup=1
+RTW: -871x_drv - drv_open, bup=1
+RTW: cfg80211_rtw_change_iface(wlan0) old_iftype=2, new_iftype=3
+RTW: rtw_release_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+RTW: rtw_alloc_macid(wlan0) if1, mac_addr:ff:ff:ff:ff:ff:ff macid:1
+RTW: rtw_reset_securitypriv(wlan0) - End to Disconnect
+RTW: rtl8188e_set_FwJoinBssReport_cmd mstatus(0)
+RTW: wlan0- Port-0  set opmode = 3
+RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =44:b2:95:8c:dc:a5
+RTW: cfg80211_rtw_change_iface(wlan0) ret:0
+RTW: rtw_ndev_notifier_call(wlan0) state:13
+RTW: _netdev_open(wlan0) , bup=1
+RTW: -871x_drv - drv_open, bup=1
+IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+RTW: rtw_ndev_notifier_call(wlan0) state:1
+RTW: cfg80211_rtw_scan(wlan0)
+RTW: SetHwReg8188E:(HW_VAR_CHECK_TXBUF)TXBUF Empty(1) in 0 ms
+RTW: wlan0 sleep m0=0x00000002, ori reg_0x48c=0x00000000
